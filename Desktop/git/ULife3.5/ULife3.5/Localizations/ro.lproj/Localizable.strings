@@ -1,0 +1,334 @@
+{
+	"localizied_9"   = "Salvare eșuată";
+	"localizied_10"  = "salvați de succes";
+    "localizied_142" = "deconectare de rețea";
+	"localizied_252" = "Parolă";
+    "Setting_NextStep" = "Următorul pas";
+	"localizied_265" = "the second step to install";
+	"localizied_266" = "Notice: Please connect cable to the router at one end, to camera at the other end, and mobile phone connect to wireless network of the router.";
+	"localizied_267" = "Please input password";
+	"Title_Confirm" = "Da";
+	"localizied_269" = "Întoarcere";
+	"localizied_270" = "Have searched the camera";
+	"localizied_271" = "Set DHCP successfully";
+	"localizied_272" = "Setting...";
+	"localizied_273" = "No Searched camera";
+	"localizied_274" = "DHCP is setting";
+	"localizied_275" = "Whether to set up wireless function";
+	"localizied_276" = "Da";
+	"localizied_277" = "No";
+	"localizied_278" = "Notice: Please connect cable to the router at one end, to camera at the other end, and mobile phone connect to wireless network of the router.If it can not be found through search, please reset camera.";
+	"localizied_279" = "Please input SSID and password of router wireless network, you can click the right button to select among the history.";
+	"Setting_Cancel" = "Anulare";
+	"localizied_281" = "No records";
+	"localizied_282" = "Nume rețea Wi-Fi";
+	"localizied_283" = "Vă rugăm să confirmați dacă WiFi SSID și parola sunt corecte: ";
+	"localizied_284" = "Correct";
+	"localizied_285" = "Setting";
+	"Setting_Done" = "Salvați";
+	"localizied_293" = "Conexiune esuata";
+	"localizied_294" = "Solicitare întrerupere";
+	"localizied_295" = "Prohibited operations";
+	"localizied_298" = "Password error";
+    "localizied_304" = "Împingându Setare mesaj";
+    "localizied_305" = "About";
+    "localizied_306" = "Versiune";
+    "localizied_307" = "Logout";
+    "Setting_Setting" = "Setare";
+    "localizied_309" = "Add camera";
+    "localizied_310" = "Solicitarea a expirat, trage în jos pentru a actualiza";
+    "localizied_312" = "Câmpul pentru parolă nu poate fi lăsat necompletat";
+    "localizied_316" = "Partajare prieten";
+    "DevInfo_DevName" = "Numele dispozitivului";
+    "Title_Delete" = "Ștergere";
+    "localizied_372" = "Delete successfully";
+    "localizied_373" = "Ștergere eșuată";
+    "localizied_386" = "timp de rețea out";
+    "firmware_version" = "Versiune software";
+    "system_firmware" = "Versiune hardware";
+    "localizied_398" = "OK";
+    "localizied_400" = "răcoritor";
+    "localizied_401" = "Loosen to prompt refresh";
+    "localizied_402" = "Last update";
+    "localizied_404" = "Înregistrare manuală";
+    "localizied_426" = "Today";
+    "localizied_437" = "Trageți în jos pentru a actualiza";
+    "localizied_440" = "Sunteți sigur că pentru a scoate camera din listă?";
+    "Operation_Succeeded" = "Setare finalizată cu succes";
+    "localizied_450" = "From";
+    "localizied_451"="New share camera add";
+    "localizied_452"="Shared camera removed";
+
+    "localizied_459"="Detectare mișcare";
+
+    
+    
+    
+    "localizied_467"="Adăugare cameră";
+    
+    "localizied_471"="The generating QR code is used for the camera read and connects to WI-FI network .";
+    "localizied_472"="You can obtain available network from the list when you click on the wireless network icon.";
+    "localizied_474"="Adăugare partajare prieten";
+    "localizied_481"="În curs de conectare";
+    "localizied_486"="a adăugat cu succes";
+    "localizied_498"="U-life Plus is an Internet-based video service platform. It enables separate IP and 3G cameras to register on the platform. By loading a U-life Plus software  to the iphone, ipad client end, Users can freely monitor and control multiple video devices. ";
+    "localizied_499"="  The U-life Plus System adopts latest P2P penetrating technology, makes easy registration and management of video IP cameras possible; The cloud computing technology allows user to monitor same account from different devices at the same time. The U-life Plus system could also be specially applied to many other industrial fields.";
+    "localizied_507"="Logging out.";
+    "localizied_511"="WDR";
+    "Operation_Failed"="Setare eșuată";
+    "localizied_520"="Zbor scurt vertical";
+    "vertical_rate" = "Zbor scurt vertical";
+    "localizied_521"="Operațiune frecventă";
+    "localizied_522"="Deschideți videoclipul nu a reușit";
+    "uploadRingSuccess" = "upload success";
+    "localizied_00187"="Temperature";
+    "my_device" = "lista de dispozitive";
+    "Message" = "Mesaj";
+    "Remove" = "Remove";
+    "select_all" = "select all";
+    "Warning_string" = "Warning";
+    "ip_title" = "The serve is located in China";
+    "Bark_title" = "Bark";
+    "Siren_title" = "Siren";
+    "online" = "%@ Online";
+	"offline" = "%@ Offline";
+	"VIDEO_MOTION" = "%@ Motion detection alarm.";
+	"PIR_MOTION" = "%@ PIR detection alarm.";
+	"PIR_VIDEO_MOTION" = "%@ Human detection and motion detection alarm";
+	"IO_ALARM" = "%@ Alarm trigger";
+	"New item - 5" = "";
+	"New item - 6" = "";
+	"New item - 7" = "";
+	"New item - 8" = "";
+	"New item - 9" = "";
+    "Name"="Name:";
+    "Name_placeholder"="Please input the name of the camera";
+    "UID_placeholder"="Please Scan QR code";
+    "Scan_error"="Scan QR code is error";
+    "Scan_desc"="Please place the QR code inside the viewfinder rectangle";
+    "tip0_desc"="Step1: please press SET key about 1 second";
+    "tip1_desc"="Step2: Select the wifi which the camera will connect";
+    "tip"="prompt";
+    "connect_tip"="Connection timed out";
+    "reconnect_tip"="Reconectare";
+    "serial_number"="Serial number";
+    "Mac_add"="Adresă MAC";
+    "camera_info_success"="Get camera information successfully ";
+    "camera_info_error"="Request timeout，please acquire the device information again.";
+    "request_time_refresh"="Request timeout，please refresh or check the current connection status";
+    "not_connected"="Not Connected";
+    "camera_no_connect"="Aparatului foto deconectare";
+    "network_error"="Rețea invalidă";
+    "cammera_no_bind"="Se verifică dacă aparatul foto este conectat sau aparat de fotografiat a fost binded";
+    "camera_pwd_error"="Password error";
+    "Video_suceess"="Primirea de date video,";
+    "audio_success"="Primirea de date audio";
+    "PTZ"="Controlul Pan-Tilt";
+    "Record_begin"="Record_begin";
+    "record_end"="Sfârșitul înregistrării";
+    "Speaking_success"="Expediat cu succes";
+    "Speaking_begin"="Start Talking";
+    "Speaking_end"="End Of Talking";
+    "record_no"="Video record ongoing, if you need to do other operation, please stop the recording ";
+    "record_no_audio"="Video record ongoing，please do not turn off voice";
+    "save_image"="Image saved to Photos";
+    "save_video"="Video saved to Photos";
+    "connect_success"="Conectare finalizată cu succes";
+    "load_data"="Data Loading";
+    "reloadBtn"="Reîncărcare";
+    "load_fail"= "Loading Failed";
+    "Camera_Push_Settings"="Camera Push Settings";
+    "PTZ_control" = "Pan-Tilt Control";
+    "Infrared_detection" = "Detectare infraroșu";
+    "push_regist_sucesee" = "Push to Register";
+    "push_regist_error" = "Push the registration failed";
+    "WIFI_add" = "Adăugare Wi-Fi";
+    "Video_return_paly" = "Reluare secvenţă video";
+    "i_can" = "I know";
+    "No_Have_Video" = "Niciun fișier";
+    "Video" = "Secvență video";
+    "pic" = "Imagine";
+    "not_have_Video"="Fără înregistrări";
+    "that_time_not_have_file"="Nu există fișiere în acest moment";
+    "data_unsuceess"="Accesul la date nu a reușit";
+    "download_unsuccess"="Descărcare eșuată";
+    "download_end"="downloading stopped Stopped";
+    "delete_file_success"="File Successfully";
+    "delete_file_unsuccess"="File Failured";
+    "download_file"="Descărcare fișier";
+    "complete_end"="Finished";
+    "nothing_tittle"="Cardul de memorie nu este introdus în cameră";
+    "nothing_idea_one"="Camera va lansa înregistrarea în mod automat dacă introduceți cardul de memorie TF(Microsd)";
+    "nothing_idea_two"="Suportă maxim 32G";
+    "nothing_idea_three"="Cardul de memorie nu poate fi identificat, vă rugăm să-l conectați şi să-l introduceți din nou";
+    "nothing_idea_four"="Vă rugăm să vă asigurați că formatul cardului de memorie este FAT32";
+    "help_tittle"="In the “settings” of iPhone-“Privacy”-“Camera” to find";
+    "help_tittle_two"="Open access to the Camera";
+    "heip_tittle_three"="Wrong QR Code Format";
+    "set_Wifi"= "Configurare Wi-Fi";
+    "my_ipc"="Dispozitivul meu";
+    "Ipc_unonline"="Dispozitivul nu este online";
+    "about_us"="Despre noi";
+    "contact_us"="Contactați-ne";
+    "contact"="Connected";
+    "question"="Probleme curente";
+    "tip_imformation"="Warning";
+    "set_push"="Setare Notificare push";
+    "test"="Test";
+    "move"="Mobile";
+    "tip_help"="Solicitarea a expirat, actualizați sau verificați starea conexiunii";
+    "change_success"="Change Successfully";
+    "change_unsuccess"="Change Failed";
+    "refresh_videolist"="Device not connected, please check the connection condition and refresh";
+    "used_storage"="Capacitate de înmagazinare utilizată";
+    "free_storage"="Spațiu de înmagazinare disponibil";
+    "DevInfo_DevID"="ID dispozitiv";
+    "pic_date"="Device Parameter";
+    "storage_space"="Spațiu de înmagazinare";
+    "Format_SD_card"="Confirm to format SD card";
+    "Format"="Format card SD";
+    "Format_SD_card_success"="Formatare card SD finalizată cu succes";
+    "Format_SD_card_unsuccess"="eșuare";
+    "delete_pic"="Ștergere dispozitiv";
+    "camera_info"="Informație dispozitiv";
+    "wifi_setting"="Setare Wi-Fi";
+    "not_have_sd_0"="Nici un card, nu permit să înregistreze";
+    "not_have_sd_1"="Card de greșit, nu permit să înregistreze";
+    "not_have_sd_2"="Fără spațiu de stocare suficient, nu permite să înregistreze";
+    "not_have_sd_3"="De înregistrare, care nu permit operează";
+    "not_have_sd_4"="De înregistrare, care funcționează prea frecvente";
+    "share_friend_active"="Anulează <parts cu un prieten>: Șterge acest aparat pentru a opri în comun cu un prieten. (Re-adăugați camera să-l folosească din nou)";
+    "help_header_title"="If failed in adding, the solution  as followed";
+    "help_title_1"="1: Confirmare dacă există caractere speciale în numele rețeleiWi-Fi şi a parolei şi dacă comutatorul DHCP al router-ului este deschis.";
+    "help_title_2"="2: Confirmare dacă rețeaua Wi-Fi  2.4G este conectată, în locul rețelei Wi-Fi  5G";
+    "help_title_3"="3: Confirmare dacă parola  este corectă.";
+    "help_title_4"="4: Confirmare dacă router-ul a protejat adresa mac.";
+    "help_title_5"="5: Este recomandabil să conectați dispozitivul lângă router.";
+    "help_title_6"="6: If wireless adding way failed, connect the device and router with cable";
+    "back_wifi"="Revenire la pagina “Configurare Wi-Fi”";
+    "back_add_pic"="Revenire la pagina “Adăugare cameră”";
+    "Hight"="H";
+    "medium"="M";
+    "low"="L";
+    "off"="OFF";
+    "Add device"="Adăugare dispozitiv";
+    "Wired add"="Add with cable";
+    "personal"="Centru personal";
+    "tfSSID_placeholder"="WiFi Name";
+    "tfPassword_placeholder"="WiFi Password";
+    "Get_data_success"="Get Data Success";
+    "Get_data_failed"="Get Data Failed";
+    "Saving failed"="Saving failed";
+    "Equipment has been added"="Equipment has been added";
+    "Error_QR"="Error_QR";
+    "1.Please check whether the device connect the router with the cable."="1.Please check whether the device connect the router with the cable.";
+    "2.Please confirm whether the router and the mobile phone in the same segment"="2.Please confirm whether the router and the mobile phone in the same segment";
+    "play_Record"="Aparat de înregistrare";
+    "play_Snapshot"="Captură";
+    "play_Joystick"="Joystick";
+    "play_Talk"="Speaker";
+    "play_Sound"="Sound";
+    "IP Camera"="Cameră Ip";
+    "about us text"="U-life is a video service platform which base on Internet. User can register,log on the individual IP and 3G camera via this platform. U-life apply to Iphone,Ipad,Android and PC, which use P2P to realize  user register and manage IP camera easily .It unique cloud computing allows user surveil one device on several mobile device at the same time.U-life system can also apply to other business areas.";
+    "Company name"="Shenzhen Gospell Smarthome Electronic Co., Ltd.";
+    "company address"="Company Address: F12, F518 Idea Land, Baoyuan Road,Baoan Central Area,Shenzhen,P.R.China";
+    "zip code"="Post code: 518102";
+    "Tel"="Tel: 86-755-26716688-8677";
+    "Fax"="Fax: 86-755-26716099";
+    "E-mail"="E-mail:  sales@goscam.com";
+    
+    "iRouter_account" = "User Name";
+    "account_short_error" = "Numele de utilizator este prea scurt, au nevoie de 6 caractere, cel puțin.";
+    "account_long_error" = "Numele de utilizator este prea lung, nu mai mult de 32 de caractere.";
+    "account_exist_error" = "Contul de există";
+    "account_not_exist_error" = "A fiók nem létezik.";
+    
+    "iRouter_email" = "Email";
+    "email_error" = "Adresa de e-mail nu este validă";
+    
+    "iRouter_password" = "Password";
+    "password_short_error" = "Vă rugăm să introduceți o parolă de cel puțin 6 caractere.";
+    "password_long_error" = "Parola nu au nevoie de mai mult de 32 de caractere.";
+    "password_error" = "Parola este incorectă.";
+    
+    "iRouter_Confirm_password" = "Confirm password";
+    "iRouter_Confirm_password_error" = "Parola nu se potriveste.";
+    
+    "iRouter_Sign_up" = "Sign Up";
+    "Sign_Up_now" = "Sign Up Now";
+    "Sign_up_error" = "Cererea de rețea a expirat. Verificați conexiunea la internet.";
+    "Sign_up_success" = "Felicitări pentru înregistrarea cu succes";
+    
+    
+    
+    "iRouter_Sign_In" = "Sign In";
+    "iRouter_Sign_In_error" = "Datele de conectare a expirat. Verificați conexiunea la internet.";
+    
+    "forgot_password" = "Forgot passwrod";
+    "iRouter_validated_code" = "validated code";
+    "validated code_error" = "Codul de verificare este eroare.";
+    "validated_code_invaild"= "Codul de verificare este nevalid.";
+    "validated_code_send_error"= "Trimiterea este failure.Please verifica conexiunea la internet.";
+    "validated_code_send_success" = "Trimiterea este de succes. Vă rugăm să găsiți codul validat în căsuța poștală.";
+    
+    "new_password" = "New Password";
+    "confirm_new_password" = "Confirm New passwrod";
+    
+    "Reset_password" = "Reset password";
+    "Reset_password_error" = "The network request timed out. Please check your internet connection.";
+    "Reset_password_success" = "Stabiliri este de succes.";
+    
+    "iRouter_Logout" = "Log out";
+    "doesn't have a camera"="当前账号下没有摄像头,请添加摄像头";
+    "Please enter this application from the easy life client"= "请从易生活客户端进入本应用";
+    "Temperature alarm" = "Temperature alarm";
+    "currentPassword"="current password";
+    "New password" = "New password";
+    "confirmPassword"= "Confirm new password";
+    "refresh"="refresh";
+    
+    "deviceHaveBinded" = "Echipamentul este deja legat";
+    "bindedFailure" = "bind eșuează";
+    "haveSpecialCharacter" = "Intrare conține caractere speciale";
+    
+    
+    //Setting
+    "Setting_CameraSwitch" = "CameraSwitch";
+    "Setting_DetectSensitiivty" = "DetectSensitiivty";
+    "Setting_LightDuration" = "LightDuration";
+    
+    "Setting_PIRDetection" = "PIRDetection";
+    "Setting_CameraMicrophone" = "CameraMicrophone";
+    "Setting_CellularDataAutoPause" = "CellularDataAutoPause";
+    "Setting_CloudService" = "CloudService";
+    "Setting_ManualRecord" = "ManualRecord";
+    
+    "Setting_StatusIndicator" = "StatusIndicator";
+    "Setting_RotateSemicircle" = "RotateSemicircle";
+    "Setting_NightVersion" = "NightVersion";
+    "Setting_ShareWithFriends" = "ShareWithFriends";
+    "Setting_WiFiSetting" = "WiFiSetting";
+    "Setting_DeviceInfo" = "DeviceInfo";
+    
+    "Setting_Detail_OrderNow" = "Order Now";
+    
+    "Setting_Group_Camera" = "Camera";
+    "Setting_Group_NormalAction" = "Normal Action";
+    "Setting_Group_CloudService" = "Cloud Service";
+    "Setting_Group_ManualRecord" = "TFCard Record";
+    "Setting_Group_Hardware" = "Hardware";
+    "Setting_Group_Share" = "Share";
+    "Setting_Group_DetailInfo" = "Detail Info";
+    "Setting_DeleteDevice"  =   "Delete Device";
+    
+    
+    // 推送
+    "OpenPushSuccess"  = "打开推送成功";
+    "OpenPushFailure"  = "打开推送失败";
+    "ClosePushSuccess" = "关闭推送成";
+    "ClosePushFailure" = "关闭推送失败";
+    
+    "DeletePushMsgTipMsg" = "确定要删除已选择的推送消息吗？";
+
+
+}

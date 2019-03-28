@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SubDevPirSetting_5100">
+            <connections>
+                <outlet property="pirValueSettingContainer" destination="H6w-Iq-a7Q" id="T3g-81-t1R"/>
+                <outlet property="pirValueSettingTipLabel" destination="HF8-SD-Nc9" id="Y51-MK-mEa"/>
+                <outlet property="pirValueSettingTitleLabel" destination="Vph-KY-wt4" id="nk9-z0-pwR"/>
+                <outlet property="saveSettingsBtn" destination="n7W-Ed-AkQ" id="LCD-l8-GUO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H6w-Iq-a7Q">
+                    <rect key="frame" x="0.0" y="26" width="375" height="169"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vph-KY-wt4">
+                            <rect key="frame" x="23" y="10" width="329" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HF8-SD-Nc9">
+                            <rect key="frame" x="16" y="150" width="343" height="16"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Vph-KY-wt4" firstAttribute="leading" secondItem="H6w-Iq-a7Q" secondAttribute="leading" constant="23" id="1Ol-Mo-3oA"/>
+                        <constraint firstItem="Vph-KY-wt4" firstAttribute="centerX" secondItem="H6w-Iq-a7Q" secondAttribute="centerX" id="80y-4Y-kKX"/>
+                        <constraint firstItem="HF8-SD-Nc9" firstAttribute="centerX" secondItem="H6w-Iq-a7Q" secondAttribute="centerX" id="F2u-Zl-O9r"/>
+                        <constraint firstItem="HF8-SD-Nc9" firstAttribute="leading" secondItem="H6w-Iq-a7Q" secondAttribute="leading" constant="16" id="HdY-6a-tBg"/>
+                        <constraint firstItem="Vph-KY-wt4" firstAttribute="top" secondItem="H6w-Iq-a7Q" secondAttribute="top" constant="10" id="MVg-ll-SF5"/>
+                        <constraint firstAttribute="height" constant="169" id="XGY-hx-ksJ"/>
+                        <constraint firstAttribute="bottom" secondItem="HF8-SD-Nc9" secondAttribute="bottom" constant="3" id="Zcs-N4-gR7"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7W-Ed-AkQ">
+                    <rect key="frame" x="32" y="591" width="310" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="EhB-qC-Xud"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="H6w-Iq-a7Q" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="26" id="0kS-P8-h1T"/>
+                <constraint firstItem="H6w-Iq-a7Q" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="20w-mt-XBA"/>
+                <constraint firstItem="n7W-Ed-AkQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="5kw-td-ckS"/>
+                <constraint firstItem="H6w-Iq-a7Q" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="DbR-RM-bsO"/>
+                <constraint firstItem="n7W-Ed-AkQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="32" id="Xd4-ss-PtC"/>
+                <constraint firstAttribute="bottom" secondItem="n7W-Ed-AkQ" secondAttribute="bottom" constant="36" id="bXR-Ty-rvr"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

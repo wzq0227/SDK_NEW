@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DeviceUpdateView">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i1Z-79-8yz">
+                    <rect key="frame" x="5" y="89" width="270" height="2"/>
+                    <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="iEz-EU-S2d"/>
+                    </constraints>
+                </view>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="摄像头应用固件即将进行升级，大概需要4-5分钟（与网速有关）；请确保在此过程中，摄像机不要断电" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UzE-8H-NEN">
+                    <rect key="frame" x="12" y="10" width="256" height="74"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="正在下载" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6q-D3-Psn">
+                    <rect key="frame" x="109.5" y="99" width="61.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="yPj-BU-4yL">
+                    <rect key="frame" x="36" y="129" width="208" height="2"/>
+                </progressView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/100" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rB3-S2-K1y">
+                    <rect key="frame" x="209" y="139" width="35" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRA-6M-d74">
+                    <rect key="frame" x="90" y="160" width="100" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="4fx-uT-SZx"/>
+                        <constraint firstAttribute="height" constant="40" id="BGS-wW-EPj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="取消">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eMs-Jk-K7S">
+                    <rect key="frame" x="5" y="158" width="270" height="2"/>
+                    <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="uW2-im-FDA"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="rB3-S2-K1y" firstAttribute="trailing" secondItem="yPj-BU-4yL" secondAttribute="trailing" id="2Ot-d2-Tm3"/>
+                <constraint firstItem="eMs-Jk-K7S" firstAttribute="leading" secondItem="i1Z-79-8yz" secondAttribute="leading" id="Aaa-ue-Fbz"/>
+                <constraint firstItem="UzE-8H-NEN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="HJP-uP-ufT"/>
+                <constraint firstItem="S6q-D3-Psn" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="OWe-ql-9Fy"/>
+                <constraint firstItem="yPj-BU-4yL" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Pu5-35-eWD"/>
+                <constraint firstItem="eMs-Jk-K7S" firstAttribute="top" secondItem="yPj-BU-4yL" secondAttribute="bottom" constant="27" id="QzU-H4-hr7"/>
+                <constraint firstItem="dRA-6M-d74" firstAttribute="top" secondItem="eMs-Jk-K7S" secondAttribute="bottom" id="Tiq-Pt-OcQ"/>
+                <constraint firstItem="i1Z-79-8yz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="YBK-Js-7n8"/>
+                <constraint firstItem="yPj-BU-4yL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="36" id="Zse-X9-t3Q"/>
+                <constraint firstItem="i1Z-79-8yz" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="bwq-GS-7fJ"/>
+                <constraint firstItem="UzE-8H-NEN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="fE9-b9-hKr"/>
+                <constraint firstItem="rB3-S2-K1y" firstAttribute="top" secondItem="yPj-BU-4yL" secondAttribute="bottom" constant="8" id="fdx-Ic-vyv"/>
+                <constraint firstItem="i1Z-79-8yz" firstAttribute="top" secondItem="UzE-8H-NEN" secondAttribute="bottom" constant="5" id="gC1-aS-D7Y"/>
+                <constraint firstItem="dRA-6M-d74" firstAttribute="centerX" secondItem="eMs-Jk-K7S" secondAttribute="centerX" id="hET-Nj-IPG"/>
+                <constraint firstItem="eMs-Jk-K7S" firstAttribute="trailing" secondItem="i1Z-79-8yz" secondAttribute="trailing" id="o4h-b0-JNl"/>
+                <constraint firstItem="S6q-D3-Psn" firstAttribute="top" secondItem="i1Z-79-8yz" secondAttribute="bottom" constant="8" id="s7G-J5-kj5"/>
+                <constraint firstAttribute="trailing" secondItem="UzE-8H-NEN" secondAttribute="trailing" constant="12" id="sYO-8l-hSj"/>
+                <constraint firstItem="yPj-BU-4yL" firstAttribute="top" secondItem="S6q-D3-Psn" secondAttribute="bottom" constant="12" id="tiB-Fq-iCs"/>
+                <constraint firstAttribute="bottom" secondItem="eMs-Jk-K7S" secondAttribute="bottom" constant="40" id="vyK-JH-Axc"/>
+                <constraint firstItem="eMs-Jk-K7S" firstAttribute="centerX" secondItem="i1Z-79-8yz" secondAttribute="centerX" id="zfr-0K-gHJ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cancelUpdateBtn" destination="dRA-6M-d74" id="ejO-CY-oAr"/>
+                <outlet property="updateProgressLabel" destination="rB3-S2-K1y" id="pMC-Kb-7iv"/>
+                <outlet property="updateProgressView" destination="yPj-BU-4yL" id="T4Z-GH-moJ"/>
+                <outlet property="updateTipsTxtView" destination="UzE-8H-NEN" id="RoU-JM-uSW"/>
+                <outlet property="updateTitleLabel" destination="S6q-D3-Psn" id="ET2-kZ-JnP"/>
+            </connections>
+        </view>
+    </objects>
+</document>

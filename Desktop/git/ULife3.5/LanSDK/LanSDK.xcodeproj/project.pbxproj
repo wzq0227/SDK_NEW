@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9601482A1FC5AE8800AE84B8 /* LanSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 960148291FC5AE8800AE84B8 /* LanSDK.m */; };
+		9601482B1FC5AE8800AE84B8 /* LanSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 960148281FC5AE8800AE84B8 /* LanSDK.h */; };
+		9601492A1FC5B36B00AE84B8 /* AV_Stream.c in Sources */ = {isa = PBXBuildFile; fileRef = 960148DB1FC5B36B00AE84B8 /* AV_Stream.c */; };
+		9601492C1FC5B36B00AE84B8 /* QuickSocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 960148E61FC5B36B00AE84B8 /* QuickSocket.c */; };
+		9601492D1FC5B36B00AE84B8 /* ThreadUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 960148E71FC5B36B00AE84B8 /* ThreadUtil.c */; };
+		9601492E1FC5B36B00AE84B8 /* UTF8Utils.c in Sources */ = {isa = PBXBuildFile; fileRef = 960148E81FC5B36B00AE84B8 /* UTF8Utils.c */; };
+		9601492F1FC5B36B00AE84B8 /* ws_socket.c in Sources */ = {isa = PBXBuildFile; fileRef = 960148E91FC5B36B00AE84B8 /* ws_socket.c */; };
+		960149301FC5B36B00AE84B8 /* WlanDeviceSearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 960148EF1FC5B36B00AE84B8 /* WlanDeviceSearch.c */; };
+		960149311FC5B36B00AE84B8 /* json_reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 960149001FC5B36B00AE84B8 /* json_reader.cpp */; };
+		960149321FC5B36B00AE84B8 /* json_value.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 960149021FC5B36B00AE84B8 /* json_value.cpp */; };
+		960149331FC5B36B00AE84B8 /* json_writer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 960149041FC5B36B00AE84B8 /* json_writer.cpp */; };
+		960149341FC5B36B00AE84B8 /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 960149061FC5B36B00AE84B8 /* tinystr.cpp */; };
+		960149351FC5B36B00AE84B8 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 960149081FC5B36B00AE84B8 /* tinyxml.cpp */; };
+		960149361FC5B36B00AE84B8 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9601490A1FC5B36B00AE84B8 /* tinyxmlerror.cpp */; };
+		960149371FC5B36B00AE84B8 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9601490B1FC5B36B00AE84B8 /* tinyxmlparser.cpp */; };
+		960149381FC5B36B00AE84B8 /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = 9601490C1FC5B36B00AE84B8 /* makefile */; };
+		960149391FC5B36B00AE84B8 /* DeviceParamsConfig.c in Sources */ = {isa = PBXBuildFile; fileRef = 960149121FC5B36B00AE84B8 /* DeviceParamsConfig.c */; };
+		9601493A1FC5B36B00AE84B8 /* GVAP_PackageHeader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9601491B1FC5B36B00AE84B8 /* GVAP_PackageHeader.cpp */; };
+		9601493B1FC5B36B00AE84B8 /* GVAP_Protocal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9601491C1FC5B36B00AE84B8 /* GVAP_Protocal.cpp */; };
+		9601493C1FC5B36B00AE84B8 /* Tlib_ProtocolAX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9601491D1FC5B36B00AE84B8 /* Tlib_ProtocolAX.cpp */; };
+		9601493D1FC5B36B00AE84B8 /* libUlife_API.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 960149231FC5B36B00AE84B8 /* libUlife_API.cpp */; };
+		9601493E1FC5B36B00AE84B8 /* GVAPWorker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 960149291FC5B36B00AE84B8 /* GVAPWorker.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		960148231FC5AE8800AE84B8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9601482B1FC5AE8800AE84B8 /* LanSDK.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		960148251FC5AE8800AE84B8 /* libLanSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLanSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		960148281FC5AE8800AE84B8 /* LanSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LanSDK.h; sourceTree = "<group>"; };
+		960148291FC5AE8800AE84B8 /* LanSDK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanSDK.m; sourceTree = "<group>"; };
+		960148D61FC5B36B00AE84B8 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		960148D81FC5B36B00AE84B8 /* AV_Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AV_Stream.h; sourceTree = "<group>"; };
+		960148D91FC5B36B00AE84B8 /* QueueBuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueueBuf.h; sourceTree = "<group>"; };
+		960148DB1FC5B36B00AE84B8 /* AV_Stream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AV_Stream.c; sourceTree = "<group>"; };
+		960148DC1FC5B36B00AE84B8 /* QueueBuf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = QueueBuf.c; sourceTree = "<group>"; };
+		960148DE1FC5B36B00AE84B8 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		960148E11FC5B36B00AE84B8 /* QuickSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSocket.h; sourceTree = "<group>"; };
+		960148E21FC5B36B00AE84B8 /* ThreadUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadUtil.h; sourceTree = "<group>"; };
+		960148E31FC5B36B00AE84B8 /* UTF8Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTF8Utils.h; sourceTree = "<group>"; };
+		960148E41FC5B36B00AE84B8 /* ws_socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ws_socket.h; sourceTree = "<group>"; };
+		960148E61FC5B36B00AE84B8 /* QuickSocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = QuickSocket.c; sourceTree = "<group>"; };
+		960148E71FC5B36B00AE84B8 /* ThreadUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ThreadUtil.c; sourceTree = "<group>"; };
+		960148E81FC5B36B00AE84B8 /* UTF8Utils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = UTF8Utils.c; sourceTree = "<group>"; };
+		960148E91FC5B36B00AE84B8 /* ws_socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ws_socket.c; sourceTree = "<group>"; };
+		960148EB1FC5B36B00AE84B8 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		960148ED1FC5B36B00AE84B8 /* WlanDeviceSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WlanDeviceSearch.h; sourceTree = "<group>"; };
+		960148EF1FC5B36B00AE84B8 /* WlanDeviceSearch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WlanDeviceSearch.c; sourceTree = "<group>"; };
+		960148F31FC5B36B00AE84B8 /* assertions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assertions.h; sourceTree = "<group>"; };
+		960148F41FC5B36B00AE84B8 /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autolink.h; sourceTree = "<group>"; };
+		960148F51FC5B36B00AE84B8 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		960148F61FC5B36B00AE84B8 /* features.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = features.h; sourceTree = "<group>"; };
+		960148F71FC5B36B00AE84B8 /* forwards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = forwards.h; sourceTree = "<group>"; };
+		960148F81FC5B36B00AE84B8 /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json.h; sourceTree = "<group>"; };
+		960148F91FC5B36B00AE84B8 /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reader.h; sourceTree = "<group>"; };
+		960148FA1FC5B36B00AE84B8 /* value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = value.h; sourceTree = "<group>"; };
+		960148FB1FC5B36B00AE84B8 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		960148FC1FC5B36B00AE84B8 /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
+		960148FD1FC5B36B00AE84B8 /* json_batchallocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_batchallocator.h; sourceTree = "<group>"; };
+		960148FE1FC5B36B00AE84B8 /* json_internalarray.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_internalarray.inl; sourceTree = "<group>"; };
+		960148FF1FC5B36B00AE84B8 /* json_internalmap.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_internalmap.inl; sourceTree = "<group>"; };
+		960149001FC5B36B00AE84B8 /* json_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_reader.cpp; sourceTree = "<group>"; };
+		960149011FC5B36B00AE84B8 /* json_tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = json_tool.h; sourceTree = "<group>"; };
+		960149021FC5B36B00AE84B8 /* json_value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_value.cpp; sourceTree = "<group>"; };
+		960149031FC5B36B00AE84B8 /* json_valueiterator.inl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_valueiterator.inl; sourceTree = "<group>"; };
+		960149041FC5B36B00AE84B8 /* json_writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = json_writer.cpp; sourceTree = "<group>"; };
+		960149061FC5B36B00AE84B8 /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinystr.cpp; sourceTree = "<group>"; };
+		960149071FC5B36B00AE84B8 /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinystr.h; sourceTree = "<group>"; };
+		960149081FC5B36B00AE84B8 /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
+		960149091FC5B36B00AE84B8 /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
+		9601490A1FC5B36B00AE84B8 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
+		9601490B1FC5B36B00AE84B8 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
+		9601490C1FC5B36B00AE84B8 /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		9601490E1FC5B36B00AE84B8 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		960149101FC5B36B00AE84B8 /* DeviceParamsConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceParamsConfig.h; sourceTree = "<group>"; };
+		960149121FC5B36B00AE84B8 /* DeviceParamsConfig.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DeviceParamsConfig.c; sourceTree = "<group>"; };
+		960149141FC5B36B00AE84B8 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		960149161FC5B36B00AE84B8 /* GVAP_PackageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVAP_PackageHeader.h; sourceTree = "<group>"; };
+		960149171FC5B36B00AE84B8 /* GVAP_Protocal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVAP_Protocal.h; sourceTree = "<group>"; };
+		960149181FC5B36B00AE84B8 /* Tlib_Cmddefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tlib_Cmddefine.h; sourceTree = "<group>"; };
+		960149191FC5B36B00AE84B8 /* Tlib_ProtocolAX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tlib_ProtocolAX.h; sourceTree = "<group>"; };
+		9601491B1FC5B36B00AE84B8 /* GVAP_PackageHeader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GVAP_PackageHeader.cpp; sourceTree = "<group>"; };
+		9601491C1FC5B36B00AE84B8 /* GVAP_Protocal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GVAP_Protocal.cpp; sourceTree = "<group>"; };
+		9601491D1FC5B36B00AE84B8 /* Tlib_ProtocolAX.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tlib_ProtocolAX.cpp; sourceTree = "<group>"; };
+		960149201FC5B36B00AE84B8 /* libUlife_API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libUlife_API.h; sourceTree = "<group>"; };
+		960149211FC5B36B00AE84B8 /* UlifeDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UlifeDefines.h; sourceTree = "<group>"; };
+		960149231FC5B36B00AE84B8 /* libUlife_API.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = libUlife_API.cpp; sourceTree = "<group>"; };
+		960149251FC5B36B00AE84B8 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		960149271FC5B36B00AE84B8 /* GVAPWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVAPWorker.h; sourceTree = "<group>"; };
+		960149291FC5B36B00AE84B8 /* GVAPWorker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GVAPWorker.cpp; sourceTree = "<group>"; };
+		96AB3AED1FDF8572007980B6 /* DebugPrint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugPrint.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		960148221FC5AE8800AE84B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9601481C1FC5AE8800AE84B8 = {
+			isa = PBXGroup;
+			children = (
+				960148D41FC5B36B00AE84B8 /* src */,
+				960148271FC5AE8800AE84B8 /* LanSDK */,
+				960148261FC5AE8800AE84B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		960148261FC5AE8800AE84B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				960148251FC5AE8800AE84B8 /* libLanSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		960148271FC5AE8800AE84B8 /* LanSDK */ = {
+			isa = PBXGroup;
+			children = (
+				960148281FC5AE8800AE84B8 /* LanSDK.h */,
+				960148291FC5AE8800AE84B8 /* LanSDK.m */,
+			);
+			path = LanSDK;
+			sourceTree = "<group>";
+		};
+		960148D41FC5B36B00AE84B8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				960148D51FC5B36B00AE84B8 /* avmanagement */,
+				960148DD1FC5B36B00AE84B8 /* build */,
+				960148DE1FC5B36B00AE84B8 /* CMakeLists.txt */,
+				960148DF1FC5B36B00AE84B8 /* common */,
+				960148EA1FC5B36B00AE84B8 /* devicesearch */,
+				960148F01FC5B36B00AE84B8 /* external */,
+				9601490C1FC5B36B00AE84B8 /* makefile */,
+				9601490D1FC5B36B00AE84B8 /* paramconfig */,
+				960149131FC5B36B00AE84B8 /* protocol */,
+				9601491E1FC5B36B00AE84B8 /* userinterface */,
+				960149241FC5B36B00AE84B8 /* usermanagement */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		960148D51FC5B36B00AE84B8 /* avmanagement */ = {
+			isa = PBXGroup;
+			children = (
+				960148D61FC5B36B00AE84B8 /* CMakeLists.txt */,
+				960148D71FC5B36B00AE84B8 /* Include */,
+				960148DA1FC5B36B00AE84B8 /* Src */,
+			);
+			path = avmanagement;
+			sourceTree = "<group>";
+		};
+		960148D71FC5B36B00AE84B8 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				960148D81FC5B36B00AE84B8 /* AV_Stream.h */,
+				960148D91FC5B36B00AE84B8 /* QueueBuf.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		960148DA1FC5B36B00AE84B8 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				960148DB1FC5B36B00AE84B8 /* AV_Stream.c */,
+				960148DC1FC5B36B00AE84B8 /* QueueBuf.c */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		960148DD1FC5B36B00AE84B8 /* build */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = build;
+			sourceTree = "<group>";
+		};
+		960148DF1FC5B36B00AE84B8 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				960148E01FC5B36B00AE84B8 /* Include */,
+				960148E51FC5B36B00AE84B8 /* Src */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		960148E01FC5B36B00AE84B8 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				96AB3AED1FDF8572007980B6 /* DebugPrint.h */,
+				960148E11FC5B36B00AE84B8 /* QuickSocket.h */,
+				960148E21FC5B36B00AE84B8 /* ThreadUtil.h */,
+				960148E31FC5B36B00AE84B8 /* UTF8Utils.h */,
+				960148E41FC5B36B00AE84B8 /* ws_socket.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		960148E51FC5B36B00AE84B8 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				960148E61FC5B36B00AE84B8 /* QuickSocket.c */,
+				960148E71FC5B36B00AE84B8 /* ThreadUtil.c */,
+				960148E81FC5B36B00AE84B8 /* UTF8Utils.c */,
+				960148E91FC5B36B00AE84B8 /* ws_socket.c */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		960148EA1FC5B36B00AE84B8 /* devicesearch */ = {
+			isa = PBXGroup;
+			children = (
+				960148EB1FC5B36B00AE84B8 /* CMakeLists.txt */,
+				960148EC1FC5B36B00AE84B8 /* Include */,
+				960148EE1FC5B36B00AE84B8 /* Src */,
+			);
+			path = devicesearch;
+			sourceTree = "<group>";
+		};
+		960148EC1FC5B36B00AE84B8 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				960148ED1FC5B36B00AE84B8 /* WlanDeviceSearch.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		960148EE1FC5B36B00AE84B8 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				960148EF1FC5B36B00AE84B8 /* WlanDeviceSearch.c */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		960148F01FC5B36B00AE84B8 /* external */ = {
+			isa = PBXGroup;
+			children = (
+				960148F11FC5B36B00AE84B8 /* jsoncpp */,
+				960149051FC5B36B00AE84B8 /* tinyxml */,
+			);
+			path = external;
+			sourceTree = "<group>";
+		};
+		960148F11FC5B36B00AE84B8 /* jsoncpp */ = {
+			isa = PBXGroup;
+			children = (
+				960148F21FC5B36B00AE84B8 /* json */,
+				960148FD1FC5B36B00AE84B8 /* json_batchallocator.h */,
+				960148FE1FC5B36B00AE84B8 /* json_internalarray.inl */,
+				960148FF1FC5B36B00AE84B8 /* json_internalmap.inl */,
+				960149001FC5B36B00AE84B8 /* json_reader.cpp */,
+				960149011FC5B36B00AE84B8 /* json_tool.h */,
+				960149021FC5B36B00AE84B8 /* json_value.cpp */,
+				960149031FC5B36B00AE84B8 /* json_valueiterator.inl */,
+				960149041FC5B36B00AE84B8 /* json_writer.cpp */,
+			);
+			path = jsoncpp;
+			sourceTree = "<group>";
+		};
+		960148F21FC5B36B00AE84B8 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				960148F31FC5B36B00AE84B8 /* assertions.h */,
+				960148F41FC5B36B00AE84B8 /* autolink.h */,
+				960148F51FC5B36B00AE84B8 /* config.h */,
+				960148F61FC5B36B00AE84B8 /* features.h */,
+				960148F71FC5B36B00AE84B8 /* forwards.h */,
+				960148F81FC5B36B00AE84B8 /* json.h */,
+				960148F91FC5B36B00AE84B8 /* reader.h */,
+				960148FA1FC5B36B00AE84B8 /* value.h */,
+				960148FB1FC5B36B00AE84B8 /* version.h */,
+				960148FC1FC5B36B00AE84B8 /* writer.h */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		960149051FC5B36B00AE84B8 /* tinyxml */ = {
+			isa = PBXGroup;
+			children = (
+				960149061FC5B36B00AE84B8 /* tinystr.cpp */,
+				960149071FC5B36B00AE84B8 /* tinystr.h */,
+				960149081FC5B36B00AE84B8 /* tinyxml.cpp */,
+				960149091FC5B36B00AE84B8 /* tinyxml.h */,
+				9601490A1FC5B36B00AE84B8 /* tinyxmlerror.cpp */,
+				9601490B1FC5B36B00AE84B8 /* tinyxmlparser.cpp */,
+			);
+			path = tinyxml;
+			sourceTree = "<group>";
+		};
+		9601490D1FC5B36B00AE84B8 /* paramconfig */ = {
+			isa = PBXGroup;
+			children = (
+				9601490E1FC5B36B00AE84B8 /* CMakeLists.txt */,
+				9601490F1FC5B36B00AE84B8 /* Include */,
+				960149111FC5B36B00AE84B8 /* Src */,
+			);
+			path = paramconfig;
+			sourceTree = "<group>";
+		};
+		9601490F1FC5B36B00AE84B8 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				960149101FC5B36B00AE84B8 /* DeviceParamsConfig.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		960149111FC5B36B00AE84B8 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				960149121FC5B36B00AE84B8 /* DeviceParamsConfig.c */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		960149131FC5B36B00AE84B8 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				960149141FC5B36B00AE84B8 /* CMakeLists.txt */,
+				960149151FC5B36B00AE84B8 /* Include */,
+				9601491A1FC5B36B00AE84B8 /* Src */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		960149151FC5B36B00AE84B8 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				960149161FC5B36B00AE84B8 /* GVAP_PackageHeader.h */,
+				960149171FC5B36B00AE84B8 /* GVAP_Protocal.h */,
+				960149181FC5B36B00AE84B8 /* Tlib_Cmddefine.h */,
+				960149191FC5B36B00AE84B8 /* Tlib_ProtocolAX.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		9601491A1FC5B36B00AE84B8 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				9601491B1FC5B36B00AE84B8 /* GVAP_PackageHeader.cpp */,
+				9601491C1FC5B36B00AE84B8 /* GVAP_Protocal.cpp */,
+				9601491D1FC5B36B00AE84B8 /* Tlib_ProtocolAX.cpp */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		9601491E1FC5B36B00AE84B8 /* userinterface */ = {
+			isa = PBXGroup;
+			children = (
+				9601491F1FC5B36B00AE84B8 /* Include */,
+				960149221FC5B36B00AE84B8 /* Src */,
+			);
+			path = userinterface;
+			sourceTree = "<group>";
+		};
+		9601491F1FC5B36B00AE84B8 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				960149201FC5B36B00AE84B8 /* libUlife_API.h */,
+				960149211FC5B36B00AE84B8 /* UlifeDefines.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		960149221FC5B36B00AE84B8 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				960149231FC5B36B00AE84B8 /* libUlife_API.cpp */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		960149241FC5B36B00AE84B8 /* usermanagement */ = {
+			isa = PBXGroup;
+			children = (
+				960149251FC5B36B00AE84B8 /* CMakeLists.txt */,
+				960149261FC5B36B00AE84B8 /* Include */,
+				960149281FC5B36B00AE84B8 /* Src */,
+			);
+			path = usermanagement;
+			sourceTree = "<group>";
+		};
+		960149261FC5B36B00AE84B8 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				960149271FC5B36B00AE84B8 /* GVAPWorker.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		960149281FC5B36B00AE84B8 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				960149291FC5B36B00AE84B8 /* GVAPWorker.cpp */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		960148241FC5AE8800AE84B8 /* LanSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9601482E1FC5AE8800AE84B8 /* Build configuration list for PBXNativeTarget "LanSDK" */;
+			buildPhases = (
+				960148211FC5AE8800AE84B8 /* Sources */,
+				960148221FC5AE8800AE84B8 /* Frameworks */,
+				960148231FC5AE8800AE84B8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LanSDK;
+			productName = LanSDK;
+			productReference = 960148251FC5AE8800AE84B8 /* libLanSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9601481D1FC5AE8800AE84B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Goscam;
+				TargetAttributes = {
+					960148241FC5AE8800AE84B8 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 960148201FC5AE8800AE84B8 /* Build configuration list for PBXProject "LanSDK" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9601481C1FC5AE8800AE84B8;
+			productRefGroup = 960148261FC5AE8800AE84B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				960148241FC5AE8800AE84B8 /* LanSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		960148211FC5AE8800AE84B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				960149331FC5B36B00AE84B8 /* json_writer.cpp in Sources */,
+				960149341FC5B36B00AE84B8 /* tinystr.cpp in Sources */,
+				9601493D1FC5B36B00AE84B8 /* libUlife_API.cpp in Sources */,
+				9601492C1FC5B36B00AE84B8 /* QuickSocket.c in Sources */,
+				960149311FC5B36B00AE84B8 /* json_reader.cpp in Sources */,
+				9601493B1FC5B36B00AE84B8 /* GVAP_Protocal.cpp in Sources */,
+				9601492E1FC5B36B00AE84B8 /* UTF8Utils.c in Sources */,
+				960149391FC5B36B00AE84B8 /* DeviceParamsConfig.c in Sources */,
+				9601493A1FC5B36B00AE84B8 /* GVAP_PackageHeader.cpp in Sources */,
+				960149381FC5B36B00AE84B8 /* makefile in Sources */,
+				9601493E1FC5B36B00AE84B8 /* GVAPWorker.cpp in Sources */,
+				960149351FC5B36B00AE84B8 /* tinyxml.cpp in Sources */,
+				960149301FC5B36B00AE84B8 /* WlanDeviceSearch.c in Sources */,
+				9601492F1FC5B36B00AE84B8 /* ws_socket.c in Sources */,
+				9601492A1FC5B36B00AE84B8 /* AV_Stream.c in Sources */,
+				960149321FC5B36B00AE84B8 /* json_value.cpp in Sources */,
+				9601492D1FC5B36B00AE84B8 /* ThreadUtil.c in Sources */,
+				960149361FC5B36B00AE84B8 /* tinyxmlerror.cpp in Sources */,
+				9601493C1FC5B36B00AE84B8 /* Tlib_ProtocolAX.cpp in Sources */,
+				960149371FC5B36B00AE84B8 /* tinyxmlparser.cpp in Sources */,
+				9601482A1FC5AE8800AE84B8 /* LanSDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9601482C1FC5AE8800AE84B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9601482D1FC5AE8800AE84B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9601482F1FC5AE8800AE84B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2347ZTV6T;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		960148301FC5AE8800AE84B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F2347ZTV6T;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		960148201FC5AE8800AE84B8 /* Build configuration list for PBXProject "LanSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9601482C1FC5AE8800AE84B8 /* Debug */,
+				9601482D1FC5AE8800AE84B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9601482E1FC5AE8800AE84B8 /* Build configuration list for PBXNativeTarget "LanSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9601482F1FC5AE8800AE84B8 /* Debug */,
+				960148301FC5AE8800AE84B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9601481D1FC5AE8800AE84B8 /* Project object */;
+}

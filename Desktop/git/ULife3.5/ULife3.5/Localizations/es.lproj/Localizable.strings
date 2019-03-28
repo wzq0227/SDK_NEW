@@ -1,0 +1,372 @@
+{
+	"localizied_9"  = "Error al guardar";
+	"localizied_10" = "guardar éxito.";
+    "localizied_142" = "desconexión de la red";
+	"localizied_252" = "Contraseña";
+    "Setting_NextStep" = "Etapa siguiente";
+	"localizied_265" = "the second step to install";
+	"localizied_266" = "Notice: Please connect cable to the router at one end, to camera at the other end, and mobile phone connect to wireless network of the router.";
+	"localizied_267" = "Please input password";
+	"Title_Confirm" = "Sí";
+	"localizied_269" = "Regreso";
+	"localizied_270" = "Have searched the camera";
+	"localizied_271" = "Set DHCP successfully";
+	"localizied_272" = "Setting...";
+	"localizied_273" = "No Searched camera";
+	"localizied_274" = "DHCP is setting";
+	"localizied_275" = "Whether to set up wireless function";
+	"localizied_276" = "Sí";
+	"localizied_277" = "No";
+	"localizied_278" = "Notice: Please connect cable to the router at one end, to camera at the other end, and mobile phone connect to wireless network of the router.If it can not be found through search, please reset camera.";
+	"localizied_279" = "Please input SSID and password of router wireless network, you can click the right button to select among the history.";
+	"Setting_Cancel" = "Cancelar";
+	"localizied_281" = "No records";
+	"localizied_282" = "Nombre wifi";
+	"localizied_283" = "Por favor confirmar si el SSID WiFi y la contraseña son correctos";
+	"localizied_284" = "Correct";
+	"localizied_285" = "Setting";
+	"Setting_Done" = "Salvar";
+	"localizied_293" = "La conexión falló";
+	"localizied_294" = "Tiempo límite solicitud";
+	"localizied_295" = "Prohibited operations";
+	"localizied_298" = "Password error";
+    "localizied_304" = "Empujar Mensaje Marco";
+    "localizied_305" = "About";
+    "localizied_306" = "Versión";
+    "localizied_307" = "Logout";
+    "Setting_Setting" = "Ajuste";
+    "localizied_309" = "Add camera";
+    "localizied_310" ="El Tiempo de espera agotado, tire hacia abajo para actualizar";
+    "localizied_312" ="La contraseña debe rellenarse";
+    "localizied_316" ="Compartir con amigo";
+    "DevInfo_DevName" ="Nombre del dispositivo";
+    "Title_Delete" = "Eliminar";
+    "localizied_372" = "Delete successfully";
+    "localizied_373" = "Error al eliminar";
+    "localizied_386"="tiempo de la red a cabo";
+    "firmware_version"="Versión del software";
+    "system_firmware"="Versión del hardware";
+    "localizied_398"="OK";
+    "localizied_400"="Refrescante";
+    "localizied_401"="Loosen to prompt refresh";
+    "localizied_402"="Last update";
+    "localizied_404"="Grabación manual";
+    "localizied_426"="Today";
+    "localizied_437"="Tire hacia abajo para actualizar";
+    "localizied_440"="¿Seguro que quitar la cámara de la lista?";
+    "Operation_Succeeded"="Ajuste logrado";
+    "localizied_450"="From";
+    
+    
+    
+    
+    "localizied_451"="New share camera add";
+    "localizied_452"="Shared camera removed";
+    
+    
+    
+    "localizied_459"="Detección de movimiento";
+    
+    
+    
+    
+    "localizied_467"="Añadir cámara";
+    
+    "localizied_471"="The generating QR code is used for the camera read and connects to WI-FI network .";
+    
+    
+    
+    
+    
+    
+    "localizied_472"="You can obtain available network from the list when you click on the wireless network icon.";
+    
+    "localizied_474"="Añadir Compartir con amigo";
+    
+    
+    
+    "localizied_481"="Conectándose";
+    
+    "localizied_486"="agregado con éxito";
+    "localizied_498"="U-life Plus is an Internet-based video service platform. It enables separate IP and 3G cameras to register on the platform. By loading a U-life Plus software  to the iphone, ipad client end, Users can freely monitor and control multiple video devices. ";
+    
+    
+    
+    "localizied_499"="  The U-life Plus System adopts latest P2P penetrating technology, makes easy registration and management of video IP cameras possible; The cloud computing technology allows user to monitor same account from different devices at the same time. The U-life Plus system could also be specially applied to many other industrial fields.";
+    
+    
+    "localizied_507"="Logging out.";
+    "localizied_511"="WDR";
+    "Operation_Failed"="Error ajuste";
+    
+    
+    
+    
+    
+    "localizied_520"="Giro horizontal";
+    
+    
+    
+    "vertical_rate" = "Giro vertical";
+    "localizied_521"="Procedimiento frecuente";
+    "localizied_522"="Abrir video falló";
+    
+    "uploadRingSuccess" = "upload success";
+    "localizied_00187"="Temperature";
+    "my_device" = "Lista de dispositivos";
+    "Message" = "Mensaje";
+    "Remove" = "Remove";
+    "select_all" = "select all";
+    "Warning_string" = "Warning";
+    "ip_title" = "The serve is located in China";
+    "Bark_title" = "Bark";
+    "Siren_title" = "Siren";
+    "online" = "%@ Online";
+	"offline" = "%@ Offline";
+	"VIDEO_MOTION" = "%@ Motion detection alarm.";
+	"PIR_MOTION" = "%@ PIR detection alarm.";
+	"PIR_VIDEO_MOTION" = "%@ Human detection and motion detection alarm";
+	"IO_ALARM" = "%@ Alarm trigger";
+	"New item - 5" = "";
+	"New item - 6" = "";
+	"New item - 7" = "";
+	"New item - 8" = "";
+	"New item - 9" = "";
+    
+    "Name"="Name:";
+    "Name_placeholder"="Please input the name of the camera";
+    "UID_placeholder"="Please Scan QR code";
+    "Scan_error"="Scan QR code is error";
+    "Scan_desc"="Please place the QR code inside the viewfinder rectangle";
+    "tip0_desc"="Step1: please press SET key about 1 second";
+    "tip1_desc"="Step2: Select the wifi which the camera will connect";
+    "tip"="prompt";
+    "connect_tip"="Connection timed out";
+    "reconnect_tip"="Volver a conectar";
+    "serial_number"="Serial number";
+    "Mac_add"="Dirección MAC";
+    "camera_info_success"="Get camera information successfully ";
+    "camera_info_error"="Request timeout，please acquire the device information again.";
+    "request_time_refresh"="Request timeout，please refresh or check the current connection status";
+    "not_connected"="Not Connected";
+    
+    "camera_no_connect"="La desconexión de la cámara";
+    "network_error"="Red no válida";
+    "cammera_no_bind"="Compruebe si la cámara está en línea o cámara ha sido binded";
+    "camera_pwd_error"="Password error";
+
+    "Video_suceess"="Recepción de datos de vídeo";
+    "audio_success"="Recepción de datos de audio";
+    "PTZ"="control de Pan-Tilt";
+    "Record_begin"="Record_begin";
+    "record_end"="Final de la grabación";
+    
+    "Speaking_success"="Envío logrado";
+    "Speaking_begin"="Start Talking";
+    "Speaking_end"="End Of Talking";
+    
+    "record_no"="Video record ongoing, if you need to do other operation, please stop the recording ";
+    "record_no_audio"="Video record ongoing，please do not turn off voice";
+    
+    "save_image"="Image saved to Photos";
+    "save_video"="Video saved to Photos";
+    
+    "connect_success"="Conexión lograda";
+    "load_data"="Data Loading";
+    "reloadBtn"="Volver a cargar";
+    "load_fail"= "Loading Failed";
+    "Camera_Push_Settings"="Camera Push Settings";
+    "PTZ_control" = "Pan-Tilt Control";
+    "Infrared_detection" = "Detección por infrarrojos";
+    "push_regist_sucesee" = "Push to Register";
+    "push_regist_error" = "Push the registration failed";
+    "WIFI_add" = "Añadir wifi";
+    
+    "Video_return_paly" = "Repetir vídeo";
+    "i_can" = "I know";
+    "No_Have_Video" = "Ningún archivo";
+    "Video" = "Vídeo";
+    "pic" = "Imagen";
+    "not_have_Video"="No hay registro";
+    "that_time_not_have_file"="No hay archivos en este punto temporal";
+    "data_unsuceess"="El acceso a los datos no";
+    "download_unsuccess"="Failed to download";
+    "download_end"="downloading stopped Stopped";
+    "delete_file_success"="File Successfully";
+    "delete_file_unsuccess"="File Failured";
+    "download_file"="Descarga de archivos";
+    "complete_end"="Finished";
+    "nothing_tittle"="La tarjeta de memoria no está puesta en la cámara";
+    "nothing_idea_one"="La cámara grabará automáticamente si pone la tarjeta de memoria TF (Microsd)";
+    "nothing_idea_two"="Supporting maximum 32G";
+    "nothing_idea_three"="No puede identificar la tarjeta de memoria, por favor, vuelta a ponerla";
+    "nothing_idea_four"="Asegúrese de que su tarjeta esté en FAT32";
+    "help_tittle"="In the “settings” of iPhone-“Privacy”-“Camera” to find";
+    "help_tittle_two"="Open access to the Camera";
+    "heip_tittle_three"="Wrong QR Code Format";
+    "set_Wifi"= "Configurar wifi";
+    "my_ipc"="Mi dispositivo";
+    "Ipc_unonline"="El dispositivo no está en línea";
+    "about_us"="Nosotros";
+    "contact_us"="Contacto";
+    "contact"="Connected";
+    "question"="Problemas comunes";
+    "tip_imformation"="Warning";
+    "set_push"="Mensaje Pulsar ajuste";
+    "test"="prueba";
+    "move"="Mobile";
+    "tip_help"="La solicitud ha caducado, actualizar o comprobar el estado de conexión";
+    "change_success"="Change Successfully";
+    "change_unsuccess"="Change Failed";
+    "refresh_videolist"="Device not connected, please check the connection condition and refresh";
+    "used_storage"="Almacenamiento utilizado";
+    "free_storage"="Almacenamiento disponible";
+    "DevInfo_DevID"="Identificación del dispositivo";
+    "pic_date"="Device Parameter";
+    "storage_space"="Espacio de almacenamiento";
+    "Format_SD_card"="Confirm to format SD card";
+    "Format"="Formatear tarjeta SD";
+    "Format_SD_card_success"="Formateo tarjeta SD logrado";
+    "Format_SD_card_unsuccess"="fallo";
+    "delete_pic"="Eliminar dispositivo";
+    "camera_info"="Información sobre el dispositivo";
+    "wifi_setting"="Ajuste wifi";
+    "not_have_sd_0"="No hay ninguna tarjeta, no permite grabar";
+    "not_have_sd_1"="mal tarjeta, no permite grabar";
+    "not_have_sd_2"="No hay almacenamiento suficiente, no permite grabar";
+    "not_have_sd_3"="Grabación, operativo no permitir";
+    "not_have_sd_4"="Grabación, operando demasiado frecuentes";
+    "share_friend_active"="Cancelar <compartir con amigo>: Eliminar este dispositivo deje de compartir con el amigo. (Re-añadir la cámara para utilizarla de nuevo)";
+    "help_header_title"="If failed in adding, the solution  as followed";
+    "help_title_1"="1: Confirmar si hay cualquier carácter especial en el nombre del WiFi y la contraseña y si el conmutador DHCP del enrutador está activado.";
+    "help_title_2"="2: Confirmar si el wifi 2.4 G está conectado, en lugar del wifi 5 G.";
+    "help_title_3"="3: Confirmar si la contraseña   es correcta.";
+    "help_title_4"="4: Confirmar si el enrutador ha protegido la dirección MAC.";
+    "help_title_5"="5: Se recomienda conectar el dispositivo cerca del enrutador.";
+    "help_title_6"="6: If wireless adding way failed, connect the device and router with cable";
+    "back_wifi"="Volver a la página «Configurar wifi»";
+    "back_add_pic"="Volver a la página «Añadir cámara»";
+    "Hight"="MARIDO";
+    "medium"="METRO";
+    "low"="L";
+    "off"="OFF";
+    "Add device"="Añadir dispositivo";
+    "Wired add"="Add with cable";
+    "personal"="Centro personal";
+    "tfSSID_placeholder"="WiFi Name";
+    "tfPassword_placeholder"="WiFi Password";
+    "Get_data_success"="Get Data Success";
+    "Get_data_failed"="Get Data Failed";
+    "Saving failed"="Saving failed";
+    "Equipment has been added"="Equipment has been added";
+    "Error_QR"="Error_QR";
+    "1.Please check whether the device connect the router with the cable."="1.Please check whether the device connect the router with the cable.";
+    "2.Please confirm whether the router and the mobile phone in the same segment"="2.Please confirm whether the router and the mobile phone in the same segment";
+    "play_Record"="Grabadora";
+    "play_Snapshot"="Capturar";
+    "play_Joystick"="Joystick";
+    "play_Talk"="Altavoz";
+    "play_Sound"="Sound";
+    "IP Camera"="CámaraIp";
+    "about us text"="U-life is a video service platform which base on Internet. User can register,log on the individual IP and 3G camera via this platform. U-life apply to Iphone,Ipad,Android and PC, which use P2P to realize  user register and manage IP camera easily .It unique cloud computing allows user surveil one device on several mobile device at the same time.U-life system can also apply to other business areas.";
+    "Company name"="Shenzhen Gospell Smarthome Electronic Co., Ltd.";
+    "company address"="Company Address: F12, F518 Idea Land, Baoyuan Road,Baoan Central Area,Shenzhen,P.R.China";
+    "zip code"="Post code: 518102";
+    "Tel"="Tel: 86-755-26716688-8677";
+    "Fax"="Fax: 86-755-26716099";
+    "E-mail"="E-mail:  sales@goscam.com";
+    
+    "iRouter_account" = "User Name";
+    "account_short_error" = "Nombre de usuario es demasiado corto, necesita por lo menos 6 caracteres";
+    "account_long_error" = "Nombre de usuario es demasiado largo, no más de 32 caracteres.";
+    "account_exist_error" = "La cuenta existe";
+    "account_not_exist_error" = "La cuenta no existe.";
+    
+    "iRouter_email" = "Email";
+    "email_error" = "La dirección de correo electrónico es inválida";
+    
+    "iRouter_password" = "Password";
+    "password_short_error" = "Por favor, introduzca una contraseña de al menos 6 caracteres.";
+    "password_long_error" = "La contraseña necesita no más de 32 caracteres.";
+    "password_error" = "La contraseña es incorrecta.";
+    
+    "iRouter_Confirm_password" = "Confirm password";
+    "iRouter_Confirm_password_error" = "Las contraseñas no coinciden.";
+    
+    "iRouter_Sign_up" = "Sign Up";
+    "Sign_Up_now" = "Sign Up Now";
+    "Sign_up_error" = "La solicitud de red Tiempo de espera agotado. Por favor revise su conexion a internet.";
+    "Sign_up_success" = "Felicitaciones por su registro con éxito";
+    
+    
+    
+    "iRouter_Sign_In" = "Sign In";
+    "iRouter_Sign_In_error" = "El tiempo de espera de inicio de sesión. Por favor revise su conexion a internet.";
+    
+    "forgot_password" = "Forgot passwrod";
+    "iRouter_validated_code" = "validated code";
+    "validated code_error" = "El código de verificación es de error.";
+    "validated_code_invaild"= "El código de verificación es válido.";
+    "validated_code_send_error"= "El envío es falla.Por compruebe su conexión a Internet.";
+    "validated_code_send_success" = "El envío se realiza correctamente. Por favor, encontrar el código validado en su buzón.";
+    
+    "new_password" = "New Password";
+    "confirm_new_password" = "Confirm New passwrod";
+    
+    "Reset_password" = "Reset password";
+    "Reset_password_error" = "The network request timed out. Please check your internet connection.";
+    "Reset_password_success" = "La puesta a cero se realiza correctamente.";
+    
+    "iRouter_Logout" = "Log out";
+    "doesn't have a camera"="当前账号下没有摄像头,请添加摄像头";
+    "Please enter this application from the easy life client"= "请从易生活客户端进入本应用";
+    "Temperature alarm" = "Temperature alarm";
+    "currentPassword"="current password";
+    "New password" = "New password";
+    "confirmPassword"= "Confirm new password";
+    "refresh"="refresh";
+    
+    "deviceHaveBinded" = "Equipo ya está enlazado";
+    "bindedFailure" = "bind falla";
+    "haveSpecialCharacter" = "La entrada contiene caracteres especiales";
+    
+    //Setting
+    "Setting_CameraSwitch" = "CameraSwitch";
+    "Setting_DetectSensitiivty" = "DetectSensitiivty";
+    "Setting_LightDuration" = "LightDuration";
+    
+    "Setting_PIRDetection" = "PIRDetection";
+    "Setting_CameraMicrophone" = "CameraMicrophone";
+    "Setting_CellularDataAutoPause" = "CellularDataAutoPause";
+    "Setting_CloudService" = "CloudService";
+    "Setting_ManualRecord" = "ManualRecord";
+    
+    "Setting_StatusIndicator" = "StatusIndicator";
+    "Setting_RotateSemicircle" = "RotateSemicircle";
+    "Setting_NightVersion" = "NightVersion";
+    "Setting_ShareWithFriends" = "ShareWithFriends";
+    "Setting_WiFiSetting" = "WiFiSetting";
+    "Setting_DeviceInfo" = "DeviceInfo";
+    
+    "Setting_Detail_OrderNow" = "Order Now";
+    
+    "Setting_Group_Camera" = "Camera";
+    "Setting_Group_NormalAction" = "Normal Action";
+    "Setting_Group_CloudService" = "Cloud Service";
+    "Setting_Group_ManualRecord" = "TFCard Record";
+    "Setting_Group_Hardware" = "Hardware";
+    "Setting_Group_Share" = "Share";
+    "Setting_Group_DetailInfo" = "Detail Info";
+    "Setting_DeleteDevice"  =   "Delete Device";
+    
+    
+    // 推送
+    "OpenPushSuccess"  = "打开推送成功";
+    "OpenPushFailure"  = "打开推送失败";
+    "ClosePushSuccess" = "关闭推送成";
+    "ClosePushFailure" = "关闭推送失败";
+    
+    "DeletePushMsgTipMsg" = "确定要删除已选择的推送消息吗？";
+
+
+}

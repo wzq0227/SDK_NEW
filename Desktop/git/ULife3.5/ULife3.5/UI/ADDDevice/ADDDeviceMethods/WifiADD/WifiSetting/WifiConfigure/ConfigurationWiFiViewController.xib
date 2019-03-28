@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConfigurationWiFiViewController">
+            <connections>
+                <outlet property="AnimationView" destination="DB4-WC-wnu" id="IDg-4u-7S6"/>
+                <outlet property="FristConnetLabel" destination="sVE-jW-LoF" id="PlP-0m-4vC"/>
+                <outlet property="LastConnetLabel" destination="cxc-1N-VJP" id="EZM-C0-iNN"/>
+                <outlet property="PromptLabel" destination="6je-JQ-Oti" id="ykV-ua-5pf"/>
+                <outlet property="SecondConnetLabel" destination="5X4-jT-Bke" id="IoN-Sz-9lJ"/>
+                <outlet property="ShowTipBtn" destination="Q8V-49-Nsh" id="dQs-pB-5YM"/>
+                <outlet property="addDev_connectingImageView" destination="sMV-cR-T5m" id="vCa-DV-6ne"/>
+                <outlet property="checkBtn" destination="uw4-ZJ-GFW" id="34h-7K-sIo"/>
+                <outlet property="configureStateView" destination="si4-MB-OTd" id="V9V-Ey-zxh"/>
+                <outlet property="connectStateView" destination="o5c-No-4Hr" id="cVV-ZZ-f2Q"/>
+                <outlet property="devRegisteredCheckView" destination="Lq9-vU-ldp" id="B0C-SB-ALF"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="连接过程需要大约1~2分钟请耐心等待" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6je-JQ-Oti">
+                    <rect key="frame" x="52.5" y="32.5" width="270" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="addev_Device.png" translatesAutoresizingMaskIntoConstraints="NO" id="sMV-cR-T5m">
+                    <rect key="frame" x="30" y="70" width="315" height="188"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="sMV-cR-T5m" secondAttribute="height" multiplier="315:281" constant="104.2526690391459" id="9p3-Se-VVd"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="addev_AnimationView.png" translatesAutoresizingMaskIntoConstraints="NO" id="DB4-WC-wnu">
+                    <rect key="frame" x="244" y="345" width="17" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="17" id="Dq9-Yg-h9R"/>
+                        <constraint firstAttribute="height" constant="17" id="NN2-HQ-HUa"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第一步 : 连接中" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVE-jW-LoF">
+                    <rect key="frame" x="139" y="313.5" width="97.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="addev_connect.png" translatesAutoresizingMaskIntoConstraints="NO" id="o5c-No-4Hr">
+                    <rect key="frame" x="244" y="314" width="17" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="17" id="9gi-74-xWL"/>
+                        <constraint firstAttribute="height" constant="17" id="doH-KL-gGJ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第二步 : 绑定中" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5X4-jT-Bke">
+                    <rect key="frame" x="139" y="345" width="97.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第三步 : 连接成功" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxc-1N-VJP">
+                    <rect key="frame" x="131.5" y="377" width="112" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="addev_connect.png" translatesAutoresizingMaskIntoConstraints="NO" id="si4-MB-OTd">
+                    <rect key="frame" x="251" y="377" width="17" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="Vte-gj-H6N"/>
+                        <constraint firstAttribute="width" constant="17" id="wJx-S9-meZ"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q8V-49-Nsh">
+                    <rect key="frame" x="20" y="444" width="335" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="超过2分钟一直连接不上"/>
+                    <connections>
+                        <action selector="ShowTipViewBtnAction:" destination="-1" eventType="touchUpInside" id="rA4-pW-QZ6"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="addev_connect.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lq9-vU-ldp">
+                    <rect key="frame" x="244" y="345" width="17" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="WNu-nx-acl"/>
+                        <constraint firstAttribute="width" constant="17" id="bdm-kc-5gG"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uw4-ZJ-GFW">
+                    <rect key="frame" x="50" y="483" width="275" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="Button"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="cxc-1N-VJP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="60" id="0gv-Fj-asS"/>
+                <constraint firstItem="uw4-ZJ-GFW" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="20Q-l9-qPY"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="sVE-jW-LoF" secondAttribute="trailing" constant="40" id="2GL-HG-bE4"/>
+                <constraint firstItem="sVE-jW-LoF" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2jD-Tu-t37"/>
+                <constraint firstItem="cxc-1N-VJP" firstAttribute="top" secondItem="5X4-jT-Bke" secondAttribute="bottom" constant="15" id="4t8-83-PoB"/>
+                <constraint firstItem="DB4-WC-wnu" firstAttribute="leading" secondItem="5X4-jT-Bke" secondAttribute="trailing" constant="7.5" id="6XR-5y-5LY"/>
+                <constraint firstItem="uw4-ZJ-GFW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="74s-lm-8HY"/>
+                <constraint firstAttribute="trailing" secondItem="uw4-ZJ-GFW" secondAttribute="trailing" constant="50" id="7RV-e5-mjX"/>
+                <constraint firstItem="Q8V-49-Nsh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="7fG-5z-5jy"/>
+                <constraint firstItem="uw4-ZJ-GFW" firstAttribute="top" secondItem="Q8V-49-Nsh" secondAttribute="bottom" constant="10" id="8Gg-cP-A5q"/>
+                <constraint firstItem="sVE-jW-LoF" firstAttribute="top" secondItem="sMV-cR-T5m" secondAttribute="bottom" constant="55.5" id="9DV-PA-lwR"/>
+                <constraint firstItem="sVE-jW-LoF" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="80" id="9Yt-kz-PrV"/>
+                <constraint firstItem="Lq9-vU-ldp" firstAttribute="centerX" secondItem="DB4-WC-wnu" secondAttribute="centerX" id="FFk-0z-7dc"/>
+                <constraint firstAttribute="trailing" secondItem="sMV-cR-T5m" secondAttribute="trailing" constant="30" id="GJx-Lf-fz4"/>
+                <constraint firstItem="si4-MB-OTd" firstAttribute="top" secondItem="5X4-jT-Bke" secondAttribute="bottom" constant="15" id="Idu-1O-LV6"/>
+                <constraint firstItem="6je-JQ-Oti" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="32.5" id="MR6-Jq-6Ga"/>
+                <constraint firstItem="5X4-jT-Bke" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="80" id="Pel-tu-uaG"/>
+                <constraint firstItem="5X4-jT-Bke" firstAttribute="top" secondItem="sVE-jW-LoF" secondAttribute="bottom" constant="15" id="RH0-y0-bRL"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="5X4-jT-Bke" secondAttribute="trailing" constant="40" id="T79-MW-C9Q"/>
+                <constraint firstItem="sMV-cR-T5m" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="V6B-Tp-6VH"/>
+                <constraint firstItem="sMV-cR-T5m" firstAttribute="top" secondItem="6je-JQ-Oti" secondAttribute="bottom" constant="20" id="Zxh-l3-STp"/>
+                <constraint firstItem="5X4-jT-Bke" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="bCL-1A-NEE"/>
+                <constraint firstItem="o5c-No-4Hr" firstAttribute="leading" secondItem="sVE-jW-LoF" secondAttribute="trailing" constant="7.5" id="bd8-yx-aff"/>
+                <constraint firstItem="cxc-1N-VJP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="h5Z-vP-bPb"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="6je-JQ-Oti" secondAttribute="bottom" priority="300" constant="576" id="hrt-uA-2k5"/>
+                <constraint firstItem="Q8V-49-Nsh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="lga-AY-7ic"/>
+                <constraint firstItem="si4-MB-OTd" firstAttribute="leading" secondItem="cxc-1N-VJP" secondAttribute="trailing" constant="7.5" id="o6d-Dl-1sw"/>
+                <constraint firstAttribute="trailing" secondItem="6je-JQ-Oti" secondAttribute="trailing" constant="52.5" id="orl-oB-oFC"/>
+                <constraint firstItem="o5c-No-4Hr" firstAttribute="top" secondItem="sMV-cR-T5m" secondAttribute="bottom" constant="55.5" id="pae-ez-th6"/>
+                <constraint firstItem="6je-JQ-Oti" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="52.5" id="q1A-7j-1GU"/>
+                <constraint firstItem="Lq9-vU-ldp" firstAttribute="centerY" secondItem="DB4-WC-wnu" secondAttribute="centerY" id="rfU-Al-CtB"/>
+                <constraint firstItem="DB4-WC-wnu" firstAttribute="top" secondItem="o5c-No-4Hr" secondAttribute="bottom" constant="14" id="tmv-jQ-P9x"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cxc-1N-VJP" secondAttribute="trailing" constant="30" id="uF4-04-K2v"/>
+                <constraint firstItem="Q8V-49-Nsh" firstAttribute="top" secondItem="si4-MB-OTd" secondAttribute="bottom" constant="50" id="vAD-Kc-5vE"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="117.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="addev_AnimationView.png" width="30" height="30"/>
+        <image name="addev_Device.png" width="601" height="348"/>
+        <image name="addev_connect.png" width="40" height="40"/>
+    </resources>
+</document>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="APModeConfigTipsVC">
+            <connections>
+                <outlet property="chooseWiFiTipsLabel" destination="ImG-mZ-h3i" id="svo-9l-ZfW"/>
+                <outlet property="nextBtn" destination="D3p-Hy-HkA" id="3l4-fI-752"/>
+                <outlet property="pressSetBtnTipsLabel" destination="41Y-qt-IFX" id="0Ei-gz-mEN"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="addev_deviceSet.png" translatesAutoresizingMaskIntoConstraints="NO" id="Els-aW-yGd">
+                    <rect key="frame" x="30" y="10" width="314.5" height="215"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Els-aW-yGd" secondAttribute="height" multiplier="600:410" id="jOC-6N-d4o"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ImG-mZ-h3i">
+                    <rect key="frame" x="20" y="250" width="335" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41Y-qt-IFX">
+                    <rect key="frame" x="20" y="288" width="335" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3p-Hy-HkA">
+                    <rect key="frame" x="30" y="567" width="314.5" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="k4g-JW-dsd"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="D3p-Hy-HkA" firstAttribute="leading" secondItem="Els-aW-yGd" secondAttribute="leading" id="2o4-HV-B7k"/>
+                <constraint firstItem="41Y-qt-IFX" firstAttribute="top" secondItem="ImG-mZ-h3i" secondAttribute="bottom" constant="21" id="6d3-he-vhu"/>
+                <constraint firstItem="ImG-mZ-h3i" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="8fP-i6-SN0"/>
+                <constraint firstItem="41Y-qt-IFX" firstAttribute="leading" secondItem="ImG-mZ-h3i" secondAttribute="leading" id="8q7-KN-G2G"/>
+                <constraint firstAttribute="bottom" secondItem="D3p-Hy-HkA" secondAttribute="bottom" constant="60" id="ETj-Ug-dDR"/>
+                <constraint firstItem="41Y-qt-IFX" firstAttribute="centerX" secondItem="ImG-mZ-h3i" secondAttribute="centerX" id="J2D-fQ-I8s"/>
+                <constraint firstItem="Els-aW-yGd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="KUr-8k-Oca"/>
+                <constraint firstItem="Els-aW-yGd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="O2M-jc-nCH"/>
+                <constraint firstItem="ImG-mZ-h3i" firstAttribute="top" secondItem="Els-aW-yGd" secondAttribute="bottom" constant="25" id="R8J-Gn-6Hd"/>
+                <constraint firstItem="Els-aW-yGd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="ad3-Gc-JMd"/>
+                <constraint firstItem="D3p-Hy-HkA" firstAttribute="width" secondItem="Els-aW-yGd" secondAttribute="width" id="ohn-6Z-wxc"/>
+                <constraint firstAttribute="trailing" secondItem="ImG-mZ-h3i" secondAttribute="trailing" constant="20" id="vpm-TY-lv2"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="addev_deviceSet.png" width="601" height="412"/>
+    </resources>
+</document>

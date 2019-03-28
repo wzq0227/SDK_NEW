@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MoniterAreaTableViewCell" id="KGk-i7-Jjw" customClass="MoniterAreaTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="179.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="m42-WG-vb0">
+                        <rect key="frame" x="15" y="8" width="290" height="163"/>
+                    </imageView>
+                    <collectionView clipsSubviews="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="ABh-Vg-dvy">
+                        <rect key="frame" x="15" y="8" width="290" height="163"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="ABh-Vg-dvy" secondAttribute="height" multiplier="16:9" id="PFe-mg-s8V"/>
+                        </constraints>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="rQe-fo-3Yl">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                    <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dZ8-pK-70e" customClass="RedLineCustomView">
+                        <rect key="frame" x="15" y="8" width="290" height="163"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="dZ8-pK-70e" firstAttribute="centerY" secondItem="ABh-Vg-dvy" secondAttribute="centerY" id="5tS-B8-fWa"/>
+                    <constraint firstItem="dZ8-pK-70e" firstAttribute="leading" secondItem="ABh-Vg-dvy" secondAttribute="leading" id="8dr-V1-7Ms"/>
+                    <constraint firstItem="m42-WG-vb0" firstAttribute="centerY" secondItem="dZ8-pK-70e" secondAttribute="centerY" id="T9B-TX-YFX"/>
+                    <constraint firstItem="ABh-Vg-dvy" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="340:375" id="WGs-nw-f5k"/>
+                    <constraint firstItem="m42-WG-vb0" firstAttribute="centerX" secondItem="dZ8-pK-70e" secondAttribute="centerX" id="X0Q-OU-P5q"/>
+                    <constraint firstItem="m42-WG-vb0" firstAttribute="leading" secondItem="dZ8-pK-70e" secondAttribute="leading" id="YkA-Db-dM1"/>
+                    <constraint firstItem="ABh-Vg-dvy" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="cKC-sF-gjM"/>
+                    <constraint firstItem="dZ8-pK-70e" firstAttribute="top" secondItem="ABh-Vg-dvy" secondAttribute="top" id="iXO-f4-fne"/>
+                    <constraint firstItem="m42-WG-vb0" firstAttribute="top" secondItem="dZ8-pK-70e" secondAttribute="top" id="meR-RW-dnV"/>
+                    <constraint firstItem="dZ8-pK-70e" firstAttribute="centerX" secondItem="ABh-Vg-dvy" secondAttribute="centerX" id="qwp-SA-uRQ"/>
+                    <constraint firstItem="ABh-Vg-dvy" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="wC2-6z-f4T"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bgImageView" destination="m42-WG-vb0" id="d8T-w0-8th"/>
+                <outlet property="collectionView" destination="ABh-Vg-dvy" id="0IS-I2-2y5"/>
+                <outlet property="collectionWidthToSuperConstraint" destination="WGs-nw-f5k" id="vZl-ly-8v5"/>
+                <outlet property="redBlueLineView" destination="dZ8-pK-70e" id="IyR-jD-5Ik"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

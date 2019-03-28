@@ -1,0 +1,6 @@
+framework module echocancel {
+  umbrella header "echocancel.h"
+
+  export *
+  module * { export * }
+}

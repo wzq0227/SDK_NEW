@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CheckNetViewController">
+            <connections>
+                <outlet property="checkBtn" destination="DZC-Xr-jyk" id="8uu-Id-UUi"/>
+                <outlet property="checkFailedBtn" destination="R2Y-cV-12N" id="xrz-aY-K8b"/>
+                <outlet property="label" destination="a0P-66-fQD" id="qmP-QO-6RE"/>
+                <outlet property="rotateImage" destination="duz-Cb-YHD" id="PWI-X4-LQh"/>
+                <outlet property="tableView" destination="VBW-hH-6Ec" id="1vr-Zc-hkl"/>
+                <outlet property="topLabel" destination="0HT-gH-Mdz" id="Asa-2Z-ymG"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WMD-p7-Dqv">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="202"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0HT-gH-Mdz">
+                            <rect key="frame" x="0.0" y="10" width="375" height="30"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="ZEf-bI-oks"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CheckNetIconImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="duz-Cb-YHD">
+                            <rect key="frame" x="120" y="50" width="135" height="135"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="duz-Cb-YHD" secondAttribute="height" multiplier="1:1" id="9Dm-Q5-e4V"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R2Y-cV-12N">
+                            <rect key="frame" x="120" y="50" width="135" height="135"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="R2Y-cV-12N" secondAttribute="height" multiplier="1:1" id="HJA-vh-yH9"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                            <state key="normal" title="FAIL" backgroundImage="CheckNetFailWhiteBtn.png">
+                                <color key="titleColor" red="0.99607843137254903" green="0.93333333333333335" blue="0.31372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0P-66-fQD">
+                            <rect key="frame" x="0.0" y="185" width="375" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.33333333333333331" green="0.72941176470588232" blue="0.81176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="duz-Cb-YHD" firstAttribute="top" secondItem="0HT-gH-Mdz" secondAttribute="bottom" constant="10" id="0GN-lH-hlj"/>
+                        <constraint firstItem="R2Y-cV-12N" firstAttribute="leading" secondItem="WMD-p7-Dqv" secondAttribute="leading" constant="120" id="5j6-m4-pQZ"/>
+                        <constraint firstItem="a0P-66-fQD" firstAttribute="top" secondItem="duz-Cb-YHD" secondAttribute="bottom" id="EzO-oI-4d3"/>
+                        <constraint firstAttribute="trailing" secondItem="0HT-gH-Mdz" secondAttribute="trailing" id="Fsc-Gd-rEa"/>
+                        <constraint firstAttribute="trailing" secondItem="a0P-66-fQD" secondAttribute="trailing" id="UHB-yv-H6G"/>
+                        <constraint firstItem="0HT-gH-Mdz" firstAttribute="top" secondItem="WMD-p7-Dqv" secondAttribute="top" constant="10" id="W3v-Cu-ouu"/>
+                        <constraint firstItem="a0P-66-fQD" firstAttribute="leading" secondItem="WMD-p7-Dqv" secondAttribute="leading" id="ZNm-xD-19o"/>
+                        <constraint firstAttribute="bottom" secondItem="a0P-66-fQD" secondAttribute="bottom" id="Zym-r8-fDf"/>
+                        <constraint firstItem="duz-Cb-YHD" firstAttribute="leading" secondItem="WMD-p7-Dqv" secondAttribute="leading" constant="120" id="h5A-fd-Exd"/>
+                        <constraint firstItem="R2Y-cV-12N" firstAttribute="top" secondItem="0HT-gH-Mdz" secondAttribute="bottom" constant="10" id="hRZ-Ze-LYe"/>
+                        <constraint firstAttribute="trailing" secondItem="duz-Cb-YHD" secondAttribute="trailing" constant="120" id="hwk-FJ-Ofv"/>
+                        <constraint firstAttribute="trailing" secondItem="R2Y-cV-12N" secondAttribute="trailing" constant="120" id="pIu-81-Fhk"/>
+                        <constraint firstItem="0HT-gH-Mdz" firstAttribute="leading" secondItem="WMD-p7-Dqv" secondAttribute="leading" id="sDx-wj-X35"/>
+                        <constraint firstItem="duz-Cb-YHD" firstAttribute="centerX" secondItem="WMD-p7-Dqv" secondAttribute="centerX" id="skR-5a-8pZ"/>
+                        <constraint firstItem="R2Y-cV-12N" firstAttribute="centerX" secondItem="WMD-p7-Dqv" secondAttribute="centerX" id="w3I-5V-KAk"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VBW-hH-6Ec">
+                    <rect key="frame" x="0.0" y="202" width="375" height="202"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DZC-Xr-jyk">
+                    <rect key="frame" x="20" y="607" width="335" height="40"/>
+                    <color key="backgroundColor" red="0.42745098039215684" green="0.72156862745098038" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="7tp-Fk-LeX"/>
+                    </constraints>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="checkBtnDidClick:" destination="-1" eventType="touchUpInside" id="5YZ-rG-raT"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="DZC-Xr-jyk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="E0w-sJ-2KX"/>
+                <constraint firstItem="VBW-hH-6Ec" firstAttribute="top" secondItem="WMD-p7-Dqv" secondAttribute="bottom" id="NFC-FX-LNW"/>
+                <constraint firstAttribute="bottom" secondItem="DZC-Xr-jyk" secondAttribute="bottom" constant="20" id="X6X-6h-fDL"/>
+                <constraint firstItem="VBW-hH-6Ec" firstAttribute="height" secondItem="WMD-p7-Dqv" secondAttribute="height" id="Xys-m6-eYi"/>
+                <constraint firstItem="WMD-p7-Dqv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Ylk-Zj-s9m"/>
+                <constraint firstItem="VBW-hH-6Ec" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="l8Z-qj-kd5"/>
+                <constraint firstAttribute="trailing" secondItem="DZC-Xr-jyk" secondAttribute="trailing" constant="20" id="n4F-U3-Dvz"/>
+                <constraint firstAttribute="trailing" secondItem="WMD-p7-Dqv" secondAttribute="trailing" id="ogM-iJ-ph6"/>
+                <constraint firstItem="WMD-p7-Dqv" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="qm8-ce-upV"/>
+                <constraint firstAttribute="trailing" secondItem="VBW-hH-6Ec" secondAttribute="trailing" id="s5e-Xr-CUQ"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="CheckNetFailWhiteBtn.png" width="300" height="300"/>
+        <image name="CheckNetIconImage.png" width="360" height="360"/>
+    </resources>
+</document>

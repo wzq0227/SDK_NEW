@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:LanSDK/LanSDK.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GOSPanoramaPlayer/GOSPanoramaPlayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MediaManager/MediaManager.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CommonAbllity/CommonAbllity.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NetSDK/NetSDK.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NetPro/NetPro.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ACVideoDecoder/ACVideoDecoder.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GDVideoPlayer/GDVideoPlayer.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ULife3.5.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

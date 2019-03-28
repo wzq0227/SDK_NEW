@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QrcodeSetingViewController">
+            <connections>
+                <outlet property="PassWordTextField" destination="vdu-Iq-Aqu" id="EVh-7f-c8C"/>
+                <outlet property="WifiNameTextField" destination="x21-Ss-v6p" id="RfN-Of-nuQ"/>
+                <outlet property="changbtn" destination="n2m-Eo-0Zv" id="ixa-l8-0Pb"/>
+                <outlet property="jumpToSysWifiButton" destination="Tui-SH-qBi" id="wgi-5z-ajK"/>
+                <outlet property="nextBtn" destination="Pi3-eS-sh1" id="vX6-vH-9wg"/>
+                <outlet property="showLabel" destination="Thf-qz-7Wv" id="O6W-hs-bEq"/>
+                <outlet property="view" destination="jAD-w4-jQd" id="94G-L0-LEw"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="jAD-w4-jQd">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请确认SSID、密码是否正确，SSID与本机WiFi是否一致" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Thf-qz-7Wv">
+                    <rect key="frame" x="32" y="368" width="311" height="13.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="WIFISSID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x21-Ss-v6p">
+                    <rect key="frame" x="30" y="287.5" width="315" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PASSWORD" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vdu-Iq-Aqu">
+                    <rect key="frame" x="30" y="327.5" width="315" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pi3-eS-sh1">
+                    <rect key="frame" x="30" y="433.5" width="315" height="40"/>
+                    <color key="backgroundColor" red="0.12156862745098039" green="0.73725490196078436" blue="0.82352941176470584" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="JIl-lv-uUr"/>
+                    </constraints>
+                    <state key="normal" title="确定">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="nextAction:" destination="-1" eventType="touchUpInside" id="FAD-Ii-q9W"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YGS-wV-e5l">
+                    <rect key="frame" x="320" y="292.5" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="gJP-Ib-8dV"/>
+                        <constraint firstAttribute="width" constant="20" id="wlk-nv-ntZ"/>
+                    </constraints>
+                    <state key="normal" image="addev_Wifibtn.png"/>
+                    <connections>
+                        <action selector="getWifiName:" destination="-1" eventType="touchUpInside" id="nlA-AK-VPd"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="addev_Device.png" translatesAutoresizingMaskIntoConstraints="NO" id="EWY-bg-41q">
+                    <rect key="frame" x="30" y="93" width="315" height="180"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="EWY-bg-41q" secondAttribute="height" multiplier="49:26" constant="-24.230769230769226" id="zX5-ze-yJZ"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2m-Eo-0Zv">
+                    <rect key="frame" x="320" y="332.5" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="Lod-rZ-uFr"/>
+                        <constraint firstAttribute="height" constant="20" id="eiq-SC-Xpe"/>
+                    </constraints>
+                    <state key="normal" image="addev_PasswordBtn.png"/>
+                    <connections>
+                        <action selector="isSecret:" destination="-1" eventType="touchUpInside" id="yhj-Aw-c2Y"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tui-SH-qBi">
+                    <rect key="frame" x="25" y="30" width="325" height="33"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="EWY-bg-41q" secondAttribute="trailing" constant="30" id="72L-06-KNc"/>
+                <constraint firstItem="x21-Ss-v6p" firstAttribute="leading" secondItem="jAD-w4-jQd" secondAttribute="leading" constant="30" id="8cb-NZ-Al4"/>
+                <constraint firstAttribute="trailing" secondItem="Pi3-eS-sh1" secondAttribute="trailing" constant="30" id="8df-vF-hA7"/>
+                <constraint firstAttribute="trailing" secondItem="n2m-Eo-0Zv" secondAttribute="trailing" constant="35" id="93e-ud-1fw"/>
+                <constraint firstAttribute="trailing" secondItem="YGS-wV-e5l" secondAttribute="trailing" constant="35" id="Fe7-ZD-nwt"/>
+                <constraint firstItem="EWY-bg-41q" firstAttribute="leading" secondItem="jAD-w4-jQd" secondAttribute="leading" constant="30" id="HDj-RX-fcp"/>
+                <constraint firstItem="vdu-Iq-Aqu" firstAttribute="leading" secondItem="jAD-w4-jQd" secondAttribute="leading" constant="30" id="IGg-t2-ecG"/>
+                <constraint firstItem="x21-Ss-v6p" firstAttribute="top" secondItem="EWY-bg-41q" secondAttribute="bottom" constant="14" id="Nnj-HS-f5L"/>
+                <constraint firstAttribute="trailing" secondItem="Thf-qz-7Wv" secondAttribute="trailing" constant="32" id="P7W-kb-Qmu"/>
+                <constraint firstItem="YGS-wV-e5l" firstAttribute="leading" secondItem="x21-Ss-v6p" secondAttribute="trailing" constant="-25" id="RIc-aH-UWU"/>
+                <constraint firstItem="Tui-SH-qBi" firstAttribute="centerX" secondItem="jAD-w4-jQd" secondAttribute="centerX" id="X4t-Kc-bZc"/>
+                <constraint firstItem="Thf-qz-7Wv" firstAttribute="top" secondItem="n2m-Eo-0Zv" secondAttribute="bottom" constant="15.5" id="X9U-rI-FGG"/>
+                <constraint firstItem="Pi3-eS-sh1" firstAttribute="top" secondItem="Thf-qz-7Wv" secondAttribute="bottom" constant="52" id="bmV-s8-KSc"/>
+                <constraint firstItem="n2m-Eo-0Zv" firstAttribute="top" secondItem="YGS-wV-e5l" secondAttribute="bottom" constant="20" id="c98-OT-64E"/>
+                <constraint firstItem="Tui-SH-qBi" firstAttribute="top" secondItem="jAD-w4-jQd" secondAttribute="top" constant="30" id="doW-4c-v4v"/>
+                <constraint firstItem="EWY-bg-41q" firstAttribute="top" secondItem="Tui-SH-qBi" secondAttribute="bottom" constant="30" id="jQa-8E-ZmC"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Thf-qz-7Wv" secondAttribute="bottom" priority="100" constant="252" id="kZd-uM-Q7y"/>
+                <constraint firstItem="n2m-Eo-0Zv" firstAttribute="leading" secondItem="vdu-Iq-Aqu" secondAttribute="trailing" constant="-25" id="lDH-zF-Q6e"/>
+                <constraint firstItem="Tui-SH-qBi" firstAttribute="leading" secondItem="jAD-w4-jQd" secondAttribute="leading" constant="25" id="myw-r8-FGi"/>
+                <constraint firstItem="YGS-wV-e5l" firstAttribute="top" secondItem="EWY-bg-41q" secondAttribute="bottom" constant="19.5" id="n0c-yV-FMf"/>
+                <constraint firstItem="vdu-Iq-Aqu" firstAttribute="top" secondItem="x21-Ss-v6p" secondAttribute="bottom" constant="10" id="nb9-9l-dMC"/>
+                <constraint firstItem="Pi3-eS-sh1" firstAttribute="leading" secondItem="jAD-w4-jQd" secondAttribute="leading" constant="30" id="vee-Xc-21v"/>
+                <constraint firstItem="Thf-qz-7Wv" firstAttribute="leading" secondItem="jAD-w4-jQd" secondAttribute="leading" constant="32" id="xXX-pa-tqJ"/>
+            </constraints>
+            <point key="canvasLocation" x="127.5" y="126.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="addev_Device.png" width="601" height="348"/>
+        <image name="addev_PasswordBtn.png" width="60" height="60"/>
+        <image name="addev_Wifibtn.png" width="60" height="60"/>
+    </resources>
+</document>

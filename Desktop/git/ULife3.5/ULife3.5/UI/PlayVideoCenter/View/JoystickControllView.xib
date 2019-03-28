@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JoystickControllView">
+            <rect key="frame" x="0.0" y="0.0" width="426" height="417"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yKu-7c-LC7">
+                    <rect key="frame" x="32" y="31.5" width="362" height="354"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jup-dP-k8c">
+                            <rect key="frame" x="151" y="0.0" width="60" height="60"/>
+                            <color key="backgroundColor" red="0.57374358759999999" green="0.77905875459999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="jup-dP-k8c" secondAttribute="height" multiplier="1:1" id="CkW-0x-ieu"/>
+                                <constraint firstAttribute="height" constant="60" id="uFE-Ua-RrW"/>
+                            </constraints>
+                            <state key="normal" title="上"/>
+                            <connections>
+                                <action selector="moveUpBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="rdg-my-k9w"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iCc-Uo-ye8" userLabel="向右转动">
+                            <rect key="frame" x="302" y="146.5" width="60" height="60"/>
+                            <color key="backgroundColor" red="1" green="0.7984683490386435" blue="0.77162873062924031" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="GHP-7g-hA2"/>
+                                <constraint firstAttribute="width" secondItem="iCc-Uo-ye8" secondAttribute="height" multiplier="1:1" id="bhg-38-9VM"/>
+                            </constraints>
+                            <state key="normal" title="右"/>
+                            <connections>
+                                <action selector="moveRightBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="nYw-HV-vYw"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ly-c1-Ls4" userLabel="向左转动">
+                            <rect key="frame" x="0.0" y="146.5" width="60" height="60"/>
+                            <color key="backgroundColor" red="0.81351638251450797" green="1" blue="0.83541242606164545" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="D4g-eA-2Vc"/>
+                                <constraint firstAttribute="width" secondItem="2ly-c1-Ls4" secondAttribute="height" multiplier="1:1" id="dC5-DQ-Lyu"/>
+                            </constraints>
+                            <state key="normal" title="左"/>
+                            <connections>
+                                <action selector="moveLeftBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="s2z-Ti-5sg"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bT-Pg-1eO" userLabel="向下转动">
+                            <rect key="frame" x="151" y="294" width="60" height="60"/>
+                            <color key="backgroundColor" red="0.92891191179999999" green="0.73111426209999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="2bT-Pg-1eO" secondAttribute="height" multiplier="1:1" id="ApU-RY-S58"/>
+                                <constraint firstAttribute="height" constant="60" id="rwo-pX-eAg"/>
+                            </constraints>
+                            <state key="normal" title="下"/>
+                            <connections>
+                                <action selector="moveDownBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="mCU-FG-RAL"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="2ly-c1-Ls4" firstAttribute="leading" secondItem="yKu-7c-LC7" secondAttribute="leading" id="62a-LJ-e7g"/>
+                        <constraint firstItem="2bT-Pg-1eO" firstAttribute="centerX" secondItem="yKu-7c-LC7" secondAttribute="centerX" id="Ub3-8T-d71"/>
+                        <constraint firstItem="2ly-c1-Ls4" firstAttribute="centerY" secondItem="yKu-7c-LC7" secondAttribute="centerY" id="UdX-fs-nIL"/>
+                        <constraint firstItem="jup-dP-k8c" firstAttribute="top" secondItem="yKu-7c-LC7" secondAttribute="top" id="YSk-ad-eSH"/>
+                        <constraint firstItem="iCc-Uo-ye8" firstAttribute="centerY" secondItem="yKu-7c-LC7" secondAttribute="centerY" id="d1d-Og-59b"/>
+                        <constraint firstAttribute="trailing" secondItem="iCc-Uo-ye8" secondAttribute="trailing" id="d9a-ke-7SV"/>
+                        <constraint firstAttribute="bottom" secondItem="2bT-Pg-1eO" secondAttribute="bottom" id="gGC-K6-Vex"/>
+                        <constraint firstItem="jup-dP-k8c" firstAttribute="centerX" secondItem="yKu-7c-LC7" secondAttribute="centerX" id="lZ9-Y0-B4z"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yKu-7c-LC7" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.85" id="30e-l5-Zre"/>
+                <constraint firstItem="yKu-7c-LC7" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="oAT-DV-oI6"/>
+                <constraint firstItem="yKu-7c-LC7" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.85" id="w6L-Jn-kgv"/>
+                <constraint firstItem="yKu-7c-LC7" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="zky-3h-k8L"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="moveDownBtn" destination="2bT-Pg-1eO" id="bm0-dL-qui"/>
+                <outlet property="moveLeftBtn" destination="2ly-c1-Ls4" id="32X-jQ-dQB"/>
+                <outlet property="moveRightBtn" destination="iCc-Uo-ye8" id="zHB-0T-RJF"/>
+                <outlet property="moveUpBtn" destination="jup-dP-k8c" id="WLH-UC-pke"/>
+            </connections>
+            <point key="canvasLocation" x="22" y="-82.5"/>
+        </view>
+    </objects>
+</document>

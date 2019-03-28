@@ -1,0 +1,32 @@
+workspace 'ULife3.5'
+
+project 'ULife3.5.xcodeproj'
+
+target :”ULife3.5” do
+    platform :ios, '9.0'
+    pod 'ASProgressPopUpView'
+    pod 'AFNetworking'
+    pod 'SDWebImage'
+    pod 'Masonry'
+    pod 'SVProgressHUD'
+    pod 'FMDB'
+    pod 'BraintreeDropIn'
+    pod 'Braintree/PayPal'
+    pod 'Braintree/Venmo'
+    pod 'Braintree/Apple-Pay'
+    pod 'Braintree/3D-Secure'
+    pod 'CocoaAsyncSocket'
+    pod 'CNPPopupController'
+    pod 'TMCache'
+    pod 'MJExtension'
+    pod 'RealReachability'
+    pod 'MJPhotoBrowser'
+    pod 'TPKeyboardAvoiding'
+    pod 'RESideMenu', '~> 4.0.7'
+    pod 'UITableView+FDTemplateLayoutCell'
+    pod 'IQKeyboardManager'
+    pod 'MJRefresh'
+    project 'ULife3.5.xcodeproj'
+end
+
+

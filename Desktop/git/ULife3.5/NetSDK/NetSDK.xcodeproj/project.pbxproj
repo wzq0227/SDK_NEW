@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76BD106B2025954300B712A4 /* TestLog.c in Sources */ = {isa = PBXBuildFile; fileRef = 76BD106A2025954300B712A4 /* TestLog.c */; };
+		CF0FAC9E1EF11E8E003D1895 /* aes256.c in Sources */ = {isa = PBXBuildFile; fileRef = CF0FAC971EF11E8E003D1895 /* aes256.c */; };
+		CF0FAC9F1EF11E8E003D1895 /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = CF0FAC991EF11E8E003D1895 /* base64.c */; };
+		CF0FACA01EF11E8E003D1895 /* encrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = CF0FAC9A1EF11E8E003D1895 /* encrypt.c */; };
+		CF0FACA11EF11E8E003D1895 /* gen_rand.c in Sources */ = {isa = PBXBuildFile; fileRef = CF0FAC9C1EF11E8E003D1895 /* gen_rand.c */; };
+		CF0FACA21EF11E8E003D1895 /* sha256.c in Sources */ = {isa = PBXBuildFile; fileRef = CF0FAC9D1EF11E8E003D1895 /* sha256.c */; };
+		CF0FACD51EF21AB9003D1895 /* Protocol3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF0FACD31EF21AB9003D1895 /* Protocol3.cpp */; };
+		CFACF74D1ECDC9EF003CF5B0 /* NetSDK.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CFACF74A1ECDC9EF003CF5B0 /* NetSDK.h */; };
+		CFACF7E01ECDCA84003CF5B0 /* NetSDK.mm in Sources */ = {isa = PBXBuildFile; fileRef = CFACF7DF1ECDCA84003CF5B0 /* NetSDK.mm */; };
+		EB3ACAE41EDFFCC60087E592 /* AVCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB3ACAC41EDFFCC60087E592 /* AVCommon.cpp */; };
+		EB3ACAE51EDFFCC60087E592 /* cJSON.c in Sources */ = {isa = PBXBuildFile; fileRef = EB3ACAC61EDFFCC60087E592 /* cJSON.c */; };
+		EB3ACAE61EDFFCC60087E592 /* EasySocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB3ACAC81EDFFCC60087E592 /* EasySocket.cpp */; };
+		EB3ACAE71EDFFCC60087E592 /* EventLock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB3ACACA1EDFFCC60087E592 /* EventLock.cpp */; };
+		EB3ACAE81EDFFCC60087E592 /* JLogWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB3ACACD1EDFFCC60087E592 /* JLogWriter.cpp */; };
+		EB3ACAE91EDFFCC60087E592 /* JLThreadCtrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB3ACAD01EDFFCC60087E592 /* JLThreadCtrl.cpp */; };
+		EB3ACAEA1EDFFCC60087E592 /* JTrunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB3ACAD21EDFFCC60087E592 /* JTrunk.cpp */; };
+		EB3ACAEB1EDFFCC60087E592 /* MutexLock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB3ACAD41EDFFCC60087E592 /* MutexLock.cpp */; };
+		EB3ACAEC1EDFFCC60087E592 /* GoscamClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB3ACAD91EDFFCC60087E592 /* GoscamClient.cpp */; };
+		EB3ACAED1EDFFCC60087E592 /* GoscamProtocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB3ACADC1EDFFCC60087E592 /* GoscamProtocol.cpp */; };
+		EB3ACAEE1EDFFCC60087E592 /* GoscamProtocolChannel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB3ACADE1EDFFCC60087E592 /* GoscamProtocolChannel.cpp */; };
+		EB3ACAEF1EDFFCC60087E592 /* NetSDKAPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB3ACAE11EDFFCC60087E592 /* NetSDKAPI.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CFACF7451ECDC9EF003CF5B0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				CFACF74D1ECDC9EF003CF5B0 /* NetSDK.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		76BD10692025954300B712A4 /* TestLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestLog.h; sourceTree = "<group>"; };
+		76BD106A2025954300B712A4 /* TestLog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TestLog.c; sourceTree = "<group>"; };
+		CF0FAC971EF11E8E003D1895 /* aes256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = aes256.c; sourceTree = "<group>"; };
+		CF0FAC981EF11E8E003D1895 /* aes256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes256.h; sourceTree = "<group>"; };
+		CF0FAC991EF11E8E003D1895 /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		CF0FAC9A1EF11E8E003D1895 /* encrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encrypt.c; sourceTree = "<group>"; };
+		CF0FAC9B1EF11E8E003D1895 /* encrypt_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encrypt_def.h; sourceTree = "<group>"; };
+		CF0FAC9C1EF11E8E003D1895 /* gen_rand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gen_rand.c; sourceTree = "<group>"; };
+		CF0FAC9D1EF11E8E003D1895 /* sha256.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha256.c; sourceTree = "<group>"; };
+		CF0FACD31EF21AB9003D1895 /* Protocol3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Protocol3.cpp; sourceTree = "<group>"; };
+		CF0FACD41EF21AB9003D1895 /* Protocol3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protocol3.h; sourceTree = "<group>"; };
+		CFACF7471ECDC9EF003CF5B0 /* libNetSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFACF74A1ECDC9EF003CF5B0 /* NetSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetSDK.h; sourceTree = "<group>"; };
+		CFACF7DF1ECDCA84003CF5B0 /* NetSDK.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NetSDK.mm; sourceTree = "<group>"; };
+		EB3ACAC01EDFFCC60087E592 /* NetProSDK.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NetProSDK.mk; sourceTree = "<group>"; };
+		EB3ACAC31EDFFCC60087E592 /* common.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = common.mk; sourceTree = "<group>"; };
+		EB3ACAC41EDFFCC60087E592 /* AVCommon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AVCommon.cpp; sourceTree = "<group>"; };
+		EB3ACAC51EDFFCC60087E592 /* AVCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCommon.h; sourceTree = "<group>"; };
+		EB3ACAC61EDFFCC60087E592 /* cJSON.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cJSON.c; sourceTree = "<group>"; };
+		EB3ACAC71EDFFCC60087E592 /* cJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cJSON.h; sourceTree = "<group>"; };
+		EB3ACAC81EDFFCC60087E592 /* EasySocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EasySocket.cpp; sourceTree = "<group>"; };
+		EB3ACAC91EDFFCC60087E592 /* EasySocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasySocket.h; sourceTree = "<group>"; };
+		EB3ACACA1EDFFCC60087E592 /* EventLock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EventLock.cpp; sourceTree = "<group>"; };
+		EB3ACACB1EDFFCC60087E592 /* EventLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventLock.h; sourceTree = "<group>"; };
+		EB3ACACC1EDFFCC60087E592 /* JBipBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBipBuffer.h; sourceTree = "<group>"; };
+		EB3ACACD1EDFFCC60087E592 /* JLogWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JLogWriter.cpp; sourceTree = "<group>"; };
+		EB3ACACE1EDFFCC60087E592 /* JLogWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLogWriter.h; sourceTree = "<group>"; };
+		EB3ACACF1EDFFCC60087E592 /* JLSocketDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSocketDef.h; sourceTree = "<group>"; };
+		EB3ACAD01EDFFCC60087E592 /* JLThreadCtrl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JLThreadCtrl.cpp; sourceTree = "<group>"; };
+		EB3ACAD11EDFFCC60087E592 /* JLThreadCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLThreadCtrl.h; sourceTree = "<group>"; };
+		EB3ACAD21EDFFCC60087E592 /* JTrunk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JTrunk.cpp; sourceTree = "<group>"; };
+		EB3ACAD31EDFFCC60087E592 /* JTrunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTrunk.h; sourceTree = "<group>"; };
+		EB3ACAD41EDFFCC60087E592 /* MutexLock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MutexLock.cpp; sourceTree = "<group>"; };
+		EB3ACAD51EDFFCC60087E592 /* MutexLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutexLock.h; sourceTree = "<group>"; };
+		EB3ACAD81EDFFCC60087E592 /* GOSCAM.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GOSCAM.mk; sourceTree = "<group>"; };
+		EB3ACAD91EDFFCC60087E592 /* GoscamClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GoscamClient.cpp; sourceTree = "<group>"; };
+		EB3ACADA1EDFFCC60087E592 /* GoscamClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoscamClient.h; sourceTree = "<group>"; };
+		EB3ACADB1EDFFCC60087E592 /* GoscamDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoscamDef.h; sourceTree = "<group>"; };
+		EB3ACADC1EDFFCC60087E592 /* GoscamProtocol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GoscamProtocol.cpp; sourceTree = "<group>"; };
+		EB3ACADD1EDFFCC60087E592 /* GoscamProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoscamProtocol.h; sourceTree = "<group>"; };
+		EB3ACADE1EDFFCC60087E592 /* GoscamProtocolChannel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GoscamProtocolChannel.cpp; sourceTree = "<group>"; };
+		EB3ACADF1EDFFCC60087E592 /* GoscamProtocolChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoscamProtocolChannel.h; sourceTree = "<group>"; };
+		EB3ACAE01EDFFCC60087E592 /* NetSDK.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NetSDK.vcproj; sourceTree = "<group>"; };
+		EB3ACAE11EDFFCC60087E592 /* NetSDKAPI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetSDKAPI.cpp; sourceTree = "<group>"; };
+		EB3ACAE21EDFFCC60087E592 /* NetSDKAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetSDKAPI.h; sourceTree = "<group>"; };
+		EB3ACAE31EDFFCC60087E592 /* StdAfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StdAfx.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFACF7441ECDC9EF003CF5B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF0FAC961EF11E8E003D1895 /* crypt */ = {
+			isa = PBXGroup;
+			children = (
+				CF0FAC971EF11E8E003D1895 /* aes256.c */,
+				CF0FAC981EF11E8E003D1895 /* aes256.h */,
+				CF0FAC991EF11E8E003D1895 /* base64.c */,
+				CF0FAC9A1EF11E8E003D1895 /* encrypt.c */,
+				CF0FAC9B1EF11E8E003D1895 /* encrypt_def.h */,
+				CF0FAC9C1EF11E8E003D1895 /* gen_rand.c */,
+				CF0FAC9D1EF11E8E003D1895 /* sha256.c */,
+			);
+			path = crypt;
+			sourceTree = "<group>";
+		};
+		CFACF73E1ECDC9EE003CF5B0 = {
+			isa = PBXGroup;
+			children = (
+				CFACF7491ECDC9EF003CF5B0 /* NetSDK */,
+				CFACF7481ECDC9EF003CF5B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFACF7481ECDC9EF003CF5B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFACF7471ECDC9EF003CF5B0 /* libNetSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFACF7491ECDC9EF003CF5B0 /* NetSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CFACF74A1ECDC9EF003CF5B0 /* NetSDK.h */,
+				CFACF7DF1ECDCA84003CF5B0 /* NetSDK.mm */,
+				CFACF7531ECDCA79003CF5B0 /* src */,
+			);
+			path = NetSDK;
+			sourceTree = "<group>";
+		};
+		CFACF7531ECDCA79003CF5B0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EB3ACABE1EDFFCC60087E592 /* NetSDK */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		EB3ACABE1EDFFCC60087E592 /* NetSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CF0FAC961EF11E8E003D1895 /* crypt */,
+				EB3ACABF1EDFFCC60087E592 /* android-build */,
+				EB3ACAC11EDFFCC60087E592 /* common */,
+				EB3ACAD61EDFFCC60087E592 /* GOSCAM */,
+				EB3ACAE01EDFFCC60087E592 /* NetSDK.vcproj */,
+				EB3ACAE11EDFFCC60087E592 /* NetSDKAPI.cpp */,
+				EB3ACAE21EDFFCC60087E592 /* NetSDKAPI.h */,
+				EB3ACAE31EDFFCC60087E592 /* StdAfx.h */,
+			);
+			path = NetSDK;
+			sourceTree = "<group>";
+		};
+		EB3ACABF1EDFFCC60087E592 /* android-build */ = {
+			isa = PBXGroup;
+			children = (
+				EB3ACAC01EDFFCC60087E592 /* NetProSDK.mk */,
+			);
+			path = "android-build";
+			sourceTree = "<group>";
+		};
+		EB3ACAC11EDFFCC60087E592 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				EB3ACAC21EDFFCC60087E592 /* android-build */,
+				EB3ACAC41EDFFCC60087E592 /* AVCommon.cpp */,
+				EB3ACAC51EDFFCC60087E592 /* AVCommon.h */,
+				EB3ACAC61EDFFCC60087E592 /* cJSON.c */,
+				EB3ACAC71EDFFCC60087E592 /* cJSON.h */,
+				EB3ACAC81EDFFCC60087E592 /* EasySocket.cpp */,
+				EB3ACAC91EDFFCC60087E592 /* EasySocket.h */,
+				EB3ACACA1EDFFCC60087E592 /* EventLock.cpp */,
+				EB3ACACB1EDFFCC60087E592 /* EventLock.h */,
+				EB3ACACC1EDFFCC60087E592 /* JBipBuffer.h */,
+				EB3ACACD1EDFFCC60087E592 /* JLogWriter.cpp */,
+				EB3ACACE1EDFFCC60087E592 /* JLogWriter.h */,
+				EB3ACACF1EDFFCC60087E592 /* JLSocketDef.h */,
+				EB3ACAD01EDFFCC60087E592 /* JLThreadCtrl.cpp */,
+				EB3ACAD11EDFFCC60087E592 /* JLThreadCtrl.h */,
+				EB3ACAD21EDFFCC60087E592 /* JTrunk.cpp */,
+				EB3ACAD31EDFFCC60087E592 /* JTrunk.h */,
+				EB3ACAD41EDFFCC60087E592 /* MutexLock.cpp */,
+				EB3ACAD51EDFFCC60087E592 /* MutexLock.h */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		EB3ACAC21EDFFCC60087E592 /* android-build */ = {
+			isa = PBXGroup;
+			children = (
+				EB3ACAC31EDFFCC60087E592 /* common.mk */,
+			);
+			path = "android-build";
+			sourceTree = "<group>";
+		};
+		EB3ACAD61EDFFCC60087E592 /* GOSCAM */ = {
+			isa = PBXGroup;
+			children = (
+				76BD106A2025954300B712A4 /* TestLog.c */,
+				76BD10692025954300B712A4 /* TestLog.h */,
+				CF0FACD31EF21AB9003D1895 /* Protocol3.cpp */,
+				CF0FACD41EF21AB9003D1895 /* Protocol3.h */,
+				EB3ACAD71EDFFCC60087E592 /* android-build */,
+				EB3ACAD91EDFFCC60087E592 /* GoscamClient.cpp */,
+				EB3ACADA1EDFFCC60087E592 /* GoscamClient.h */,
+				EB3ACADB1EDFFCC60087E592 /* GoscamDef.h */,
+				EB3ACADC1EDFFCC60087E592 /* GoscamProtocol.cpp */,
+				EB3ACADD1EDFFCC60087E592 /* GoscamProtocol.h */,
+				EB3ACADE1EDFFCC60087E592 /* GoscamProtocolChannel.cpp */,
+				EB3ACADF1EDFFCC60087E592 /* GoscamProtocolChannel.h */,
+			);
+			path = GOSCAM;
+			sourceTree = "<group>";
+		};
+		EB3ACAD71EDFFCC60087E592 /* android-build */ = {
+			isa = PBXGroup;
+			children = (
+				EB3ACAD81EDFFCC60087E592 /* GOSCAM.mk */,
+			);
+			path = "android-build";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFACF7461ECDC9EF003CF5B0 /* NetSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFACF7501ECDC9EF003CF5B0 /* Build configuration list for PBXNativeTarget "NetSDK" */;
+			buildPhases = (
+				CFACF7431ECDC9EF003CF5B0 /* Sources */,
+				CFACF7441ECDC9EF003CF5B0 /* Frameworks */,
+				CFACF7451ECDC9EF003CF5B0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetSDK;
+			productName = NetSDK;
+			productReference = CFACF7471ECDC9EF003CF5B0 /* libNetSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFACF73F1ECDC9EE003CF5B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Gospell;
+				TargetAttributes = {
+					CFACF7461ECDC9EF003CF5B0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W8H3Q3ABFN;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CFACF7421ECDC9EE003CF5B0 /* Build configuration list for PBXProject "NetSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CFACF73E1ECDC9EE003CF5B0;
+			productRefGroup = CFACF7481ECDC9EF003CF5B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFACF7461ECDC9EF003CF5B0 /* NetSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFACF7431ECDC9EF003CF5B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3ACAE51EDFFCC60087E592 /* cJSON.c in Sources */,
+				EB3ACAEB1EDFFCC60087E592 /* MutexLock.cpp in Sources */,
+				CF0FACD51EF21AB9003D1895 /* Protocol3.cpp in Sources */,
+				EB3ACAEA1EDFFCC60087E592 /* JTrunk.cpp in Sources */,
+				CFACF7E01ECDCA84003CF5B0 /* NetSDK.mm in Sources */,
+				EB3ACAE81EDFFCC60087E592 /* JLogWriter.cpp in Sources */,
+				EB3ACAE71EDFFCC60087E592 /* EventLock.cpp in Sources */,
+				EB3ACAE91EDFFCC60087E592 /* JLThreadCtrl.cpp in Sources */,
+				EB3ACAEF1EDFFCC60087E592 /* NetSDKAPI.cpp in Sources */,
+				EB3ACAEE1EDFFCC60087E592 /* GoscamProtocolChannel.cpp in Sources */,
+				CF0FAC9E1EF11E8E003D1895 /* aes256.c in Sources */,
+				CF0FAC9F1EF11E8E003D1895 /* base64.c in Sources */,
+				76BD106B2025954300B712A4 /* TestLog.c in Sources */,
+				EB3ACAE61EDFFCC60087E592 /* EasySocket.cpp in Sources */,
+				EB3ACAED1EDFFCC60087E592 /* GoscamProtocol.cpp in Sources */,
+				EB3ACAEC1EDFFCC60087E592 /* GoscamClient.cpp in Sources */,
+				CF0FACA11EF11E8E003D1895 /* gen_rand.c in Sources */,
+				EB3ACAE41EDFFCC60087E592 /* AVCommon.cpp in Sources */,
+				CF0FACA21EF11E8E003D1895 /* sha256.c in Sources */,
+				CF0FACA01EF11E8E003D1895 /* encrypt.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFACF74E1ECDC9EF003CF5B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /Applications;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFACF74F1ECDC9EF003CF5B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /Applications;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFACF7511ECDC9EF003CF5B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W8H3Q3ABFN;
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NetSDK/src/bin",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CFACF7521ECDC9EF003CF5B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W8H3Q3ABFN;
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NetSDK/src/bin",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFACF7421ECDC9EE003CF5B0 /* Build configuration list for PBXProject "NetSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFACF74E1ECDC9EF003CF5B0 /* Debug */,
+				CFACF74F1ECDC9EF003CF5B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFACF7501ECDC9EF003CF5B0 /* Build configuration list for PBXNativeTarget "NetSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFACF7511ECDC9EF003CF5B0 /* Debug */,
+				CFACF7521ECDC9EF003CF5B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFACF73F1ECDC9EE003CF5B0 /* Project object */;
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="69" id="KGk-i7-Jjw" customClass="PushMsgTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="403" height="69"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="403" height="68.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kot-HE-iRM" userLabel="deleteButton" customClass="EnlargeClickButton">
+                        <rect key="frame" x="15" y="26.5" width="16" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="dRl-ES-oyL"/>
+                            <constraint firstAttribute="width" secondItem="kot-HE-iRM" secondAttribute="height" multiplier="1:1" id="xtg-dW-Ldc"/>
+                        </constraints>
+                        <state key="normal" image="deleteBtnNormal"/>
+                        <connections>
+                            <action selector="deleteButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Fcn-vb-gZ7"/>
+                        </connections>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vkm-25-fYB" userLabel="msgIcon">
+                        <rect key="frame" x="15" y="8.5" width="51.5" height="52"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="Vkm-25-fYB" secondAttribute="height" multiplier="1:1" id="zag-Rc-4iT"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pushMsgNoReadState" translatesAutoresizingMaskIntoConstraints="NO" id="2NJ-YY-UdG" userLabel="readState">
+                        <rect key="frame" x="55.5" y="8.5" width="11" height="11"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="11" id="ooM-fU-hks"/>
+                            <constraint firstAttribute="width" secondItem="2NJ-YY-UdG" secondAttribute="height" multiplier="1:1" id="pQz-i4-Eaz"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1p-KY-aRh" userLabel="devNameLabel">
+                        <rect key="frame" x="74" y="24.5" width="179" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017-06-12 10:00:05" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGq-YF-o3g" userLabel="timeLabel">
+                        <rect key="frame" x="258" y="27.5" width="130" height="14.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="130" id="GpZ-bP-pHV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lco-lM-Z1e" userLabel="lineView">
+                        <rect key="frame" x="0.0" y="68.5" width="403" height="0.5"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="KD0-ag-6k4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="m1p-KY-aRh" firstAttribute="leading" secondItem="Vkm-25-fYB" secondAttribute="trailing" constant="7.5" id="90C-05-ckm"/>
+                    <constraint firstItem="2NJ-YY-UdG" firstAttribute="top" secondItem="Vkm-25-fYB" secondAttribute="top" id="Mto-ps-EGg"/>
+                    <constraint firstItem="hGq-YF-o3g" firstAttribute="leading" secondItem="m1p-KY-aRh" secondAttribute="trailing" constant="5" id="PoR-gf-ev9"/>
+                    <constraint firstItem="hGq-YF-o3g" firstAttribute="centerY" secondItem="Vkm-25-fYB" secondAttribute="centerY" id="kXm-Ys-tWl"/>
+                    <constraint firstItem="m1p-KY-aRh" firstAttribute="centerY" secondItem="Vkm-25-fYB" secondAttribute="centerY" id="l8I-Xe-g6e"/>
+                    <constraint firstItem="2NJ-YY-UdG" firstAttribute="trailing" secondItem="Vkm-25-fYB" secondAttribute="trailing" id="xhr-Bn-tOo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstItem="kot-HE-iRM" firstAttribute="leading" secondItem="KGk-i7-Jjw" secondAttribute="leading" constant="15" id="4ZG-mB-i5B"/>
+                <constraint firstAttribute="bottom" secondItem="Lco-lM-Z1e" secondAttribute="bottom" id="B0D-3j-Rwh"/>
+                <constraint firstAttribute="trailing" secondItem="hGq-YF-o3g" secondAttribute="trailing" constant="15" id="BMN-bx-MPs"/>
+                <constraint firstItem="Lco-lM-Z1e" firstAttribute="leading" secondItem="KGk-i7-Jjw" secondAttribute="leading" id="PpT-zW-NHL"/>
+                <constraint firstItem="Vkm-25-fYB" firstAttribute="top" secondItem="KGk-i7-Jjw" secondAttribute="top" constant="8.5" id="Vmn-Mm-50O"/>
+                <constraint firstAttribute="trailing" secondItem="Lco-lM-Z1e" secondAttribute="trailing" id="dGV-fe-Fl7"/>
+                <constraint firstItem="Vkm-25-fYB" firstAttribute="leading" secondItem="KGk-i7-Jjw" secondAttribute="leading" constant="15" id="lfh-Lb-Cu1"/>
+                <constraint firstAttribute="bottom" secondItem="Vkm-25-fYB" secondAttribute="bottom" constant="8.5" id="x3x-Dj-Due"/>
+                <constraint firstItem="kot-HE-iRM" firstAttribute="centerY" secondItem="KGk-i7-Jjw" secondAttribute="centerY" id="zXQ-aQ-uvk"/>
+            </constraints>
+            <connections>
+                <outlet property="deleteButton" destination="kot-HE-iRM" id="vsi-n8-pw2"/>
+                <outlet property="devNameLabel" destination="m1p-KY-aRh" id="5o6-sO-7L3"/>
+                <outlet property="imageLeftConstraints" destination="lfh-Lb-Cu1" id="Pzd-B4-KEJ"/>
+                <outlet property="msgIconImageView" destination="Vkm-25-fYB" id="ebc-ZB-uSl"/>
+                <outlet property="msgTimeLabel" destination="hGq-YF-o3g" id="z8u-rO-WNt"/>
+                <outlet property="readStateImageView" destination="2NJ-YY-UdG" id="SYi-zY-J90"/>
+            </connections>
+            <point key="canvasLocation" x="131" y="56"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="deleteBtnNormal" width="30" height="30"/>
+        <image name="pushMsgNoReadState" width="20" height="20"/>
+    </resources>
+</document>

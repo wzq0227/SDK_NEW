@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TimecheckViewController">
+            <connections>
+                <outlet property="opResultFace" destination="FZu-lD-ff9" id="hhL-2v-3sX"/>
+                <outlet property="opResultLabel" destination="oWs-4b-edz" id="QxT-iL-fZu"/>
+                <outlet property="opResultView" destination="04S-rA-lfF" id="O4P-up-GeJ"/>
+                <outlet property="timeCheckBtn" destination="LNg-GH-tur" id="b4N-rM-bH3"/>
+                <outlet property="timeCheckTipsLabel" destination="kv0-23-UOc" id="lv9-aG-GEV"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Setting_TimeCheckImg.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mjf-JG-g89">
+                    <rect key="frame" x="38" y="72" width="338" height="98.333333333333343"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Mjf-JG-g89" secondAttribute="height" multiplier="268:78" id="dhu-3v-LpU"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LNg-GH-tur">
+                    <rect key="frame" x="30" y="390.33333333333331" width="354" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="LMM-79-9CP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="摄像头时间校验" backgroundImage="setting_formatSDBg.png">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="timecheck:" destination="-1" eventType="touchUpInside" id="QER-rI-RbT"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="摄像头实时画面上的时间取自网络,如果发现摄像头上的时间和手机时间不一致，请校正摄像头时间                                                                                " lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kv0-23-UOc">
+                    <rect key="frame" x="35" y="210.33333333333331" width="344" height="89.999999999999943"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="90" id="lHc-it-li9"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="04S-rA-lfF">
+                    <rect key="frame" x="0.0" y="485.33333333333337" width="413.33333333333331" height="40.000000000000114"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="时间检验成功" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oWs-4b-edz">
+                            <rect key="frame" x="178.66666666666669" y="4.3333333333333712" width="220.00000000000006" height="29.999999999999943"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="220" id="QtC-HE-1Gh"/>
+                                <constraint firstAttribute="height" constant="30" id="tqd-GW-qcP"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Setting_TimeCheckOk.png" translatesAutoresizingMaskIntoConstraints="NO" id="FZu-lD-ff9">
+                            <rect key="frame" x="139.66666666666666" y="7" width="24" height="24.000000000000057"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="24" id="EvC-AO-qm0"/>
+                                <constraint firstAttribute="width" secondItem="FZu-lD-ff9" secondAttribute="height" multiplier="1:1" id="Ycn-RT-o5Q"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="FZu-lD-ff9" firstAttribute="centerX" secondItem="04S-rA-lfF" secondAttribute="centerX" constant="-55" id="8tA-cd-7jz"/>
+                        <constraint firstItem="oWs-4b-edz" firstAttribute="leading" secondItem="FZu-lD-ff9" secondAttribute="trailing" constant="15" id="Cbe-Ph-7wq"/>
+                        <constraint firstItem="FZu-lD-ff9" firstAttribute="centerY" secondItem="oWs-4b-edz" secondAttribute="centerY" id="VTj-gd-n1z"/>
+                        <constraint firstItem="oWs-4b-edz" firstAttribute="centerY" secondItem="04S-rA-lfF" secondAttribute="centerY" id="bhk-hS-z1o"/>
+                        <constraint firstAttribute="height" constant="40" id="cne-89-9IV"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="04S-rA-lfF" firstAttribute="top" secondItem="LNg-GH-tur" secondAttribute="bottom" constant="55" id="41M-N0-FBI"/>
+                <constraint firstItem="kv0-23-UOc" firstAttribute="top" secondItem="Mjf-JG-g89" secondAttribute="bottom" constant="40" id="Ggd-87-ilG"/>
+                <constraint firstItem="kv0-23-UOc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="35" id="Q5X-Wj-uOg"/>
+                <constraint firstItem="04S-rA-lfF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cY0-zQ-X6v"/>
+                <constraint firstItem="Mjf-JG-g89" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="72" id="e0I-wb-ALh"/>
+                <constraint firstAttribute="trailing" secondItem="04S-rA-lfF" secondAttribute="trailing" id="f6Q-xs-m6m"/>
+                <constraint firstItem="LNg-GH-tur" firstAttribute="top" secondItem="kv0-23-UOc" secondAttribute="bottom" constant="90" id="fSl-2d-KjN"/>
+                <constraint firstItem="Mjf-JG-g89" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="38" id="loK-8g-He1"/>
+                <constraint firstAttribute="trailing" secondItem="kv0-23-UOc" secondAttribute="trailing" constant="35" id="oVN-uA-1nd"/>
+                <constraint firstItem="LNg-GH-tur" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="obe-fL-8Lc"/>
+                <constraint firstAttribute="trailing" secondItem="LNg-GH-tur" secondAttribute="trailing" constant="30" id="pMZ-FB-oK2"/>
+                <constraint firstAttribute="trailing" secondItem="Mjf-JG-g89" secondAttribute="trailing" constant="38" id="vG8-sY-zhH"/>
+            </constraints>
+            <point key="canvasLocation" x="247.5" y="282.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Setting_TimeCheckImg.png" width="537" height="157"/>
+        <image name="Setting_TimeCheckOk.png" width="48" height="48"/>
+        <image name="setting_formatSDBg.png" width="600" height="80"/>
+    </resources>
+</document>

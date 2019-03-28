@@ -1,0 +1,127 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - ASProgressPopUpView (0.8)
+  - Braintree/3D-Secure (4.9.0):
+    - Braintree/Card
+    - Braintree/Core
+  - Braintree/Apple-Pay (4.9.0):
+    - Braintree/Core
+  - Braintree/Card (4.9.0):
+    - Braintree/Core
+  - Braintree/Core (4.9.0)
+  - Braintree/PayPal (4.9.0):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.9.0):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.9.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.9.0)
+  - Braintree/UnionPay (4.9.0):
+    - Braintree/Card
+    - Braintree/Core
+  - Braintree/Venmo (4.9.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+  - BraintreeDropIn (5.2.2):
+    - BraintreeDropIn/DropIn (= 5.2.2)
+  - BraintreeDropIn/DropIn (5.2.2):
+    - Braintree/Card (~> 4.0)
+    - Braintree/Core (~> 4.0)
+    - Braintree/UnionPay (~> 4.0)
+    - BraintreeDropIn/UIKit
+  - BraintreeDropIn/UIKit (5.2.2)
+  - CNPPopupController (0.3.2)
+  - CocoaAsyncSocket (7.6.0)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - IQKeyboardManager (4.0.9)
+  - Masonry (1.0.2)
+  - MJExtension (3.0.13)
+  - MJPhotoBrowser (1.0.2):
+    - SDWebImage
+    - SVProgressHUD
+    - YLGIFImage
+  - MJRefresh (3.1.12)
+  - RealReachability (1.1.8):
+    - RealReachability/Connection (= 1.1.8)
+    - RealReachability/Ping (= 1.1.8)
+  - RealReachability/Connection (1.1.8)
+  - RealReachability/Ping (1.1.8)
+  - RESideMenu (4.0.7)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SVProgressHUD (2.1.2)
+  - TMCache (2.1.0)
+  - TPKeyboardAvoiding (1.3.1)
+  - UITableView+FDTemplateLayoutCell (1.4)
+  - YLGIFImage (0.11)
+
+DEPENDENCIES:
+  - AFNetworking
+  - ASProgressPopUpView
+  - Braintree/3D-Secure
+  - Braintree/Apple-Pay
+  - Braintree/PayPal
+  - Braintree/Venmo
+  - BraintreeDropIn
+  - CNPPopupController
+  - CocoaAsyncSocket
+  - FMDB
+  - IQKeyboardManager
+  - Masonry
+  - MJExtension
+  - MJPhotoBrowser
+  - MJRefresh
+  - RealReachability
+  - RESideMenu (~> 4.0.7)
+  - SDWebImage
+  - SVProgressHUD
+  - TMCache
+  - TPKeyboardAvoiding
+  - UITableView+FDTemplateLayoutCell
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  ASProgressPopUpView: 945c19297da09a625db48a5a37cabd7756916b9b
+  Braintree: 9d9992b4104a184da3c71f6455840b5e63ecea97
+  BraintreeDropIn: 0ff4879547af66dae814911992e01324975d556d
+  CNPPopupController: 359b331f0e164f1af1f3a9193aac10a820d0039e
+  CocoaAsyncSocket: b9d5589f07baf9de8f34cc25abd4fcba28f13805
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  IQKeyboardManager: 322c7405df3eb5f7e50dede32ea937bf3d4364e0
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJPhotoBrowser: b98b04d0e3b6a999feb44df68adec413af446809
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  RealReachability: e6c8a2bbffa316006e8c282efc1ee2567d61a920
+  RESideMenu: f24c508404b49c667344c54aba7e590883533958
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  TMCache: 95ebcc9b3c7e90fb5fd8fc3036cba3aa781c9bed
+  TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+  YLGIFImage: c0ae132fe80e5282b2762a97d14e23ba71a748ae
+
+PODFILE CHECKSUM: fe612b31df5600220ad1a2dec38e12c640a533ae
+
+COCOAPODS: 1.3.1

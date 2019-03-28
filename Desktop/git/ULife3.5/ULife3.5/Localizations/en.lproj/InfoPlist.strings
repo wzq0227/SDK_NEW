@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  ULife3.5
+
+  Created by 广东省深圳市 on 2017/7/19.
+  Copyright © 2017年 GosCam. All rights reserved.
+*/
+
+
+"CFBundleDisplayName" = "GosBell";
+"NSCameraUsageDescription" = "You need to allow the camera to be turned on to scan the code";
+"NSPhotoLibraryAddUsageDescription" = "You need to allow open albums to save images";
+"NSPhotoLibraryUsageDescription" = "You need to allow open albums to save images";
+"NSMicrophoneUsageDescription" = "You need to allow the microphone to be turned on to send voice message";
+

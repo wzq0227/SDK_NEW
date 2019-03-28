@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddDeviceWiFiSettingViewController">
+            <connections>
+                <outlet property="alertLabel" destination="erh-Ti-kTu" id="sUn-vq-evN"/>
+                <outlet property="changeWiFiBtn" destination="Fs1-04-SIE" id="ihS-JF-3wz"/>
+                <outlet property="imageView" destination="ziV-RP-UcR" id="x8V-ZY-aBh"/>
+                <outlet property="label" destination="uBs-Nl-MDn" id="sKc-Dc-eV7"/>
+                <outlet property="nextBtn" destination="39W-kj-Mdw" id="4tZ-O4-49f"/>
+                <outlet property="pwdTextField" destination="a6D-iO-gTz" id="Ubc-SD-Fs6"/>
+                <outlet property="ssidTextField" destination="Vsb-a4-TnP" id="nc4-kg-OcU"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uBs-Nl-MDn">
+                    <rect key="frame" x="20" y="10" width="335" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.83529411764705885" green="0.25098039215686274" blue="0.23921568627450981" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NewAddDeviceWiFiStation" translatesAutoresizingMaskIntoConstraints="NO" id="ziV-RP-UcR">
+                    <rect key="frame" x="20" y="47" width="335" height="188.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ziV-RP-UcR" secondAttribute="height" multiplier="16:9" id="LBo-RK-Ccm"/>
+                    </constraints>
+                </imageView>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vsb-a4-TnP">
+                    <rect key="frame" x="20" y="265.5" width="335" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Jqq-p8-OuC"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="alphabet"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a6D-iO-gTz">
+                    <rect key="frame" x="20" y="315.5" width="335" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="wyY-oG-WMB"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="alphabet"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="erh-Ti-kTu">
+                    <rect key="frame" x="20" y="365.5" width="335" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="39W-kj-Mdw">
+                    <rect key="frame" x="20" y="597" width="335" height="40"/>
+                    <color key="backgroundColor" red="0.58039215686274515" green="0.81960784313725488" blue="0.86274509803921573" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="JB5-7u-V7S"/>
+                    </constraints>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fs1-04-SIE">
+                    <rect key="frame" x="304" y="265.5" width="46" height="40"/>
+                    <state key="normal" title="Button"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Vsb-a4-TnP" firstAttribute="top" secondItem="ziV-RP-UcR" secondAttribute="bottom" constant="30" id="1lc-89-ODD"/>
+                <constraint firstItem="Fs1-04-SIE" firstAttribute="bottom" secondItem="Vsb-a4-TnP" secondAttribute="bottom" id="3tC-yl-Khs"/>
+                <constraint firstAttribute="bottom" secondItem="39W-kj-Mdw" secondAttribute="bottom" constant="30" id="43l-bc-hud"/>
+                <constraint firstItem="ziV-RP-UcR" firstAttribute="trailing" secondItem="uBs-Nl-MDn" secondAttribute="trailing" id="96d-cK-lmh"/>
+                <constraint firstItem="a6D-iO-gTz" firstAttribute="leading" secondItem="Vsb-a4-TnP" secondAttribute="leading" id="ALN-lT-TaD"/>
+                <constraint firstItem="erh-Ti-kTu" firstAttribute="trailing" secondItem="a6D-iO-gTz" secondAttribute="trailing" id="AQg-SS-lcu"/>
+                <constraint firstItem="39W-kj-Mdw" firstAttribute="trailing" secondItem="erh-Ti-kTu" secondAttribute="trailing" id="GtJ-zK-O1E"/>
+                <constraint firstItem="uBs-Nl-MDn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="Mxa-xq-oYQ"/>
+                <constraint firstItem="Vsb-a4-TnP" firstAttribute="leading" secondItem="ziV-RP-UcR" secondAttribute="leading" id="NVf-Ck-SF9"/>
+                <constraint firstItem="a6D-iO-gTz" firstAttribute="trailing" secondItem="Vsb-a4-TnP" secondAttribute="trailing" id="Nwf-gn-8Wr"/>
+                <constraint firstItem="39W-kj-Mdw" firstAttribute="leading" secondItem="erh-Ti-kTu" secondAttribute="leading" id="Ohw-eA-kkY"/>
+                <constraint firstItem="Fs1-04-SIE" firstAttribute="trailing" secondItem="Vsb-a4-TnP" secondAttribute="trailing" constant="-5" id="Xqm-zi-HSs"/>
+                <constraint firstItem="Fs1-04-SIE" firstAttribute="top" secondItem="Vsb-a4-TnP" secondAttribute="top" id="bcU-6K-Fdf"/>
+                <constraint firstItem="erh-Ti-kTu" firstAttribute="top" secondItem="a6D-iO-gTz" secondAttribute="bottom" constant="10" id="bnl-c7-T0X"/>
+                <constraint firstItem="erh-Ti-kTu" firstAttribute="leading" secondItem="a6D-iO-gTz" secondAttribute="leading" id="c7Y-8z-94y"/>
+                <constraint firstItem="ziV-RP-UcR" firstAttribute="top" secondItem="uBs-Nl-MDn" secondAttribute="bottom" constant="20" id="es4-OG-xpd"/>
+                <constraint firstAttribute="trailing" secondItem="uBs-Nl-MDn" secondAttribute="trailing" constant="20" id="fOQ-1m-Xw4"/>
+                <constraint firstItem="ziV-RP-UcR" firstAttribute="leading" secondItem="uBs-Nl-MDn" secondAttribute="leading" id="h4J-UD-6kZ"/>
+                <constraint firstItem="a6D-iO-gTz" firstAttribute="top" secondItem="Vsb-a4-TnP" secondAttribute="bottom" constant="10" id="h8r-cO-3sY"/>
+                <constraint firstItem="Vsb-a4-TnP" firstAttribute="trailing" secondItem="ziV-RP-UcR" secondAttribute="trailing" id="jVt-aN-Bau"/>
+                <constraint firstItem="uBs-Nl-MDn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="lpd-pX-1ql"/>
+            </constraints>
+            <point key="canvasLocation" x="137.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="NewAddDeviceWiFiStation" width="16" height="16"/>
+    </resources>
+</document>

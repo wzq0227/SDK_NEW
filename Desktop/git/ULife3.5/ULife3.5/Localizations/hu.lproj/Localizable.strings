@@ -1,0 +1,376 @@
+{
+	"localizied_9"  = "Mentés sikertelen";
+	"localizied_10" = "mentése sikeres.";
+    "localizied_142" = "hálózati lekapcsolás";
+	"localizied_252" = "Jelszó";
+    "Setting_NextStep" = "Következő lépés";
+	"localizied_265" = "the second step to install";
+	"localizied_266" = "Notice: Please connect cable to the router at one end, to camera at the other end, and mobile phone connect to wireless network of the router.";
+	"localizied_267" = "Please input password";
+	"Title_Confirm" = "Igen";
+	"localizied_269" = "Visszatérés";
+	"localizied_270" = "Have searched the camera";
+	"localizied_271" = "Set DHCP successfully";
+	"localizied_272" = "Setting...";
+	"localizied_273" = "No Searched camera";
+	"localizied_274" = "DHCP is setting";
+	"localizied_275" = "Whether to set up wireless function";
+	"localizied_276" = "Igen";
+	"localizied_277" = "No";
+	"localizied_278" = "Notice: Please connect cable to the router at one end, to camera at the other end, and mobile phone connect to wireless network of the router.If it can not be found through search, please reset camera.";
+	"localizied_279" = "Please input SSID and password of router wireless network, you can click the right button to select among the history.";
+	"Setting_Cancel" = "Kilép";
+	"localizied_281" = "No records";
+	"localizied_282" = "WiFi név";
+	"localizied_283" = "Kérjük, erősítse meg, ha a WiFi SSID és a jelszó helyes: ";
+	"localizied_284" = "Correct";
+	"localizied_285" = "Setting";
+	"Setting_Done" = "Mentés";
+	"localizied_293" = "Kapcsolat nem sikerült";
+	"localizied_294" = "Kérelem időtúllépés";
+	"localizied_295" = "Prohibited operations";
+	"localizied_298" = "Password error";
+    "localizied_304" = "Pushing üzenet beállítás";
+    "localizied_305" = "About";
+    "localizied_306" = "Verzió";
+    "localizied_307" = "Logout";
+    "Setting_Setting" = "Beállítás";
+    "localizied_309" = "Add camera";
+    "localizied_310" ="Időtúllépés, húzza le a frissítéshez";
+    "localizied_312" ="A jelszó nem lehet üres";
+    "localizied_316" ="Megosztás";
+    "DevInfo_DevName" ="Az eszköz neve";
+    "Title_Delete" = "Törlés";
+    "localizied_372" = "Delete successfully";
+    "localizied_373" = "Sikertelen törlés";
+    "localizied_386"="Hálózati időtúllépés";
+    "firmware_version"="Szoftver verzió";
+    "system_firmware"="Hardver verzió";
+    "localizied_398"="OK";
+    "localizied_400"="Üdítő";
+    "localizied_401"="Loosen to prompt refresh";
+    "localizied_402"="Last update";
+    "localizied_404"="Kézi felvétel";
+    "localizied_426"="Today";
+    "localizied_437"="Húzza le a frissítéshez";
+    "localizied_440"="Biztos benne, hogy vegye ki a fényképezőgépet a listán?";
+    "Operation_Succeeded"="A beállítás sikeres";
+    "localizied_450"="From";
+    
+    
+    
+    
+    "localizied_451"="New share camera add";
+    "localizied_452"="Shared camera removed";
+    
+    
+    
+    "localizied_459"="Mozgásérzékelő";
+    
+    
+    
+    
+    "localizied_467"="Kamera hozzáadása";
+    
+    "localizied_471"="The generating QR code is used for the camera read and connects to WI-FI network .";
+    
+    
+    
+    
+    
+    
+    "localizied_472"="You can obtain available network from the list when you click on the wireless network icon.";
+    
+    "localizied_474"="Megosztás hozzáadása";
+    
+    
+    
+    "localizied_481"="A csatlakozás folyamatban";
+    
+    "localizied_486"="sikeresen hozzáadva";
+    "localizied_498"="U-life Plus is an Internet-based video service platform. It enables separate IP and 3G cameras to register on the platform. By loading a U-life Plus software  to the iphone, ipad client end, Users can freely monitor and control multiple video devices. ";
+    
+    
+    
+    "localizied_499"="  The U-life Plus System adopts latest P2P penetrating technology, makes easy registration and management of video IP cameras possible; The cloud computing technology allows user to monitor same account from different devices at the same time. The U-life Plus system could also be specially applied to many other industrial fields.";
+    
+    
+    "localizied_507"="Logging out.";
+    "localizied_511"="WDR";
+    "Operation_Failed"="A beállítás sikertelen";
+    
+    
+    
+    
+    
+    "localizied_520"="Vízszintes görgetés";
+    
+    
+    
+    "vertical_rate" = "Függőleges görgetés";
+    "localizied_521"="Gyakori művelet";
+    "localizied_522"="Open video sikertelen";
+    
+    "uploadRingSuccess" = "upload success";
+    "localizied_00187"="Temperature";
+    "my_device" = "eszköz lista";
+    "Message" = "Üzenet";
+    "Remove" = "Remove";
+    "select_all" = "select all";
+    "Warning_string" = "Warning";
+    "ip_title" = "The serve is located in China";
+    "Bark_title" = "Bark";
+    "Siren_title" = "Siren";
+    "online" = "%@ Online";
+	"offline" = "%@ Offline";
+	"VIDEO_MOTION" = "%@ Motion detection alarm.";
+	"PIR_MOTION" = "%@ PIR detection alarm.";
+	"PIR_VIDEO_MOTION" = "%@ Human detection and motion detection alarm";
+	"IO_ALARM" = "%@ Alarm trigger";
+	"New item - 5" = "";
+	"New item - 6" = "";
+	"New item - 7" = "";
+	"New item - 8" = "";
+	"New item - 9" = "";
+    
+    "Name"="Name:";
+    "Name_placeholder"="Please input the name of the camera";
+    "UID_placeholder"="Please Scan QR code";
+    "Scan_error"="Scan QR code is error";
+    "Scan_desc"="Please place the QR code inside the viewfinder rectangle";
+    "tip0_desc"="Step1: please press SET key about 1 second";
+    "tip1_desc"="Step2: Select the wifi which the camera will connect";
+    "tip"="prompt";
+    "connect_tip"="Connection timed out";
+    "reconnect_tip"="Újra csatlakozik";
+    "serial_number"="Serial number";
+    "Mac_add"="MAC cím";
+    "camera_info_success"="Get camera information successfully ";
+    "camera_info_error"="Request timeout，please acquire the device information again.";
+    "request_time_refresh"="Request timeout，please refresh or check the current connection status";
+    "not_connected"="Not Connected";
+    
+    "camera_no_connect"="A kamera disconnect";
+    "network_error"="Érvénytelen hálózat";
+    "cammera_no_bind"="Ellenőrizze, hogy a kamera online, vagy kamerát binded";
+    "camera_pwd_error"="Password error";
+
+    "Video_suceess"="Videoadatok";
+    "audio_success"="Fogadása audio adatok";
+    "PTZ"="Pan-Tilt vezérlés";
+    "Record_begin"="Record_begin";
+    "record_end"="Vége a felvétel";
+    
+    "Speaking_success"="A küldés sikeres";
+    "Speaking_begin"="Start Talking";
+    "Speaking_end"="End Of Talking";
+    
+    "record_no"="Video record ongoing, if you need to do other operation, please stop the recording ";
+    "record_no_audio"="Video record ongoing，please do not turn off voice";
+    
+    "save_image"="Image saved to Photos";
+    "save_video"="Video saved to Photos";
+    
+    "connect_success"="A csatlakozás sikerült";
+    "load_data"="Data Loading";
+    "reloadBtn"="Újratöltés";
+    "load_fail"= "Loading Failed";
+    "Camera_Push_Settings"="Camera Push Settings";
+    "PTZ_control" = "Pan-Tilt Control";
+    "Infrared_detection" = "Infravörös érzékelő";
+    "push_regist_sucesee" = "Push to Register";
+    "push_regist_error" = "Push the registration failed";
+    "WIFI_add" = "WiFI hozzáadása";
+    
+    "Video_return_paly" = "Videó újrajátszás";
+    "i_can" = "I know";
+    "No_Have_Video" = "Nincs fájl";
+    "Video" = "Videó";
+    "pic" = "Kép";
+    "not_have_Video"="Nincs felvétel";
+    "that_time_not_have_file"="Nincs fájl ebben az időpontban";
+    "data_unsuceess"="Az adatokhoz való hozzáférés nem";
+    "download_unsuccess"="letöltés sikertelen";
+    "download_end"="downloading stopped Stopped";
+    "delete_file_success"="File Successfully";
+    "delete_file_unsuccess"="File Failured";
+    "download_file"="fájl letöltése";
+    "complete_end"="Finished";
+    "nothing_tittle"="A memóriakártya nincs behelyezve a kamerába";
+    "nothing_idea_one"="A kamera automatikusan rögzíti, ha behelyezte a TF(Microsd) memóriakártyát";
+    "nothing_idea_two"="Maximális tárhely 32 G";
+    "nothing_idea_three"="A memóriakártya azonosítása sikertelen, kérjük helyezze be ismét";
+    "nothing_idea_four"="Kérjük ellenőrizze, hogy a memóriakártya formátuma FAT32 formátum";
+    "help_tittle"="In the “settings” of iPhone-“Privacy”-“Camera” to find";
+    "help_tittle_two"="Open access to the Camera";
+    "heip_tittle_three"="Wrong QR Code Format";
+    "set_Wifi"= "WiFi konfigurálása";
+    "my_ipc"="Az én eszközöm";
+    "Ipc_unonline"="Az eszköz nem csatlakozik a hálózatra";
+    "about_us"="Névjegy";
+    "contact_us"="Kapcsolat";
+    "contact"="Connected";
+    "question"="Általános problémák";
+    "tip_imformation"="Warning";
+    "set_push"="Üzenet gomb beállítás";
+    "test"="teszt";
+    "move"="Mobile";
+    "tip_help"="Időtúllépés, frissítse vagy ellenőrizze a kapcsolatot állapotát";
+    "change_success"="Change Successfully";
+    "change_unsuccess"="Change Failed";
+    "refresh_videolist"="Device not connected, please check the connection condition and refresh";
+    "used_storage"="Használt tárhely";
+    "free_storage"="Elérhető tárhely";
+    "DevInfo_DevID"="Device ID";
+    "pic_date"="Device Parameter";
+    "storage_space"="Tárhely";
+    "Format_SD_card"="Confirm to format SD card";
+    "Format"="SD kártya formázása";
+    "Format_SD_card_success"="SD kártya formázása sikerült";
+    "Format_SD_card_unsuccess"="hiba";
+    "delete_pic"="Eszköz törlése";
+    "camera_info"="Eszközinformáció";
+    "wifi_setting"="WiFi beállítások";
+    "not_have_sd_0"="Nincs kártya, nem engedi, hogy rögzítse";
+    "not_have_sd_1"="Card rossz, nem teszi lehetővé, hogy rögzítse";
+    "not_have_sd_2"="Nem elég tároló, nem teszi lehetővé, hogy rögzítse";
+    "not_have_sd_3"="Felvétel, Kezelési nem teszik lehetővé";
+    "not_have_sd_4"="Felvételi működő túl gyakori";
+    "share_friend_active"="Mégse <ossza meg barátja>: törlése készülék leállását megosztott barátjával. (Re-add a kamera újra használni)";
+    "help_header_title"="If failed in adding, the solution  as followed";
+    "help_title_1"="1: Ellenőrizze, hogy van-e különleges karakter a WiFi névben és a jelszóban és hogy a router DHCP kapcsolója nyitva van。";
+    "help_title_2"="2: Ellenőrizze, hogy a 2.4G WiFi csatlakozik az  5G WiFi.";
+    "help_title_3"="3: Confirm whether the password is correct";
+    "help_title_4"="4: Ellenőrizze, hogy a router lefedi a mac címet.";
+    "help_title_5"="5: Ajánlott az eszközt a routerhez közel csatlakoztatni.";
+    "help_title_6"="6: If wireless adding way failed, connect the device and router with cable";
+    "back_wifi"="Vissza a „WiFi beállítása” oldalra";
+    "back_add_pic"="Vissza a „Kamera hozzáadása” oldalra";
+    "Hight"="H";
+    "medium"="M";
+    "low"="L";
+    "off"="OFF";
+    "Add device"="Eszköz hozzáadása";
+    "Wired add"="Add with cable";
+    "personal"="Saját adatok";
+    "tfSSID_placeholder"="WiFi Name";
+    "tfPassword_placeholder"="WiFi Password";
+    "Get_data_success"="Get Data Success";
+    "Get_data_failed"="Get Data Failed";
+    "Saving failed"="Eszköz ID";
+    "Equipment has been added"="Equipment has been added";
+    "Error_QR"="Error_QR";
+    "1.Please check whether the device connect the router with the cable."="1.Please check whether the device connect the router with the cable.";
+    "2.Please confirm whether the router and the mobile phone in the same segment"="2.Please confirm whether the router and the mobile phone in the same segment";
+    "play_Record"="Felvétel";
+    "play_Snapshot"="Elfog";
+    "play_Joystick"="Joystick";
+    "play_Talk"="Hangszóró";
+    "play_Sound"="Sound";
+    "IP Camera"="ipcamera";
+    "about us text"="U-life is a video service platform which base on Internet. User can register,log on the individual IP and 3G camera via this platform. U-life apply to Iphone,Ipad,Android and PC, which use P2P to realize  user register and manage IP camera easily .It unique cloud computing allows user surveil one device on several mobile device at the same time.U-life system can also apply to other business areas.";
+    "Company name"="Shenzhen Gospell Smarthome Electronic Co., Ltd.";
+    "company address"="Company Address: F12, F518 Idea Land, Baoyuan Road,Baoan Central Area,Shenzhen,P.R.China";
+    "zip code"="Post code: 518102";
+    "Tel"="Tel: 86-755-26716688-8677";
+    "Fax"="Fax: 86-755-26716099";
+    "E-mail"="E-mail:  sales@goscam.com";
+    
+    "iRouter_account" = "User Name";
+    "account_short_error" = "Felhasználó név túl rövid, kell 6 karakter, legalább.";
+    "account_long_error" = "Felhasználó név túl hosszú, nem több, mint 32 karakter.";
+    "account_exist_error" = "A fiók létezik";
+    "account_not_exist_error" = "The account does not exist.";
+    
+    "iRouter_email" = "Email";
+    "email_error" = "Az e-mail cím érvénytelen";
+    
+    "iRouter_password" = "Password";
+    "password_short_error" = "Kérjük, írja be a jelszót, legalább 6 karakter.";
+    "password_long_error" = "A jelszó kell, nem több, mint 32 karakter.";
+    "password_error" = "A jelszó hibás.";
+    
+    "iRouter_Confirm_password" = "Confirm password";
+    "iRouter_Confirm_password_error" = "A jelszavak nem egyeznek.";
+    
+    "iRouter_Sign_up" = "Sign Up";
+    "Sign_Up_now" = "Sign Up Now";
+    "Sign_up_error" = "A hálózati időtúllépés miatt megszakadt. Kérjük, ellenőrizze az internetkapcsolatot.";
+    "Sign_up_success" = "Gratulálok a sikeres regisztráció";
+    
+    
+    
+    "iRouter_Sign_In" = "Sign In";
+    "iRouter_Sign_In_error" = "A bejelentkezési időtúllépés. Kérjük, ellenőrizze az internetkapcsolatot.";
+    
+    "forgot_password" = "Forgot passwrod";
+    "iRouter_validated_code" = "validated code";
+    "validated code_error" = "Az ellenőrző kód hiba.";
+    "validated_code_invaild"= "Az ellenőrző kód érvénytelen.";
+    "validated_code_send_error"= "A küldés failure.Please ellenőrizze az internetkapcsolatot.";
+    "validated_code_send_success" = "A küldő sikeres. Itt megtalálja az érvényesített kódot a postaláda.";
+    
+    "new_password" = "New Password";
+    "confirm_new_password" = "Confirm New passwrod";
+    
+    "Reset_password" = "Reset password";
+    "Reset_password_error" = "The network request timed out. Please check your internet connection.";
+    "Reset_password_success" = "A visszaállítás sikeres.";
+    
+    "iRouter_Logout" = "Log out";
+    "doesn't have a camera"="当前账号下没有摄像头,请添加摄像头";
+    "Please enter this application from the easy life client"= "请从易生活客户端进入本应用";
+    "Temperature alarm" = "Temperature alarm";
+    
+    "currentPassword"="current password";
+    
+    "New password" = "New password";
+    "confirmPassword"= "Confirm new password";
+    "refresh"="refresh";
+    
+    
+    "deviceHaveBinded" = "Berendezés nézve már";
+    "bindedFailure" = "Bind sikertelen";
+    "haveSpecialCharacter" = "Input különleges karaktereket tartalmaz";
+    
+    
+    //Setting
+    "Setting_CameraSwitch" = "CameraSwitch";
+    "Setting_DetectSensitiivty" = "DetectSensitiivty";
+    "Setting_LightDuration" = "LightDuration";
+    
+    "Setting_PIRDetection" = "PIRDetection";
+    "Setting_CameraMicrophone" = "CameraMicrophone";
+    "Setting_CellularDataAutoPause" = "CellularDataAutoPause";
+    "Setting_CloudService" = "CloudService";
+    "Setting_ManualRecord" = "ManualRecord";
+    
+    "Setting_StatusIndicator" = "StatusIndicator";
+    "Setting_RotateSemicircle" = "RotateSemicircle";
+    "Setting_NightVersion" = "NightVersion";
+    "Setting_ShareWithFriends" = "ShareWithFriends";
+    "Setting_WiFiSetting" = "WiFiSetting";
+    "Setting_DeviceInfo" = "DeviceInfo";
+    
+    "Setting_Detail_OrderNow" = "Order Now";
+    
+    "Setting_Group_Camera" = "Camera";
+    "Setting_Group_NormalAction" = "Normal Action";
+    "Setting_Group_CloudService" = "Cloud Service";
+    "Setting_Group_ManualRecord" = "TFCard Record";
+    "Setting_Group_Hardware" = "Hardware";
+    "Setting_Group_Share" = "Share";
+    "Setting_Group_DetailInfo" = "Detail Info";
+    "Setting_DeleteDevice"  =   "Delete Device";
+    
+    
+    // 推送
+    "OpenPushSuccess"  = "打开推送成功";
+    "OpenPushFailure"  = "打开推送失败";
+    "ClosePushSuccess" = "关闭推送成";
+    "ClosePushFailure" = "关闭推送失败";
+    
+    "DeletePushMsgTipMsg" = "确定要删除已选择的推送消息吗？";
+
+
+}

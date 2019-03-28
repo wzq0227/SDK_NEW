@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MessageCenterToolBar">
+            <rect key="frame" x="0.0" y="0.0" width="330" height="48"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qPH-F5-jD1">
+                    <rect key="frame" x="164.5" y="5" width="1" height="38"/>
+                    <color key="backgroundColor" red="0.85098039215686272" green="0.85098039215686272" blue="0.85098039215686272" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="1" id="Wbx-Eu-ZJ0"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edX-Xu-2UF">
+                    <rect key="frame" x="0.0" y="0.0" width="164.5" height="48"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="CheckAll">
+                        <color key="titleColor" red="0.10196078431372549" green="0.10196078431372549" blue="0.10196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I2Z-Lm-vpj">
+                    <rect key="frame" x="165.5" y="0.0" width="164.5" height="48"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="Delete">
+                        <color key="titleColor" red="1" green="0.14117647058823529" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="disabled">
+                        <color key="titleColor" red="1" green="0.14117647058823529" blue="0.14117647058823529" alpha="0.5" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="I2Z-Lm-vpj" firstAttribute="leading" secondItem="qPH-F5-jD1" secondAttribute="trailing" id="6ag-Wx-BTb"/>
+                <constraint firstItem="edX-Xu-2UF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9GE-00-dby"/>
+                <constraint firstItem="qPH-F5-jD1" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="MsG-sG-s8d"/>
+                <constraint firstItem="qPH-F5-jD1" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="T1T-8a-4UI"/>
+                <constraint firstItem="I2Z-Lm-vpj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="VEU-GA-AhK"/>
+                <constraint firstAttribute="bottom" secondItem="edX-Xu-2UF" secondAttribute="bottom" id="Yrc-4m-8dh"/>
+                <constraint firstItem="qPH-F5-jD1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="ZjI-5t-Yke"/>
+                <constraint firstItem="qPH-F5-jD1" firstAttribute="leading" secondItem="edX-Xu-2UF" secondAttribute="trailing" id="bqj-qw-McL"/>
+                <constraint firstAttribute="bottom" secondItem="I2Z-Lm-vpj" secondAttribute="bottom" id="eQl-pD-EYp"/>
+                <constraint firstAttribute="trailing" secondItem="I2Z-Lm-vpj" secondAttribute="trailing" id="hs6-X6-fZm"/>
+                <constraint firstAttribute="bottom" secondItem="qPH-F5-jD1" secondAttribute="bottom" constant="5" id="kar-3s-waH"/>
+                <constraint firstItem="edX-Xu-2UF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="kdR-kM-V8l"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="checkAllButton" destination="edX-Xu-2UF" id="LXU-o1-yQh"/>
+                <outlet property="deleteButton" destination="I2Z-Lm-vpj" id="hAW-rl-lVt"/>
+            </connections>
+            <point key="canvasLocation" x="38.399999999999999" y="-230.28485757121442"/>
+        </view>
+    </objects>
+</document>

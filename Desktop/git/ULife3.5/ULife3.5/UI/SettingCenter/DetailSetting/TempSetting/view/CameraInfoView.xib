@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="60" id="yue-Sz-0I5" customClass="DeviceTemperatureTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yue-Sz-0I5" id="Ifv-Ga-Ipr">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="上限温度" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ihW-Le-KZP">
+                        <rect key="frame" x="23" y="7" width="120" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="guv-q3-34a"/>
+                            <constraint firstAttribute="width" constant="120" id="pZt-ob-RNz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LqP-8W-6Og">
+                        <rect key="frame" x="23" y="29" width="120" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="PMr-Jy-ZT2"/>
+                            <constraint firstAttribute="width" constant="120" id="fbV-pi-smQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <state key="normal" title="88.8°F">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d3g-pI-xaJ">
+                        <rect key="frame" x="335" y="12" width="25" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="9K2-f2-LEm"/>
+                            <constraint firstAttribute="width" constant="25" id="d6K-rU-FOJ"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="choose.png">
+                            <string key="title" base64-UTF8="YES">
+Cg
+</string>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ihW-Le-KZP" firstAttribute="top" secondItem="Ifv-Ga-Ipr" secondAttribute="topMargin" constant="-1" id="iaD-hN-uRz"/>
+                    <constraint firstItem="LqP-8W-6Og" firstAttribute="leading" secondItem="Ifv-Ga-Ipr" secondAttribute="leadingMargin" constant="15" id="t4U-gQ-b92"/>
+                    <constraint firstItem="LqP-8W-6Og" firstAttribute="top" secondItem="ihW-Le-KZP" secondAttribute="bottom" constant="4" id="uVs-6U-Bmv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="d3g-pI-xaJ" secondAttribute="trailing" constant="15" id="6J3-wB-Xaq"/>
+                <constraint firstItem="ihW-Le-KZP" firstAttribute="leading" secondItem="yue-Sz-0I5" secondAttribute="leading" constant="23" id="L19-YQ-QJc"/>
+                <constraint firstItem="d3g-pI-xaJ" firstAttribute="top" secondItem="yue-Sz-0I5" secondAttribute="top" constant="12" id="v10-9f-zN5"/>
+            </constraints>
+            <connections>
+                <outlet property="chooseBtn" destination="d3g-pI-xaJ" id="jn8-ra-BKo"/>
+                <outlet property="temperatureBtn" destination="LqP-8W-6Og" id="8xp-hq-6SP"/>
+                <outlet property="temperatureText" destination="ihW-Le-KZP" id="7iw-NH-YFe"/>
+            </connections>
+            <point key="canvasLocation" x="-476" y="-90"/>
+        </tableViewCell>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="fVR-Wi-xLD" customClass="DeviceTemperaturehumidityTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fVR-Wi-xLD" id="M47-aT-rlA">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="°F" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wen-Sd-Aqx">
+                        <rect key="frame" x="23" y="12" width="120" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="DyP-5W-I3R"/>
+                            <constraint firstAttribute="width" constant="120" id="i09-Es-Jto"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rRP-an-ei5">
+                        <rect key="frame" x="332" y="12" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="6PF-br-HOg"/>
+                            <constraint firstAttribute="height" constant="20" id="j3f-KJ-Gde"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="choose.png"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="rRP-an-ei5" secondAttribute="trailing" constant="15" id="3Uf-p7-ldO"/>
+                    <constraint firstItem="rRP-an-ei5" firstAttribute="centerY" secondItem="M47-aT-rlA" secondAttribute="centerY" id="F9n-iq-uFN"/>
+                    <constraint firstItem="Wen-Sd-Aqx" firstAttribute="centerY" secondItem="M47-aT-rlA" secondAttribute="centerY" id="qim-SX-5pI"/>
+                    <constraint firstItem="Wen-Sd-Aqx" firstAttribute="leading" secondItem="M47-aT-rlA" secondAttribute="leadingMargin" constant="15" id="tUW-KI-Sob"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="chooseBtn" destination="rRP-an-ei5" id="2bh-Qg-UD6"/>
+                <outlet property="temperaturelabel" destination="Wen-Sd-Aqx" id="yUS-bi-APi"/>
+            </connections>
+            <point key="canvasLocation" x="-456.5" y="86"/>
+        </tableViewCell>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="176" id="YM3-Bq-tGj" customClass="DevicePickerTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="176"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YM3-Bq-tGj" id="7ty-UK-xPi">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="175.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rvO-Wb-bkF">
+                        <rect key="frame" x="0.0" y="48" width="375" height="127.5"/>
+                    </pickerView>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vOS-B2-lEr">
+                        <rect key="frame" x="8" y="8" width="44" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="Ibl-0I-QTg"/>
+                            <constraint firstAttribute="width" constant="44" id="OlJ-Zu-CNM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <state key="normal" title="取消">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="chanceBtn:" destination="YM3-Bq-tGj" eventType="touchUpInside" id="fay-67-o2A"/>
+                        </connections>
+                    </button>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1R-AR-oo3">
+                        <rect key="frame" x="321" y="8" width="44" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="htP-At-cIH"/>
+                            <constraint firstAttribute="width" constant="44" id="nin-WA-WJG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <state key="normal" title="完成">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="okBtn:" destination="YM3-Bq-tGj" eventType="touchUpInside" id="80X-mv-vDE"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="设置温度" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLx-nL-C1s">
+                        <rect key="frame" x="57.5" y="8" width="260" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="4kj-G9-4BD"/>
+                            <constraint firstAttribute="width" constant="260" id="7hn-WI-vFD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="leadingMargin" secondItem="vOS-B2-lEr" secondAttribute="leading" id="0ML-Qr-FtG"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="rvO-Wb-bkF" secondAttribute="trailing" constant="-8" id="4ST-2G-242"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="w1R-AR-oo3" secondAttribute="trailing" constant="2" id="Spb-Yu-1fQ"/>
+                    <constraint firstItem="fLx-nL-C1s" firstAttribute="centerX" secondItem="7ty-UK-xPi" secondAttribute="centerX" id="TRs-1p-q2v"/>
+                    <constraint firstAttribute="topMargin" secondItem="vOS-B2-lEr" secondAttribute="top" id="TYJ-VL-JKL"/>
+                    <constraint firstItem="rvO-Wb-bkF" firstAttribute="top" secondItem="7ty-UK-xPi" secondAttribute="topMargin" constant="40" id="aOv-q5-diu"/>
+                    <constraint firstAttribute="topMargin" secondItem="fLx-nL-C1s" secondAttribute="top" id="gfO-rn-dCl"/>
+                    <constraint firstAttribute="topMargin" secondItem="w1R-AR-oo3" secondAttribute="top" id="qzM-5o-ncU"/>
+                    <constraint firstItem="rvO-Wb-bkF" firstAttribute="leading" secondItem="7ty-UK-xPi" secondAttribute="leadingMargin" constant="-8" id="t69-Ab-QGc"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="rvO-Wb-bkF" secondAttribute="bottom" constant="-8" id="zuG-cB-cze"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="myPickView" destination="rvO-Wb-bkF" id="Gv6-Gj-uZM"/>
+                <outlet property="tittlelabel" destination="fLx-nL-C1s" id="OGI-sP-AzG"/>
+            </connections>
+            <point key="canvasLocation" x="-421.5" y="254"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="choose.png" width="60" height="60"/>
+    </resources>
+</document>

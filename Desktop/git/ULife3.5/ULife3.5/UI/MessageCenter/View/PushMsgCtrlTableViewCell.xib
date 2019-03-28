@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="62" id="KGk-i7-Jjw" customClass="PushMsgCtrlTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="62"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="344" height="61.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pushMsgCtrlIcon" translatesAutoresizingMaskIntoConstraints="NO" id="GUg-EQ-iZK">
+                        <rect key="frame" x="15" y="10" width="42" height="42"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="GUg-EQ-iZK" secondAttribute="height" multiplier="1:1" id="eFj-HK-Vnl"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="消息推送设置" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSg-5V-X2t">
+                        <rect key="frame" x="66" y="21" width="218" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tqc-hM-oDB" userLabel="lineView">
+                        <rect key="frame" x="0.0" y="61.5" width="344" height="0.5"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="CtN-Ee-wdk"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jSg-5V-X2t" firstAttribute="centerY" secondItem="GUg-EQ-iZK" secondAttribute="centerY" id="5Af-Ya-bxO"/>
+                    <constraint firstItem="jSg-5V-X2t" firstAttribute="leading" secondItem="GUg-EQ-iZK" secondAttribute="trailing" constant="9" id="gEl-Xw-XAQ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Tqc-hM-oDB" secondAttribute="trailing" id="D1T-bh-qc8"/>
+                <constraint firstAttribute="bottom" secondItem="GUg-EQ-iZK" secondAttribute="bottom" constant="10" id="D3x-rI-3Bi"/>
+                <constraint firstAttribute="bottom" secondItem="Tqc-hM-oDB" secondAttribute="bottom" id="L4r-db-Wge"/>
+                <constraint firstAttribute="trailing" secondItem="jSg-5V-X2t" secondAttribute="trailing" constant="60" id="M0C-Yr-5jB"/>
+                <constraint firstItem="GUg-EQ-iZK" firstAttribute="top" secondItem="KGk-i7-Jjw" secondAttribute="top" constant="10" id="gJa-FP-tYl"/>
+                <constraint firstItem="GUg-EQ-iZK" firstAttribute="leading" secondItem="KGk-i7-Jjw" secondAttribute="leading" constant="15" id="pQK-Cv-Lot"/>
+                <constraint firstItem="Tqc-hM-oDB" firstAttribute="leading" secondItem="KGk-i7-Jjw" secondAttribute="leading" id="r8Q-Nt-3wp"/>
+            </constraints>
+            <connections>
+                <outlet property="iconImageView" destination="GUg-EQ-iZK" id="1xU-T1-9IH"/>
+                <outlet property="nameLabel" destination="jSg-5V-X2t" id="k4p-zp-94x"/>
+            </connections>
+            <point key="canvasLocation" x="125" y="64"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="pushMsgCtrlIcon" width="54" height="54"/>
+    </resources>
+</document>

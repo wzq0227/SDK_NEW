@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>COLOR_REMOTE_LARGE_TN_NORMAL</key>
+	<string>#00CED1</string>
+	<key>STRING_COMMENT_EMAIL</key>
+	<string>yuanx@goscam.com</string>
+	<key>STRING_ROOT_CAMERA_TABLE_TITLE</key>
+	<string>U-life Pro</string>
+	<key>STRING_LOGIN_VIEW_TITLE</key>
+	<string>U-life Pro</string>
+	<key>LOGIN_SERVER</key>
+	<string>user.gvap.net</string>
+	<key>LOGIN_PORT</key>
+	<string>5590</string>
+	<key>DOWNLOAD_CAM_LIST_TIMEOUT</key>
+	<string>30</string>
+	<key>COLOR</key>
+	<string>#FFFFFF</string>
+	<key>COLOR_LOGIN_INFO</key>
+	<string>#3F3F3F</string>
+	<key>COLOR_REGISTER_INFO</key>
+	<string>#3F3F3F</string>
+	<key>COLOR_TABLE_BG</key>
+	<string>#E4E4E5</string>
+	<key>COLOR_LOCAL_NAV_BAR</key>
+	<string>#FF8000</string>
+	<key>COLOR_LOCAL_NAV_TINT</key>
+	<string>#FFFFFF</string>
+	<key>COLOR_REMOTE_NAV_BAR</key>
+	<string>#4CB6AE</string>
+	<key>COLOR_REMOTE_NAV_TINT</key>
+	<string>#FFFFFF</string>
+	<key>COLOR_REMOTE_LARGE_BTN_NORMAL</key>
+	<string>#0089C0</string>
+	<key>COLOR_REMOTE_LARGE_BTN_HIGHLIGHT</key>
+	<string>#0089C0</string>
+	<key>COLOR_LOCAL_LARGE_BTN_NORMAL</key>
+	<string>#0089C0</string>
+	<key>COLOR_VIEW_BAR</key>
+	<string>#DEDEDE</string>
+	<key>COLOR_LOCAL_LARGE_BTN_HIGHLIGHT</key>
+	<string>#008B8B</string>
+	<key>COLOR_LOCAL_CELL_LABEL_TITLE</key>
+	<string>#7D7D7D</string>
+	<key>COLOR_LOCAL_CELL_LABEL_DETAIL</key>
+	<string>#8A8A8A</string>
+	<key>COLOR_LOCAL_CELL_EXPLANATION</key>
+	<string>#9E7F56</string>
+	<key>COLOR_LOCAL_SWITCH_ON</key>
+	<string>#90EE90</string>
+	<key>COLOR_LOCAL_SWITCH_OFF</key>
+	<string>#9B9B9B</string>
+	<key>COLOR_LOCAL_SEGMENT</key>
+	<string>#3A8470</string>
+	<key>STRING_CAMERA_SERIAL_LENGTH</key>
+	<string>16</string>
+</dict>
+</plist>

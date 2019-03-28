@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F2073" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RecordNoSDCardView">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="368"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Record_NoSDCard_Img.png" translatesAutoresizingMaskIntoConstraints="NO" id="F2R-x5-g3W">
+                    <rect key="frame" x="60.5" y="11" width="179" height="96.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="179" id="5nV-eG-7z5"/>
+                        <constraint firstAttribute="width" secondItem="F2R-x5-g3W" secondAttribute="height" multiplier="89:48" id="YG9-0p-yYg"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="你的摄像机还没有插存储卡" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ShV-hY-eNV">
+                    <rect key="frame" x="8" y="128.5" width="284" height="20"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="插入TF(Micro SD)存储卡就能自动录像" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jWM-T5-P2q">
+                    <rect key="frame" x="39" y="161.5" width="253" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最大支持32G存储卡" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dev-TT-OBs">
+                    <rect key="frame" x="39" y="191.5" width="127.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="插入存储卡后未识别，请重新插拔存储卡" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOZ-bi-hqC">
+                    <rect key="frame" x="39" y="221.5" width="253" height="33.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请确保您的存储卡为FAT32格式" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KIN-bV-jzm">
+                    <rect key="frame" x="39" y="268" width="253" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C7X-Fn-ATa">
+                    <rect key="frame" x="21" y="165.5" width="10" height="10"/>
+                    <color key="backgroundColor" red="0.12549019607843137" green="0.10588235294117647" blue="0.094117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="10" id="7i7-Ji-SAm"/>
+                        <constraint firstAttribute="width" secondItem="C7X-Fn-ATa" secondAttribute="height" multiplier="1:1" id="gaJ-bF-rUS"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ga-lX-gu2">
+                    <rect key="frame" x="21" y="195.5" width="10" height="10"/>
+                    <color key="backgroundColor" red="0.12549019610000001" green="0.1058823529" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="10" id="4iN-ph-mUX"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yCH-wh-Aob">
+                    <rect key="frame" x="21" y="225.5" width="10" height="10"/>
+                    <color key="backgroundColor" red="0.12549019610000001" green="0.1058823529" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="10" id="1FG-aO-fdZ"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WWP-8I-DqP">
+                    <rect key="frame" x="21" y="272" width="10" height="10"/>
+                    <color key="backgroundColor" red="0.12549019610000001" green="0.1058823529" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="10" id="moG-35-TfN"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EGD-S0-miQ">
+                    <rect key="frame" x="100" y="308" width="100" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="6nd-4S-oBw"/>
+                        <constraint firstAttribute="height" constant="40" id="SnP-D0-wpc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="Button" backgroundImage="Record_NoSDCard_OKBtnBg.png">
+                        <color key="titleColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.95294117647058818" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Dev-TT-OBs" firstAttribute="leading" secondItem="jWM-T5-P2q" secondAttribute="leading" id="63M-V9-48Y"/>
+                <constraint firstItem="6ga-lX-gu2" firstAttribute="centerX" secondItem="C7X-Fn-ATa" secondAttribute="centerX" id="7hO-Xs-ojK"/>
+                <constraint firstItem="jWM-T5-P2q" firstAttribute="top" secondItem="C7X-Fn-ATa" secondAttribute="top" constant="-4" id="7nu-3Y-XG4"/>
+                <constraint firstItem="6ga-lX-gu2" firstAttribute="centerY" secondItem="Dev-TT-OBs" secondAttribute="centerY" id="8EC-0r-hRF"/>
+                <constraint firstItem="EGD-S0-miQ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="All-KY-irw"/>
+                <constraint firstItem="KIN-bV-jzm" firstAttribute="top" secondItem="KOZ-bi-hqC" secondAttribute="bottom" constant="13" id="D25-Fm-dLW"/>
+                <constraint firstItem="KOZ-bi-hqC" firstAttribute="top" secondItem="Dev-TT-OBs" secondAttribute="bottom" constant="13" id="DU3-Kb-HZ2"/>
+                <constraint firstItem="ShV-hY-eNV" firstAttribute="top" secondItem="F2R-x5-g3W" secondAttribute="bottom" constant="21" id="Esc-1u-f6G"/>
+                <constraint firstItem="C7X-Fn-ATa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="21" id="Fkn-CB-sSZ"/>
+                <constraint firstItem="KIN-bV-jzm" firstAttribute="top" secondItem="WWP-8I-DqP" secondAttribute="top" constant="-4" id="Jcp-fW-69a"/>
+                <constraint firstItem="EGD-S0-miQ" firstAttribute="top" secondItem="KIN-bV-jzm" secondAttribute="bottom" constant="23" id="JlG-s8-GPr"/>
+                <constraint firstItem="KIN-bV-jzm" firstAttribute="trailing" secondItem="KOZ-bi-hqC" secondAttribute="trailing" id="Kdf-js-Ra0"/>
+                <constraint firstItem="Dev-TT-OBs" firstAttribute="top" secondItem="jWM-T5-P2q" secondAttribute="bottom" constant="13" id="LLw-29-iEo"/>
+                <constraint firstItem="KOZ-bi-hqC" firstAttribute="top" secondItem="yCH-wh-Aob" secondAttribute="top" constant="-4" id="M9N-KL-QeZ"/>
+                <constraint firstItem="KOZ-bi-hqC" firstAttribute="trailing" secondItem="jWM-T5-P2q" secondAttribute="trailing" id="MeW-QE-aEM"/>
+                <constraint firstItem="WWP-8I-DqP" firstAttribute="centerX" secondItem="yCH-wh-Aob" secondAttribute="centerX" id="NAI-hk-7Ww"/>
+                <constraint firstItem="KIN-bV-jzm" firstAttribute="leading" secondItem="KOZ-bi-hqC" secondAttribute="leading" id="PKI-oo-CwT"/>
+                <constraint firstItem="yCH-wh-Aob" firstAttribute="centerX" secondItem="6ga-lX-gu2" secondAttribute="centerX" id="QPE-pc-Ewh"/>
+                <constraint firstItem="jWM-T5-P2q" firstAttribute="leading" secondItem="C7X-Fn-ATa" secondAttribute="trailing" constant="8" id="cWC-KN-Xcm"/>
+                <constraint firstAttribute="trailing" secondItem="ShV-hY-eNV" secondAttribute="trailing" constant="8" id="dCh-rh-2IC"/>
+                <constraint firstItem="jWM-T5-P2q" firstAttribute="top" secondItem="ShV-hY-eNV" secondAttribute="bottom" constant="13" id="dNR-6k-7bF"/>
+                <constraint firstItem="F2R-x5-g3W" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="f5S-ih-caS"/>
+                <constraint firstItem="ShV-hY-eNV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="gGq-Px-Ov6"/>
+                <constraint firstAttribute="trailing" secondItem="jWM-T5-P2q" secondAttribute="trailing" constant="8" id="loU-yu-ohc"/>
+                <constraint firstItem="WWP-8I-DqP" firstAttribute="width" secondItem="WWP-8I-DqP" secondAttribute="height" multiplier="1:1" id="lwB-O4-AkZ"/>
+                <constraint firstItem="KOZ-bi-hqC" firstAttribute="leading" secondItem="Dev-TT-OBs" secondAttribute="leading" id="mjc-du-zlw"/>
+                <constraint firstItem="ShV-hY-eNV" firstAttribute="centerX" secondItem="F2R-x5-g3W" secondAttribute="centerX" id="p4T-i6-tZk"/>
+                <constraint firstItem="F2R-x5-g3W" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="11" id="qXv-rf-MMs"/>
+                <constraint firstItem="yCH-wh-Aob" firstAttribute="width" secondItem="yCH-wh-Aob" secondAttribute="height" multiplier="1:1" id="rGn-ca-3Cm"/>
+                <constraint firstItem="F2R-x5-g3W" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="179:300" id="rfx-D7-ct9"/>
+                <constraint firstItem="6ga-lX-gu2" firstAttribute="width" secondItem="6ga-lX-gu2" secondAttribute="height" multiplier="1:1" id="ukv-Pw-Qho"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="noSDCardTitle" destination="ShV-hY-eNV" id="lOP-ju-HWR"/>
+                <outlet property="okBtn" destination="EGD-S0-miQ" id="Pbo-Vc-nZr"/>
+                <outlet property="sdCardAutoDetect" destination="jWM-T5-P2q" id="4T6-Si-Oju"/>
+                <outlet property="sdCardFAT32" destination="KIN-bV-jzm" id="k8O-SH-e3w"/>
+                <outlet property="sdCardSupportedType" destination="Dev-TT-OBs" id="QNE-HA-TKq"/>
+                <outlet property="sdCardUnrecognized" destination="KOZ-bi-hqC" id="c9m-FG-i3p"/>
+                <outletCollection property="noSDCardIconArray" destination="C7X-Fn-ATa" id="iPA-hj-SYy"/>
+                <outletCollection property="noSDCardIconArray" destination="6ga-lX-gu2" id="GM3-he-iJU"/>
+                <outletCollection property="noSDCardIconArray" destination="yCH-wh-Aob" id="JT8-v5-tez"/>
+                <outletCollection property="noSDCardIconArray" destination="WWP-8I-DqP" id="n4r-ej-4sj"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="Record_NoSDCard_Img.png" width="357" height="193"/>
+        <image name="Record_NoSDCard_OKBtnBg.png" width="200" height="80"/>
+    </resources>
+</document>

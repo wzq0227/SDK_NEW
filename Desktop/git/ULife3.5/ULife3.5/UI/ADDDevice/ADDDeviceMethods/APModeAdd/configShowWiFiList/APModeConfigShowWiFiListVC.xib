@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="APModeConfigShowWiFiListVC">
+            <connections>
+                <outlet property="chooseNetworkLabel" destination="2lb-Gr-vO1" id="KHR-cr-TCX"/>
+                <outlet property="configNetworkLabel" destination="Y7s-H9-mm1" id="8ja-R1-avm"/>
+                <outlet property="hideOrShowPWDBtn" destination="1OK-WR-UVh" id="nui-aR-7Jn"/>
+                <outlet property="passwordTxt" destination="6iK-1C-91G" id="TEX-dW-mR3"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wifiListTableView" destination="Pde-hY-UM2" id="UDf-DY-kdc"/>
+                <outlet property="wifiSSIDTxt" destination="Cda-77-SQW" id="Bgo-zn-UQA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="WIFI SSID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cda-77-SQW">
+                    <rect key="frame" x="15" y="51" width="345" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="a8q-O0-gg3"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="PASSWORD" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6iK-1C-91G">
+                    <rect key="frame" x="15" y="101" width="345" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="Joo-g1-fMl"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mpC-6B-BzH">
+                    <rect key="frame" x="318" y="55" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="eDk-6N-XQ1"/>
+                        <constraint firstAttribute="width" constant="30" id="tPD-l7-ccy"/>
+                    </constraints>
+                    <state key="normal" image="addev_Wifibtn.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1OK-WR-UVh">
+                    <rect key="frame" x="318" y="105" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="3oZ-cH-nYM"/>
+                        <constraint firstAttribute="height" constant="30" id="5gg-ky-huq"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="unshowPassword.png"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="为设备MV285配置网络" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y7s-H9-mm1">
+                    <rect key="frame" x="15" y="15" width="345" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="选择网络（暂不支持连接5GWiFi）" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2lb-Gr-vO1">
+                    <rect key="frame" x="15" y="171" width="345" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Pde-hY-UM2">
+                    <rect key="frame" x="0.0" y="208" width="375" height="159"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="1OK-WR-UVh" firstAttribute="trailing" secondItem="6iK-1C-91G" secondAttribute="trailing" constant="-12" id="3dG-eN-CHy"/>
+                <constraint firstItem="Y7s-H9-mm1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="4Ya-37-4gd"/>
+                <constraint firstItem="Pde-hY-UM2" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="GZy-uH-Gu4"/>
+                <constraint firstItem="Cda-77-SQW" firstAttribute="leading" secondItem="Y7s-H9-mm1" secondAttribute="leading" id="ISd-9O-d2L"/>
+                <constraint firstItem="6iK-1C-91G" firstAttribute="trailing" secondItem="Cda-77-SQW" secondAttribute="trailing" id="LfA-Oo-afh"/>
+                <constraint firstItem="6iK-1C-91G" firstAttribute="top" secondItem="Cda-77-SQW" secondAttribute="bottom" constant="12" id="Log-E7-Ywl"/>
+                <constraint firstItem="2lb-Gr-vO1" firstAttribute="top" secondItem="6iK-1C-91G" secondAttribute="bottom" constant="32" id="Nqe-g9-8Wj"/>
+                <constraint firstAttribute="trailing" secondItem="2lb-Gr-vO1" secondAttribute="trailing" constant="15" id="SEL-Rj-hiT"/>
+                <constraint firstItem="Cda-77-SQW" firstAttribute="top" secondItem="Y7s-H9-mm1" secondAttribute="bottom" constant="19" id="StF-Te-T4v"/>
+                <constraint firstItem="Y7s-H9-mm1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="15" id="TPX-ye-Vcb"/>
+                <constraint firstItem="Pde-hY-UM2" firstAttribute="top" secondItem="2lb-Gr-vO1" secondAttribute="bottom" constant="20" id="Tkk-Li-UgL"/>
+                <constraint firstItem="2lb-Gr-vO1" firstAttribute="leading" secondItem="6iK-1C-91G" secondAttribute="leading" id="Ujb-vK-UxJ"/>
+                <constraint firstItem="mpC-6B-BzH" firstAttribute="centerY" secondItem="Cda-77-SQW" secondAttribute="centerY" id="WLp-cS-Gr3"/>
+                <constraint firstItem="mpC-6B-BzH" firstAttribute="trailing" secondItem="Cda-77-SQW" secondAttribute="trailing" constant="-12" id="YRa-oy-A6J"/>
+                <constraint firstItem="1OK-WR-UVh" firstAttribute="centerY" secondItem="6iK-1C-91G" secondAttribute="centerY" id="YaC-Wg-sbV"/>
+                <constraint firstItem="6iK-1C-91G" firstAttribute="leading" secondItem="Cda-77-SQW" secondAttribute="leading" id="Zkj-1f-FvG"/>
+                <constraint firstAttribute="trailing" secondItem="Y7s-H9-mm1" secondAttribute="trailing" constant="15" id="en0-9E-ppX"/>
+                <constraint firstItem="Pde-hY-UM2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="mnK-2c-uQD"/>
+                <constraint firstAttribute="trailing" secondItem="Cda-77-SQW" secondAttribute="trailing" constant="15" id="nmk-bU-IXG"/>
+                <constraint firstAttribute="bottom" secondItem="Pde-hY-UM2" secondAttribute="bottom" constant="300" id="yue-el-mVT"/>
+            </constraints>
+            <point key="canvasLocation" x="25.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="addev_Wifibtn.png" width="60" height="60"/>
+        <image name="unshowPassword.png" width="50" height="50"/>
+    </resources>
+</document>

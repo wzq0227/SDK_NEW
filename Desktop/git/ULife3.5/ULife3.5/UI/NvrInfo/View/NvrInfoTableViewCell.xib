@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="NvrInfoTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="系统固件" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ztm-u4-3Po">
+                        <rect key="frame" x="15" y="11" width="70" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V9r-sH-lbW" userLabel="updateVersionView">
+                        <rect key="frame" x="85" y="1" width="10" height="10"/>
+                        <color key="backgroundColor" red="1" green="0.2086994472" blue="0.13333087909999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="V9r-sH-lbW" secondAttribute="height" multiplier="1:1" id="Fzg-3Y-l0i"/>
+                            <constraint firstAttribute="width" constant="10" id="UC2-Gd-71f"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.0.0.125" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1a-pP-lEU">
+                        <rect key="frame" x="255.5" y="15" width="49.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sbJ-Ot-Qr3" userLabel="lineView">
+                        <rect key="frame" x="0.0" y="43.5" width="320" height="0.5"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="7rB-0Q-45I"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="J1a-pP-lEU" firstAttribute="centerY" secondItem="ztm-u4-3Po" secondAttribute="centerY" id="6fg-a0-Ih5"/>
+                    <constraint firstItem="ztm-u4-3Po" firstAttribute="top" secondItem="V9r-sH-lbW" secondAttribute="bottom" id="UDo-Kq-jgd"/>
+                    <constraint firstItem="V9r-sH-lbW" firstAttribute="leading" secondItem="ztm-u4-3Po" secondAttribute="trailing" id="fLy-iR-FnK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="sbJ-Ot-Qr3" secondAttribute="trailing" id="2H7-d6-vMW"/>
+                <constraint firstAttribute="trailing" secondItem="J1a-pP-lEU" secondAttribute="trailing" constant="15" id="Okr-Q1-hhL"/>
+                <constraint firstAttribute="bottom" secondItem="sbJ-Ot-Qr3" secondAttribute="bottom" id="gQ9-0a-xeU"/>
+                <constraint firstItem="ztm-u4-3Po" firstAttribute="centerY" secondItem="KGk-i7-Jjw" secondAttribute="centerY" id="h9E-bq-yT3"/>
+                <constraint firstItem="sbJ-Ot-Qr3" firstAttribute="leading" secondItem="KGk-i7-Jjw" secondAttribute="leading" id="lJ9-Lx-7BO"/>
+                <constraint firstItem="ztm-u4-3Po" firstAttribute="leading" secondItem="KGk-i7-Jjw" secondAttribute="leading" constant="15" id="vJl-b5-bDI"/>
+            </constraints>
+            <connections>
+                <outlet property="infoKeyLabel" destination="ztm-u4-3Po" id="IkU-t7-qfz"/>
+                <outlet property="infoValueLabel" destination="J1a-pP-lEU" id="T10-ny-hAp"/>
+                <outlet property="updateVersionTipsView" destination="J1a-pP-lEU" id="QA7-l0-hlm"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

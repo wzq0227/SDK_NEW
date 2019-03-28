@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ForgetView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Dbw-Y9-V5y" customClass="TPKeyboardAvoidingTableView">
+                    <rect key="frame" x="0.0" y="44" width="375" height="260"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="260" id="X9P-fd-Eco"/>
+                    </constraints>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ICO-uR-Qhs">
+                    <rect key="frame" x="30" y="344" width="315" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="6Sm-c9-fMR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="Button"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZDh-BX-p5E">
+                    <rect key="frame" x="38.5" y="444" width="298" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ZDh-BX-p5E" secondAttribute="trailing" constant="38.5" id="Jl1-yM-qhW"/>
+                <constraint firstItem="ICO-uR-Qhs" firstAttribute="top" secondItem="Dbw-Y9-V5y" secondAttribute="bottom" constant="40" id="KeL-MK-2LI"/>
+                <constraint firstItem="Dbw-Y9-V5y" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="44" id="P7t-Md-Fvf"/>
+                <constraint firstItem="Dbw-Y9-V5y" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aPd-yQ-rkD"/>
+                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="ZDh-BX-p5E" secondAttribute="bottom" constant="23" id="d2q-dE-oT1"/>
+                <constraint firstItem="ZDh-BX-p5E" firstAttribute="top" secondItem="ICO-uR-Qhs" secondAttribute="bottom" constant="60" id="duD-7m-IHS"/>
+                <constraint firstAttribute="trailing" secondItem="ICO-uR-Qhs" secondAttribute="trailing" constant="30" id="jgn-Ut-zVy"/>
+                <constraint firstItem="ICO-uR-Qhs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="ksr-jI-gBx"/>
+                <constraint firstItem="ZDh-BX-p5E" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="38.5" id="lqY-3L-Z50"/>
+                <constraint firstAttribute="trailing" secondItem="Dbw-Y9-V5y" secondAttribute="trailing" id="s3M-Qe-FnK"/>
+            </constraints>
+            <connections>
+                <outlet property="NextBtn" destination="ICO-uR-Qhs" id="JPg-zf-KwU"/>
+                <outlet property="helpLabel" destination="ZDh-BX-p5E" id="MH2-nX-AHD"/>
+                <outlet property="myForgetTableView" destination="Dbw-Y9-V5y" id="dXE-dD-8Ti"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="114.5"/>
+        </view>
+    </objects>
+</document>

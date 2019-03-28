@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="WIFI SSID" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gZN-kE-bRM">
+                    <rect key="frame" x="16" y="22" width="343" height="40"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="8A9-J5-TVb"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PASSWORD" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="27b-Hw-dXp">
+                    <rect key="frame" x="16" y="80" width="343" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="7yS-hp-BPy"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRX-vs-ZnT">
+                    <rect key="frame" x="319" y="85" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="6f2-o0-iOe"/>
+                        <constraint firstAttribute="height" constant="30" id="hvC-JG-RcT"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="unshowPassword.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JV4-DQ-R3g">
+                    <rect key="frame" x="319" y="27" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="IvE-D2-3dJ"/>
+                        <constraint firstAttribute="width" constant="30" id="xw9-vP-ZYN"/>
+                    </constraints>
+                    <state key="normal" image="addev_Wifibtn.png"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="JV4-DQ-R3g" firstAttribute="centerY" secondItem="gZN-kE-bRM" secondAttribute="centerY" id="37f-mc-Mtr"/>
+                <constraint firstItem="fRX-vs-ZnT" firstAttribute="trailing" secondItem="27b-Hw-dXp" secondAttribute="trailing" constant="-10" id="DD2-DB-tO0"/>
+                <constraint firstItem="gZN-kE-bRM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="FmJ-Rh-mnT"/>
+                <constraint firstItem="27b-Hw-dXp" firstAttribute="centerX" secondItem="gZN-kE-bRM" secondAttribute="centerX" id="M8O-Q3-Jkb"/>
+                <constraint firstItem="27b-Hw-dXp" firstAttribute="top" secondItem="gZN-kE-bRM" secondAttribute="bottom" constant="18" id="Rz2-TB-tjX"/>
+                <constraint firstItem="fRX-vs-ZnT" firstAttribute="centerY" secondItem="27b-Hw-dXp" secondAttribute="centerY" id="TRd-6k-c6s"/>
+                <constraint firstItem="27b-Hw-dXp" firstAttribute="leading" secondItem="gZN-kE-bRM" secondAttribute="leading" id="UMl-Sf-yEb"/>
+                <constraint firstItem="gZN-kE-bRM" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="22" id="qGw-WH-9FN"/>
+                <constraint firstItem="JV4-DQ-R3g" firstAttribute="trailing" secondItem="gZN-kE-bRM" secondAttribute="trailing" constant="-10" id="sQp-Dg-ER8"/>
+                <constraint firstItem="gZN-kE-bRM" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="xot-Ms-Loa"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="addev_Wifibtn.png" width="60" height="60"/>
+        <image name="unshowPassword.png" width="50" height="50"/>
+    </resources>
+</document>

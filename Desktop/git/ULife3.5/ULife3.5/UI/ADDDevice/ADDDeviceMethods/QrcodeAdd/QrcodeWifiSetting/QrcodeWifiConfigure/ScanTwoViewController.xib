@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScanTwoViewController">
+            <connections>
+                <outlet property="IHeardBtn" destination="3MC-DQ-Xfb" id="JzH-Yq-Osj"/>
+                <outlet property="NoVoiceBtn" destination="zaM-4G-Fcv" id="ilo-de-Hrn"/>
+                <outlet property="QRCodeView" destination="heD-OJ-pqc" id="N3f-iO-gx7"/>
+                <outlet property="textLabel" destination="wKp-Bl-fya" id="xcs-2u-Pxw"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="heD-OJ-pqc">
+                    <rect key="frame" x="5" y="49" width="365" height="365"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="heD-OJ-pqc" secondAttribute="height" id="bmE-N4-3Su"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您是否听到  &quot;哔哔&quot;  的声音" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKp-Bl-fya">
+                    <rect key="frame" x="82.5" y="416" width="210" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="202" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3MC-DQ-Xfb" customClass="TsButton">
+                    <rect key="frame" x="30" y="438" width="315" height="40"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Dlz-cB-Bsy"/>
+                    </constraints>
+                    <state key="normal" title="我听到了">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.91777203240000005" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="OkSoundBtn:" destination="-1" eventType="touchUpInside" id="dN2-Sb-FOj"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="203" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaM-4G-Fcv">
+                    <rect key="frame" x="30" y="483" width="315" height="40"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="ahi-eD-TK4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="没有任何声音">
+                        <color key="titleColor" red="0.42745098040000001" green="0.37647058820000001" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="NotSoundBtn:" destination="-1" eventType="touchUpInside" id="zFD-jI-Xh7"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="heD-OJ-pqc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="1PJ-ej-w78"/>
+                <constraint firstItem="wKp-Bl-fya" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="82.5" id="GC6-6k-8y9"/>
+                <constraint firstItem="wKp-Bl-fya" firstAttribute="top" secondItem="heD-OJ-pqc" secondAttribute="bottom" constant="2" id="PRr-e3-Mu4"/>
+                <constraint firstAttribute="trailing" secondItem="wKp-Bl-fya" secondAttribute="trailing" constant="82.5" id="QIN-dK-0uF"/>
+                <constraint firstAttribute="trailing" secondItem="zaM-4G-Fcv" secondAttribute="trailing" constant="30" id="T3d-xu-2Y1"/>
+                <constraint firstItem="heD-OJ-pqc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="48.5" id="VMR-M7-D9s"/>
+                <constraint firstItem="3MC-DQ-Xfb" firstAttribute="top" secondItem="wKp-Bl-fya" secondAttribute="bottom" constant="5" id="Ykm-A3-CRL"/>
+                <constraint firstItem="3MC-DQ-Xfb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="bls-Gi-EHX"/>
+                <constraint firstAttribute="trailing" secondItem="3MC-DQ-Xfb" secondAttribute="trailing" constant="30" id="fOn-55-Pwg"/>
+                <constraint firstItem="zaM-4G-Fcv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="gcG-3Q-M1W"/>
+                <constraint firstAttribute="trailing" secondItem="heD-OJ-pqc" secondAttribute="trailing" constant="5" id="oGe-UB-Lo5"/>
+                <constraint firstItem="zaM-4G-Fcv" firstAttribute="top" secondItem="3MC-DQ-Xfb" secondAttribute="bottom" constant="5" id="z7A-Cf-mBm"/>
+            </constraints>
+            <point key="canvasLocation" x="190.5" y="197.5"/>
+        </view>
+    </objects>
+</document>

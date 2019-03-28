@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="YFh-Eq-29O" customClass="ChangPwdView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="U6C-tw-6NO" customClass="TPKeyboardAvoidingTableView">
+                    <rect key="frame" x="0.0" y="44" width="375" height="222"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="222" id="yEf-LO-VCi"/>
+                    </constraints>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vxf-F8-q1J">
+                    <rect key="frame" x="39" y="373" width="297" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="RegisterBtn:" destination="YFh-Eq-29O" eventType="touchUpInside" id="3VT-js-7nO"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="U6C-tw-6NO" firstAttribute="leading" secondItem="YFh-Eq-29O" secondAttribute="leading" id="FDg-9W-AEh"/>
+                <constraint firstItem="U6C-tw-6NO" firstAttribute="top" secondItem="YFh-Eq-29O" secondAttribute="top" constant="44" id="H9T-rg-ft5"/>
+                <constraint firstAttribute="trailing" secondItem="U6C-tw-6NO" secondAttribute="trailing" id="crx-cE-eOn"/>
+            </constraints>
+            <connections>
+                <outlet property="NextBtn" destination="Vxf-F8-q1J" id="ppv-Uz-z56"/>
+                <outlet property="myTableView" destination="U6C-tw-6NO" id="uzb-CT-UuD"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="100.5"/>
+        </view>
+    </objects>
+</document>

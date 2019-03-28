@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NoDeviceToAddGuide">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="APDoorbell_Doorbell.png" translatesAutoresizingMaskIntoConstraints="NO" id="nHK-1W-9Yh">
+                    <rect key="frame" x="139.5" y="40" width="95" height="175"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="nHK-1W-9Yh" secondAttribute="height" multiplier="182:335" id="unq-6C-GZS"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNa-WI-7F5">
+                    <rect key="frame" x="50" y="245" width="274" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="ZOK-aZ-6er">
+                    <rect key="frame" x="0.0" y="293" width="375" height="374"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fNa-WI-7F5" firstAttribute="centerX" secondItem="nHK-1W-9Yh" secondAttribute="centerX" id="2Qg-ix-LMQ"/>
+                <constraint firstItem="fNa-WI-7F5" firstAttribute="top" secondItem="nHK-1W-9Yh" secondAttribute="bottom" constant="30" id="8LW-hL-bJQ"/>
+                <constraint firstItem="nHK-1W-9Yh" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="182:720" id="D70-V5-SaA"/>
+                <constraint firstItem="nHK-1W-9Yh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="Xp1-nu-x9X"/>
+                <constraint firstItem="nHK-1W-9Yh" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="eBf-c1-npx"/>
+                <constraint firstItem="fNa-WI-7F5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="50" id="i1a-cw-Z6M"/>
+                <constraint firstItem="ZOK-aZ-6er" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="nCG-2h-B53"/>
+                <constraint firstAttribute="bottom" secondItem="ZOK-aZ-6er" secondAttribute="bottom" id="rh3-H4-Uke"/>
+                <constraint firstItem="ZOK-aZ-6er" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="rw6-bh-TxJ"/>
+                <constraint firstItem="ZOK-aZ-6er" firstAttribute="top" secondItem="fNa-WI-7F5" secondAttribute="bottom" constant="30" id="yUa-yQ-NCl"/>
+            </constraints>
+            <connections>
+                <outlet property="deviceNameTableView" destination="ZOK-aZ-6er" id="zel-kd-oJl"/>
+                <outlet property="doorbellImageView" destination="nHK-1W-9Yh" id="Fb5-fn-vxi"/>
+                <outlet property="noDeviceToAddTipLabel" destination="fNa-WI-7F5" id="fT2-ED-Lnb"/>
+            </connections>
+            <point key="canvasLocation" x="32.5" y="63.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="APDoorbell_Doorbell.png" width="182" height="335"/>
+    </resources>
+</document>

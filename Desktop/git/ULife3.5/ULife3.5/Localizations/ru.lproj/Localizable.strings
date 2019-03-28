@@ -1,0 +1,409 @@
+{
+	"localizied_9"  = "Сбой сохранения";
+	"localizied_10" = "Сохранить успеха.";
+    "localizied_142" = "Сетевое отключение";
+	"localizied_252" = "password";
+    "Setting_NextStep" = "Следующий шаг";
+	"localizied_265" = "the second step to install";
+	"localizied_266" = "Notice: Please connect cable to the router at one end, to camera at the other end, and mobile phone connect to wireless network of the router.";
+	"localizied_267" = "Please input password";
+	"Title_Confirm" = "Да";
+	"localizied_269" = "Вернуть";
+	"localizied_270" = "Have searched the camera";
+	"localizied_271" = "Set DHCP successfully";
+	"localizied_272" = "Setting...";
+	"localizied_273" = "No Searched camera";
+	"localizied_274" = "DHCP is setting";
+	"localizied_275" = "Whether to set up wireless function";
+	"localizied_276" = "Да";
+	"localizied_277" = "No";
+	"localizied_278" = "Notice: Please connect cable to the router at one end, to camera at the other end, and mobile phone connect to wireless network of the router.If it can not be found through search, please reset camera.";
+	"localizied_279" = "Please input SSID and password of router wireless network, you can click the right button to select among the history.";
+	"Setting_Cancel" = "Отмена";
+	"localizied_281" = "No records";
+	"localizied_282" = "Название сети Wi-Fi";
+	"localizied_283" = "Пожалуйста, подтвердите, если WiFi SSID и пароля: ";
+	"localizied_284" = "Correct";
+	"localizied_285" = "Setting";
+	"Setting_Done" = "Сохранить";
+	"localizied_293" = "Ошибка подключения";
+	"localizied_294" = "Время ожидания запроса";
+	"localizied_295" = "Prohibited operations";
+	"localizied_298" = "Password error";
+    "localizied_304" = "Раздвигая Настройка сообщений";
+    "localizied_305" = "About";
+    "localizied_306" = "Версия";
+    "localizied_307" = "Logout";
+    "Setting_Setting" = "Настройка";
+    "localizied_309" = "Add camera";
+    "localizied_310" ="Запроса истекло, потяните вниз, чтобы обновить";
+    "localizied_312" ="Password can not be empty";
+    "localizied_316" ="Общий ресурс для друзей";
+    "DevInfo_DevName" ="Имя устройства";
+    "Title_Delete" = "Удалить";
+    "localizied_372" = "успешно удалено";
+    "localizied_373" = "Сбой удаления";
+    "localizied_386"="времени сети из";
+    "firmware_version"="Версия ПО";
+    "system_firmware"="Версия встроенного ПО";
+    "localizied_398"="Да";
+    "localizied_400"="освежение";
+    "localizied_401"="Loosen to prompt refresh";
+    "localizied_402"="Last update";
+    "localizied_404"="Запись вручную";
+    "localizied_426"="Today";
+    "localizied_437"="Потяните вниз, чтобы обновить";
+    "localizied_440"="Вы уверены, чтобы удалить камеру из списка?";
+    "Operation_Succeeded"="Настройка выполнена успешно.";
+    "localizied_450"="From";
+    
+    
+    
+    
+    "localizied_451"="New share camera add";
+    "localizied_452"="Shared camera removed";
+    
+    
+    
+    "localizied_459"="Обнаружение движения";
+    
+    
+    
+    
+    "localizied_467"="Добавить камеру";
+    
+    "localizied_471"="The generating QR code is used for the camera read and connects to WI-FI network .";
+    
+    
+    
+    
+    
+    
+    "localizied_472"="You can obtain available network from the list when you click on the wireless network icon.";
+    
+    "localizied_474"="Добавить общий ресурс для друзей";
+    
+    
+    
+    "localizied_481"="Выполняется подключение";
+    
+    "localizied_486"="успешно добавлен";
+    "localizied_498"="U-life Plus is an Internet-based video service platform. It enables separate IP and 3G cameras to register on the platform. By loading a U-life Plus software  to the iphone, ipad client end, Users can freely monitor and control multiple video devices. ";
+    
+    
+    
+    "localizied_499"="  The U-life Plus System adopts latest P2P penetrating technology, makes easy registration and management of video IP cameras possible; The cloud computing technology allows user to monitor same account from different devices at the same time. The U-life Plus system could also be specially applied to many other industrial fields.";
+    
+    
+    "localizied_507"="Logging out.";
+    "localizied_511"="WDR";
+    "Operation_Failed"="Сбой настройки";
+    
+    
+    
+    
+    
+    "localizied_520"="Отразить горизонтально";
+    
+    
+    
+    "vertical_rate" = "Отразить вертикально";
+    "localizied_521"="Частая операция";
+    "localizied_522"="Открыть видео не удалось";
+    
+    "uploadRingSuccess" = "upload success";
+    "localizied_00187"="Temperature";
+    "my_device" = "список устройств";
+    "Message" = "Сообщение";
+    "Remove" = "Remove";
+    "select_all" = "select all";
+    "Warning_string" = "Warning";
+    "ip_title" = "The serve is located in China";
+    "Bark_title" = "Bark";
+    "Siren_title" = "Siren";
+    "online" = "%@ Online";
+	"offline" = "%@ Offline";
+	"VIDEO_MOTION" = "%@ Motion detection alarm.";
+	"PIR_MOTION" = "%@ PIR detection alarm.";
+	"PIR_VIDEO_MOTION" = "%@ Human detection and motion detection alarm";
+	"IO_ALARM" = "%@ Alarm trigger";
+	"New item - 5" = "";
+	"New item - 6" = "";
+	"New item - 7" = "";
+	"New item - 8" = "";
+	"New item - 9" = "";
+    
+    "Name"="Name:";
+    "Name_placeholder"="Please input the name of the camera";
+    "UID_placeholder"="Please Scan QR code";
+    "Scan_error"="Scan QR code is error";
+    "Scan_desc"="Please place the QR code inside the viewfinder rectangle";
+    "tip0_desc"="Step1: please press SET key about 1 second";
+    "tip1_desc"="Step2: Select the wifi which the camera will connect";
+    "tip"="prompt";
+    "connect_tip"="Connection timed out";
+    "reconnect_tip"="Повторно подключить";
+    "serial_number"="Serial number";
+    "Mac_add"="MAC-адрес";
+    "camera_info_success"="Get camera information successfully ";
+    "camera_info_error"="Request timeout，please acquire the device information again.";
+    "request_time_refresh"="Request timeout，please refresh or check the current connection status";
+    "not_connected"="Not Connected";
+    
+    "camera_no_connect"="Отключения камеры";
+    "network_error"="Недействительная сеть";
+    "cammera_no_bind"="Проверьте, есть ли онлайн камера или камера была переплетены";
+    "camera_pwd_error"="Password error";
+
+    "Video_suceess"="Прием видеоданных";
+    "audio_success"="Прием звуковых данных";
+    "PTZ"="Управление Pan-Tilt";
+    "Record_begin"="Record_begin";
+    "record_end"="Конец записи";
+    
+    "Speaking_success"="Отправка выполнена успешно";
+    "Speaking_begin"="Start Talking";
+    "Speaking_end"="End Of Talking";
+    
+    "record_no"="Video record ongoing, if you need to do other operation, please stop the recording ";
+    "record_no_audio"="Video record ongoing，please do not turn off voice";
+    
+    "save_image"="Image saved to Photos";
+    "save_video"="Video saved to Photos";
+    
+    "connect_success"="Подключение выполнено успешно";
+    "load_data"="Скачивание";
+    "reloadBtn"="Перезагрузка";
+    "load_fail"= "Loading Failed";
+    "Camera_Push_Settings"="Camera Push Settings";
+    "PTZ_control" = "Pan-Tilt Control";
+    "Infrared_detection" = "Инфракрасное обнаружение";
+    "push_regist_sucesee" = "Push to Register";
+    "push_regist_error" = "Push the registration failed";
+    "WIFI_add" = "Добавить сеть Wi-Fi";
+    
+    "Video_return_paly" = "Повторное воспроизведение видеозаписи";
+    "i_can" = "I know";
+    "No_Have_Video" = "Файл отсутствует";
+    "Video" = "Видеозапись";
+    "pic" = "Фотография";
+    "not_have_Video"="Нет записи";
+    "that_time_not_have_file"="не в этот момент времени ни одного файла";
+    "data_unsuceess"="Доступ к данным не удалось";
+    "download_unsuccess"="Сбой скачивания";
+    "download_end"="скачивание остановлено";
+    "delete_file_success"="File Successfully";
+    "delete_file_unsuccess"="File Failured";
+    "download_file"="Загрузка файла";
+    "complete_end"="Finished";
+    "nothing_tittle"="В камеру не вставлена карта памяти.";
+    "nothing_idea_one"="Камера будет вести автоматическую запись, если вставить карту памяти TF (microSD).";
+    "nothing_idea_two"="Поддержка максимум 32 ГБ";
+    "nothing_idea_three"="Не удается определить тип карты памяти. Вставьте ее повторно.";
+    "nothing_idea_four"="Убедитесь в том, что формат файловой системы карты памяти FAT32";
+    "help_tittle"="In the “settings” of iPhone-“Privacy”-“Camera” to find";
+    "help_tittle_two"="Open access to the Camera";
+    "heip_tittle_three"="Wrong QR Code Format";
+    "set_Wifi"= "Настройка Wi-Fi";
+    "my_ipc"="Мое устройство";
+    "Ipc_unonline"="Устройство не в сети";
+    "about_us"="О компании";
+    "contact_us"="Связаться с нами";
+    "contact"="Connected";
+    "question"="Неполадки общего характера";
+    "tip_imformation"="Warning";
+    "set_push"="Настройка push-сообщений";
+    "test"="контрольная работа";
+    "move"="Mobile";
+    "tip_help"="Запроса истекло, обновить или проверить состояние подключения";
+    "change_success"="Change Successfully";
+    "change_unsuccess"="Change Failed";
+    "refresh_videolist"="Device not connected, please check the connection condition and refresh";
+    "used_storage"="Использованный объем памяти";
+    "free_storage"="Доступный объем памяти";
+    "DevInfo_DevID"="Идентификатор устройства";
+    "pic_date"="Device Parameter";
+    "storage_space"="Объем памяти";
+    "Format_SD_card"="Confirm to format SD card";
+    "Format"="Форматирование карты SD";
+    "Format_SD_card_success"="Форматирование карты SD выполнено успешно";
+    "Format_SD_card_unsuccess"="сбой";
+    "delete_pic"="Удалить устройство";
+    "camera_info"="Сведения об устройстве";
+    "wifi_setting"="Настройка Wi-Fi";
+    "not_have_sd_0"="Нет карты, не позволяют записывать";
+    "not_have_sd_1"="Карта неправильно, не позволяют записывать";
+    "not_have_sd_2"="Нет достаточно хранения, не позволяют записывать";
+    "not_have_sd_3"="Запись, работающие не позволяют";
+    "not_have_sd_4"="Запись, работает слишком часто";
+    "share_friend_active"="Отменить <поделиться с другом>: Удалить это устройство, чтобы остановить совместно с другом. (Повторно добавьте камеру, чтобы использовать его снова)";
+    "help_header_title"="Решения при сбое во время добавления";
+    "help_title_1"="1: Проверьте, нет ли специальных символов в названии сети Wi-Fi и пароле, а также переведен ли переключатель DHCP роутера в открытое положение.";
+    "help_title_2"="2: Проверьте, подключена ли сеть Wi-Fi 2.4G вместо Wi-Fi 5G.";
+    "help_title_3"="3: Проверьте правильность пароля.";
+    "help_title_4"="4: Проверьте, установлена ли в роутере защита MAC-адреса.";
+    "help_title_5"="5: При подключении рекомендуется располагать устройство рядом с роутером. ";
+    "help_title_6"="6: If wireless adding way failed, connect the device and router with cable";
+    "back_wifi"="Вернуться на страницу Configure Wi-Fi";
+    "back_add_pic"="Вернуться на страницу Add Camera";
+    "Hight"="ЧАС";
+    "medium"="M";
+    "low"="L";
+    "off"="OFF";
+    "Add device"="Добавить устройство";
+    "Wired add"="Add with cable";
+    "personal"="Персональный центр";
+    "tfSSID_placeholder"="WiFi Name";
+    "tfPassword_placeholder"="WiFi Password";
+    "Get_data_success"="Get Data Success";
+    "Get_data_failed"="Get Data Failed";
+    "Saving failed"="Сбой сохранения";
+    "Equipment has been added"="Equipment has been added";
+    "Error_QR"="Error_QR";
+    "1.Please check whether the device connect the router with the cable."="1.Please check whether the device connect the router with the cable.";
+    "2.Please confirm whether the router and the mobile phone in the same segment"="2.Please confirm whether the router and the mobile phone in the same segment";
+    "play_Record"="Устройство записи";
+    "play_Snapshot"="Захватить";
+    "play_Joystick"="Джойстик";
+    "play_Talk"="Динамик";
+    "play_Sound"="Голосовое сообщение";
+    "IP Camera"="IP-камера";
+    "about us text"="U-life is a video service platform which base on Internet. User can register,log on the individual IP and 3G camera via this platform. U-life apply to Iphone,Ipad,Android and PC, which use P2P to realize  user register and manage IP camera easily .It unique cloud computing allows user surveil one device on several mobile device at the same time.U-life system can also apply to other business areas.";
+    "Company name"="Shenzhen Gospell Smarthome Electronic Co., Ltd.";
+    "company address"="Company Address: F12, F518 Idea Land, Baoyuan Road,Baoan Central Area,Shenzhen,P.R.China";
+    "zip code"="Post code: 518102";
+    "Tel"="Tel: 86-755-26716688-8677";
+    "Fax"="Fax: 86-755-26716099";
+    "E-mail"="E-mail:  sales@goscam.com";
+    
+    "iRouter_account" = "User Name";
+    "account_short_error" = "Please enter a user name of at least 6 characters.";
+    "account_long_error" = "The use name is more than 32 characters.";
+    "account_exist_error" = "Счет существует";
+    "account_not_exist_error" = "Аккаунт не существует.";
+    
+    "iRouter_email" = "Email";
+    "email_error" = "The email address is invalid";
+    
+    "iRouter_password" = "Password";
+    "password_short_error" = "Пожалуйста, введите пароль не менее 6 символов.";
+    "password_long_error" = "Пароль не требуется не более 32 символов.";
+    "password_error" = "Неправильный пароль.";
+    
+    "iRouter_Confirm_password" = "Confirm password";
+ 
+    
+    "iRouter_Sign_up" = "Sign Up";
+    "Sign_Up_now" = "Sign Up Now";
+
+    
+    "iRouter_Sign_in" = "Sign In";
+    "iRouter_Sign_up_error" = "The login timed out. Please check your internet connection.";
+    
+    "forgot_password" = "Forgot passwrod";
+    "iRouter_validated_code" = "validated code";
+    "validated code_error" = "The validated code is error.";
+    "validated_code_invaild"= "The validated code is invalid";
+   
+    "validated_code_send_success" = "Отправка прошла успешно. Пожалуйста, найдите подтвержденный код в вашем почтовом ящике.";
+    
+    "new_password" = "New Password";
+    "confirm_new_password" = "Confirm New passwrod";
+    
+    "Reset_password" = "Reset password";
+    "Reset_password_error" = "The network request timed out. Please check your internet connection.";
+
+    
+    "iRouter_account" = "User Name";
+    "account_short_error" = "Имя пользователя слишком коротка, нужно 6 символов по крайней мере";
+    "account_long_error" = "Имя пользователя слишком долго, не более 32 символов.";
+    "account_exist_error" = "The account already exists.";
+   
+    
+    "iRouter_email" = "Email";
+    "email_error" = "Адрес электронной почты является недействительным";
+    
+    "iRouter_password" = "Password";
+    "password_short_error" = "Пожалуйста, введите пароль не менее 6 символов.";
+    
+    "iRouter_Confirm_password" = "Confirm password";
+    "iRouter_Confirm_password_error" = "Пароли не совпадают.";
+    
+    "iRouter_Sign_up" = "Sign Up";
+    "Sign_Up_now" = "Sign Up Now";
+    "Sign_up_error" = "Сетевой запрос тайм-аут. Пожалуйста, проверьте подключение к интернету.";
+    "Sign_up_success" = "Поздравляем с успешной регистрации";
+    
+    
+    
+    "iRouter_Sign_In" = "Sign In";
+    "iRouter_Sign_In_error" = "Войти тайм-аут. Пожалуйста, проверьте подключение к интернету.";
+    
+    "forgot_password" = "Forgot passwrod";
+    "iRouter_validated_code" = "validated code";
+    "validated code_error" = "Код подтверждения ошибки.";
+    "validated_code_invaild"= "Код подтверждения недействителен.";
+    "validated_code_send_error"= "Отправка failure.Please проверьте подключение к Интернету.";
+  
+    "new_password" = "New Password";
+    "confirm_new_password" = "Confirm New passwrod";
+    
+    "Reset_password" = "Reset password";
+    "Reset_password_error" = "The network request timed out. Please check your internet connection.";
+    "Reset_password_success" = "Сброс в исходное состояние является успешным.";
+    
+    "iRouter_Logout" = "Log out";
+    "doesn't have a camera"="当前账号下没有摄像头,请添加摄像头";
+    "Please enter this application from the easy life client"= "请从易生活客户端进入本应用";
+    "Temperature alarm" = "Temperature alarm";
+    "currentPassword"="current password";
+    "New password" = "New password";
+    "confirmPassword"= "Confirm new password";
+    "refresh"="refresh";
+    
+    "deviceHaveBinded" = "Оборудование уже связано";
+    "bindedFailure" = "Bind терпит неудачу";
+    "haveSpecialCharacter" = "Ввод содержит специальные символы";
+    
+    
+    
+    //Setting
+    "Setting_CameraSwitch" = "CameraSwitch";
+    "Setting_DetectSensitiivty" = "DetectSensitiivty";
+    "Setting_LightDuration" = "LightDuration";
+    
+    "Setting_PIRDetection" = "PIRDetection";
+    "Setting_CameraMicrophone" = "CameraMicrophone";
+    "Setting_CellularDataAutoPause" = "CellularDataAutoPause";
+    "Setting_CloudService" = "CloudService";
+    "Setting_ManualRecord" = "ManualRecord";
+    
+    "Setting_StatusIndicator" = "StatusIndicator";
+    "Setting_RotateSemicircle" = "RotateSemicircle";
+    "Setting_NightVersion" = "NightVersion";
+    "Setting_ShareWithFriends" = "ShareWithFriends";
+    "Setting_WiFiSetting" = "WiFiSetting";
+    "Setting_DeviceInfo" = "DeviceInfo";
+    
+    "Setting_Detail_OrderNow" = "Order Now";
+    
+    "Setting_Group_Camera" = "Camera";
+    "Setting_Group_NormalAction" = "Normal Action";
+    "Setting_Group_CloudService" = "Cloud Service";
+    "Setting_Group_ManualRecord" = "TFCard Record";
+    "Setting_Group_Hardware" = "Hardware";
+    "Setting_Group_Share" = "Share";
+    "Setting_Group_DetailInfo" = "Detail Info";
+    "Setting_DeleteDevice"  =   "Delete Device";
+    
+    
+    // 推送
+    "OpenPushSuccess"  = "打开推送成功";
+    "OpenPushFailure"  = "打开推送失败";
+    "ClosePushSuccess" = "关闭推送成";
+    "ClosePushFailure" = "关闭推送失败";
+    
+    "DeletePushMsgTipMsg" = "确定要删除已选择的推送消息吗？";
+
+
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NvrSettingViewController">
+            <connections>
+                <outlet property="nvrDeleteDevBtn" destination="Fp8-s6-AAx" id="ITo-Go-qJB"/>
+                <outlet property="nvrSettingTableView" destination="bTM-BX-xQ6" id="ofs-Fu-WPW"/>
+                <outlet property="tableViewHeightConstraint" destination="ZZd-on-1lL" id="REv-HX-JgS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bTM-BX-xQ6">
+                    <rect key="frame" x="0.0" y="20" width="375" height="88"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="88" id="ZZd-on-1lL"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="UDv-aH-u5A"/>
+                        <outlet property="delegate" destination="-1" id="cDB-u9-qHc"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fp8-s6-AAx">
+                    <rect key="frame" x="0.0" y="533" width="375" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="Vch-wG-XUJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="删除设备">
+                        <color key="titleColor" red="1" green="0.2086994472" blue="0.13333087909999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </state>
+                    <connections>
+                        <action selector="nvrDeleteDevBtnAction:" destination="-1" eventType="touchUpInside" id="5NC-kM-gcG"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Fp8-s6-AAx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="OlU-xs-dgq"/>
+                <constraint firstAttribute="trailing" secondItem="bTM-BX-xQ6" secondAttribute="trailing" id="SnM-U8-4bi"/>
+                <constraint firstAttribute="trailing" secondItem="Fp8-s6-AAx" secondAttribute="trailing" id="U2D-IZ-vfL"/>
+                <constraint firstItem="bTM-BX-xQ6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="YKi-PZ-Mlr"/>
+                <constraint firstItem="bTM-BX-xQ6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="nH4-SD-oVj"/>
+                <constraint firstAttribute="bottom" secondItem="Fp8-s6-AAx" secondAttribute="bottom" constant="90" id="yQl-I2-s5W"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="113.5"/>
+        </view>
+    </objects>
+</document>

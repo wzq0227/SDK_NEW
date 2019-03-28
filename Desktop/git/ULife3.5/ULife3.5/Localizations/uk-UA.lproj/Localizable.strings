@@ -1,0 +1,336 @@
+{
+	"localizied_9"  = "Не вдалося зберегти";
+	"localizied_10" = "зберегти успіху";
+    "localizied_142" = "Мережеве відключення";
+	"localizied_252" = "Пароль";
+    "Setting_NextStep" = "Наступний крок";
+	"localizied_265" = "the second step to install";
+	"localizied_266" = "Notice: Please connect cable to the router at one end, to camera at the other end, and mobile phone connect to wireless network of the router.";
+	"localizied_267" = "Please input password";
+	"Title_Confirm" = "Так";
+	"localizied_269" = "повернення";
+	"localizied_270" = "Have searched the camera";
+	"localizied_271" = "Set DHCP successfully";
+	"localizied_272" = "Setting...";
+	"localizied_273" = "No Searched camera";
+	"localizied_274" = "DHCP is setting";
+	"localizied_275" = "Whether to set up wireless function";
+	"localizied_276" = "Так";
+	"localizied_277" = "No";
+	"localizied_278" = "Notice: Please connect cable to the router at one end, to camera at the other end, and mobile phone connect to wireless network of the router.If it can not be found through search, please reset camera.";
+	"localizied_279" = "Please input SSID and password of router wireless network, you can click the right button to select among the history.";
+	"Setting_Cancel" = "Скасувати";
+	"localizied_281" = "No records";
+	"localizied_282" = "Назва WiFi";
+	"localizied_283" = "Будь ласка, підтвердіть, якщо WiFi SSID і пароля: ";
+	"localizied_284" = "Correct";
+	"localizied_285" = "Setting";
+	"Setting_Done" = "зберегти";
+	"localizied_293" = "Підключення не вдалося";
+	"localizied_294" = "Час очікування запиту";
+	"localizied_295" = "Prohibited operations";
+	"localizied_298" = "Password error";
+    "localizied_304" = "Розсуваючи Налаштування повідомлень";
+    "localizied_305" = "About";
+    "localizied_306" = "Версія";
+    "localizied_307" = "Logout";
+    "Setting_Setting" = "Налаштування";
+    "localizied_309" = "Add camera";
+    "localizied_310" ="Запиту минув, потягніть вниз, щоб оновити";
+    "localizied_312" ="Поле пароля не може бути порожнім";
+    "localizied_316" ="Поділитися з друзями";
+    "DevInfo_DevName" ="Назва пристрою";
+    "Title_Delete" = "Видалити";
+    "localizied_372" = "Delete successfully";
+    "localizied_373" = "Не вдалося видалити";
+    "localizied_386"="часу мережі з";
+    "firmware_version"="Версія програмного забезпечення";
+    "system_firmware"="Версія апаратного забезпечення";
+    "localizied_398"="OK";
+    "localizied_400"="освіження";
+    "localizied_401"="Loosen to prompt refresh";
+    "localizied_402"="Last update";
+    "localizied_404"="Запис вручну";
+    "localizied_426"="Today";
+    "localizied_437"="Потягніть вниз, щоб оновити";
+    "localizied_440"="Ви впевнені, щоб видалити камеру зі списку?";
+    "Operation_Succeeded"="Налаштування успішно здійснено";
+    "localizied_450"="From";
+    "localizied_451"="New share camera add";
+    "localizied_452"="Shared camera removed";
+    "localizied_459"="Визначення руху";
+    "localizied_467"="Додати камеру";
+    "localizied_471"="The generating QR code is used for the camera read and connects to WI-FI network .";
+    "localizied_472"="You can obtain available network from the list when you click on the wireless network icon.";
+    "localizied_474"="Додати друга для розділення";
+    "localizied_481"="З'єднання";
+    "localizied_486"="успішно доданий";
+    "localizied_498"="U-life Plus is an Internet-based video service platform. It enables separate IP and 3G cameras to register on the platform. By loading a U-life Plus software  to the iphone, ipad client end, Users can freely monitor and control multiple video devices. ";
+    "localizied_499"="  The U-life Plus System adopts latest P2P penetrating technology, makes easy registration and management of video IP cameras possible; The cloud computing technology allows user to monitor same account from different devices at the same time. The U-life Plus system could also be specially applied to many other industrial fields.";
+    "localizied_507"="Logging out.";
+    "localizied_511"="WDR";
+    "Operation_Failed"="Не вдалося налаштувати";
+    "localizied_520"="Горизонтальне перемикання";
+    "vertical_rate" = "Вертикальне перемикання";
+    "localizied_521"="Часта операція";
+    "localizied_522"="Відкрити відео не вдалося";
+    
+    "uploadRingSuccess" = "upload success";
+    "localizied_00187"="Temperature";
+    "my_device" = "список пристроїв";
+    "Message" = "Повідомлення";
+    "Remove" = "Remove";
+    "select_all" = "select all";
+    "Warning_string" = "Warning";
+    "ip_title" = "The serve is located in China";
+    "Bark_title" = "Bark";
+    "Siren_title" = "Siren";
+    "online" = "%@ Online";
+	"offline" = "%@ Offline";
+	"VIDEO_MOTION" = "%@ Motion detection alarm.";
+	"PIR_MOTION" = "%@ PIR detection alarm.";
+	"PIR_VIDEO_MOTION" = "%@ Human detection and motion detection alarm";
+	"IO_ALARM" = "%@ Alarm trigger";
+	"New item - 5" = "";
+	"New item - 6" = "";
+	"New item - 7" = "";
+	"New item - 8" = "";
+	"New item - 9" = "";
+    
+    "Name"="Name:";
+    "Name_placeholder"="Please input the name of the camera";
+    "UID_placeholder"="Please Scan QR code";
+    "Scan_error"="Scan QR code is error";
+    "Scan_desc"="Please place the QR code inside the viewfinder rectangle";
+    "tip0_desc"="Step1: please press SET key about 1 second";
+    "tip1_desc"="Step2: Select the wifi which the camera will connect";
+    "tip"="prompt";
+    "connect_tip"="Connection timed out";
+    "reconnect_tip"="Повторне підключення";
+    "serial_number"="Serial number";
+    "Mac_add"="Адреса МАС";
+    "camera_info_success"="Get camera information successfully ";
+    "camera_info_error"="Request timeout，please acquire the device information again.";
+    "request_time_refresh"="Request timeout，please refresh or check the current connection status";
+    "not_connected"="Not Connected";
+    
+    "camera_no_connect"="відключення камери";
+    "network_error"="Недійсна мережа";
+    "cammera_no_bind"="Перевірте, чи є онлайн камера або камера була переплетені";
+    "camera_pwd_error"="Password error";
+
+    "Video_suceess"="прийом відеоданих";
+    "audio_success"="Прийом звукових даних";
+    "PTZ"="Управління Pan-Tilt";
+    "Record_begin"="Record_begin";
+    "record_end"="кінець запису";
+    
+    "Speaking_success"="Успішно надіслано";
+    "Speaking_begin"="Start Talking";
+    "Speaking_end"="End Of Talking";
+    
+    "record_no"="Video record ongoing, if you need to do other operation, please stop the recording ";
+    "record_no_audio"="Video record ongoing，please do not turn off voice";
+    
+    "save_image"="Image saved to Photos";
+    "save_video"="Video saved to Photos";
+    
+    "connect_success"="Успішне з'єднання";
+    "load_data"="Data Loading";
+    "reloadBtn"="Перезавантажити";
+    "load_fail"= "Loading Failed";
+    "Camera_Push_Settings"="Camera Push Settings";
+    "PTZ_control" = "Pan-Tilt Control";
+    "Infrared_detection" = "Інфрачервона детекція";
+    "push_regist_sucesee" = "Push to Register";
+    "push_regist_error" = "Push the registration failed";
+    "WIFI_add" = "Додати WiFI";
+    
+    "Video_return_paly" = "Відтворення відео";
+    "i_can" = "I know";
+    "No_Have_Video" = "Файл відсутній";
+    "Video" = "Відео";
+    "pic" = "Знімок";
+    "not_have_Video"="немає запису";
+    "that_time_not_have_file"="не в цей момент часу жодного файлу";
+    "data_unsuceess"="Доступ до даних не вдалося";
+    "download_unsuccess"="Файл для завантаження";
+    "download_end"="downloading stopped Stopped";
+    "delete_file_success"="File Successfully";
+    "delete_file_unsuccess"="File Failured";
+    "download_file"="Завантаження файлу";
+    "complete_end"="Finished";
+    "nothing_tittle"="Картка пам'яті відсутня у вашій камері";
+    "nothing_idea_one"="Камера автоматично розпочне запис при встановленні TF(Microsd) картки пам'яті";
+    "nothing_idea_two"=" Максимальна підтримка 32G";
+    "nothing_idea_three"="Неможливо розпізнати картку пам'яті, підключіть та вставте її знову";
+    "nothing_idea_four"="Будь ласка, переконайтеся, що ваш картка пам'яті в форматі FAT32";
+    "help_tittle"="In the “settings” of iPhone-“Privacy”-“Camera” to find";
+    "help_tittle_two"="Open access to the Camera";
+    "heip_tittle_three"="Wrong QR Code Format";
+    "set_Wifi"= "Конфігурувати WiFi";
+    "my_ipc"="Мій пристрій";
+    "Ipc_unonline"="Пристрій не під'єднаний до мережі";
+    "about_us"="Про нас";
+    "contact_us"="Зв'яжіться з нами";
+    "contact"="Connected";
+    "question"="Загальні проблеми";
+    "tip_imformation"="Warning";
+    "set_push"="Налаштування push повідомлень";
+    "test"="тест";
+    "move"="Mobile";
+    "tip_help"="Запиту минув, оновити або перевірити стан підключення";
+    "change_success"="Change Successfully";
+    "change_unsuccess"="Change Failed";
+    "refresh_videolist"="Device not connected, please check the connection condition and refresh";
+    "used_storage"="Використовується для зберігання";
+    "free_storage"="Доступно місця для зберігання";
+    "DevInfo_DevID"="ID Пристрою";
+    "pic_date"="Device Parameter";
+    "storage_space"="Об'єм пам'яті";
+    "Format_SD_card"="Confirm to format SD card";
+    "Format"="Форматувати картку SD";
+    "Format_SD_card_success"="Успішне форматування картки SD";
+    "Format_SD_card_unsuccess"="невдача";
+    "delete_pic"="Видалити пристрій";
+    "camera_info"="Інформація про пристрій";
+    "wifi_setting"="Налаштування WiFi";
+    "not_have_sd_0"="Немає карти, не дозволяють записувати";
+    "not_have_sd_1"="Карта неправильно, не дозволяють записувати";
+    "not_have_sd_2"="Немає достатньо зберігання, не дозволяють записувати";
+    "not_have_sd_3"="Запис, що працюють не дозволяють";
+    "not_have_sd_4"="Запис, працює занадто часто";
+    "share_friend_active"="Sharing steps";
+    "help_header_title"="If failed in adding, the solution  as followed";
+    "help_title_1"="1: Перевірте, чи є будь-які спеціальні символи в назві   WiFi та паролі та чи перемикач протокола DHCP на маршрутизаторі відкритий.";
+    "help_title_2"="2: Перевірте, чи 2.4 G WiFi підключений, замість  5 G WiFi.";
+    "help_title_3"="3: Перевірте, чи   пароль правильний.";
+    "help_title_4"="4: Перевірте, чи маршрутизатор має екрановану Мак адресу.";
+    "help_title_5"="5: Рекомендується підключати пристрій поряд з роутером.";
+    "help_title_6"="6: If wireless adding way failed, connect the device and router with cable";
+    "back_wifi"="Повернутися до сторінки “Конфігурувати WiFi”";
+    "back_add_pic"="Повернутися до сторінки “Додати камеру”";
+    "Hight"="H";
+    "medium"="M";
+    "low"="L";
+    "off"="OFF";
+    "Add device"="Додати пристрій";
+    "Wired add"="Add with cable";
+    "personal"="Персональний центр";
+    "tfSSID_placeholder"="WiFi Name";
+    "tfPassword_placeholder"="WiFi Password";
+    "Get_data_success"="Get Data Success";
+    "Get_data_failed"="Get Data Failed";
+    "Saving failed"="Saving failed";
+    "Equipment has been added"="Equipment has been added";
+    "Error_QR"="Error_QR";
+    "1.Please check whether the device connect the router with the cable."="1.Please check whether the device connect the router with the cable.";
+    "2.Please confirm whether the router and the mobile phone in the same segment"="2.Please confirm whether the router and the mobile phone in the same segment";
+    "play_Record"="Рекордер";
+    "play_Snapshot"="захоплення";
+    "play_Joystick"="Joystick";
+    "play_Talk"="Спікер";
+    "play_Sound"="Sound";
+    "IP Camera"="ipcamera";
+    "about us text"="U-life is a video service platform which base on Internet. User can register,log on the individual IP and 3G camera via this platform. U-life apply to Iphone,Ipad,Android and PC, which use P2P to realize  user register and manage IP camera easily .It unique cloud computing allows user surveil one device on several mobile device at the same time.U-life system can also apply to other business areas.";
+    "Company name"="Shenzhen Gospell Smarthome Electronic Co., Ltd.";
+    "company address"="Company Address: F12, F518 Idea Land, Baoyuan Road,Baoan Central Area,Shenzhen,P.R.China";
+    "zip code"="Post code: 518102";
+    "Tel"="Tel: 86-755-26716688-8677";
+    "Fax"="Fax: 86-755-26716099";
+    "E-mail"="E-mail:  sales@goscam.com";
+    
+    "iRouter_account" = "User Name";
+    "account_short_error" = "Ім'я користувача занадто коротке, потрібно 6 символів принаймні.";
+    "account_long_error" = "Ім'я користувача занадто довго, не більше 32 символів.";
+    "account_exist_error" = "рахунок існує";
+    "account_not_exist_error" = "Аккаунт не існує.";
+    
+    "iRouter_email" = "Email";
+    "email_error" = "Адреса електронної пошти є недійсним";
+    
+    "iRouter_password" = "Password";
+    "password_short_error" = "Будь ласка, введіть пароль не менше 6 символів.";
+    "password_long_error" = "Не потрібно не більше 32 символів.";
+    "password_error" = "Неправильний пароль.";
+    
+    "iRouter_Confirm_password" = "Confirm password";
+    "iRouter_Confirm_password_error" = "Паролі не збігаються.";
+    
+    "iRouter_Sign_up" = "Sign Up";
+    "Sign_Up_now" = "Sign Up Now";
+    "Sign_up_error" = "Мережевий запит тайм-аут. Будь ласка, перевірте підключення до Інтернету.";
+    "Sign_up_success" = "Вітаємо з успішним реєстрації";
+    
+    
+    
+    "iRouter_Sign_In" = "Sign In";
+    "iRouter_Sign_In_error" = "Ввійти тайм-аут. Будь ласка, перевірте підключення до Інтернету.";
+    
+    "forgot_password" = "Forgot passwrod";
+    "iRouter_validated_code" = "validated code";
+    "validated code_error" = "Код підтвердження помилки.";
+    "validated_code_invaild"= "Код підтвердження недійсний.";
+    "validated_code_send_error"= "Відправка failure.Please перевірте підключення до Інтернету.";
+    "validated_code_send_success" = "Відправка пройшла успішно. Будь ласка, знайдіть підтверджений код у вашій поштовій скриньці.";
+    
+    "new_password" = "New Password";
+    "confirm_new_password" = "Confirm New passwrod";
+    
+    "Reset_password" = "Reset password";
+    "Reset_password_error" = "The network request timed out. Please check your internet connection.";
+    "Reset_password_success" = "Скидання в початковий стан є успішним.";
+    
+    "iRouter_Logout" = "Log out";
+    "doesn't have a camera"="当前账号下没有摄像头,请添加摄像头";
+    "Please enter this application from the easy life client"= "请从易生活客户端进入本应用";
+    "Temperature alarm" = "Temperature alarm";
+    "currentPassword"="current password";
+    "New password" = "New password";
+    "confirmPassword"= "Confirm new password";
+    "refresh"="refresh";
+    
+    "deviceHaveBinded" = "Обладнання вже пов'язано";
+    "bindedFailure" = "Bind зазнає невдачі";
+    "haveSpecialCharacter" = "Введення містить спеціальні символи";
+    
+    
+    //Setting
+    "Setting_CameraSwitch" = "CameraSwitch";
+    "Setting_DetectSensitiivty" = "DetectSensitiivty";
+    "Setting_LightDuration" = "LightDuration";
+    
+    "Setting_PIRDetection" = "PIRDetection";
+    "Setting_CameraMicrophone" = "CameraMicrophone";
+    "Setting_CellularDataAutoPause" = "CellularDataAutoPause";
+    "Setting_CloudService" = "CloudService";
+    "Setting_ManualRecord" = "ManualRecord";
+    
+    "Setting_StatusIndicator" = "StatusIndicator";
+    "Setting_RotateSemicircle" = "RotateSemicircle";
+    "Setting_NightVersion" = "NightVersion";
+    "Setting_ShareWithFriends" = "ShareWithFriends";
+    "Setting_WiFiSetting" = "WiFiSetting";
+    "Setting_DeviceInfo" = "DeviceInfo";
+    
+    "Setting_Detail_OrderNow" = "Order Now";
+    
+    "Setting_Group_Camera" = "Camera";
+    "Setting_Group_NormalAction" = "Normal Action";
+    "Setting_Group_CloudService" = "Cloud Service";
+    "Setting_Group_ManualRecord" = "TFCard Record";
+    "Setting_Group_Hardware" = "Hardware";
+    "Setting_Group_Share" = "Share";
+    "Setting_Group_DetailInfo" = "Detail Info";
+    "Setting_DeleteDevice"  =   "Delete Device";
+    
+    
+    // 推送
+    "OpenPushSuccess"  = "打开推送成功";
+    "OpenPushFailure"  = "打开推送失败";
+    "ClosePushSuccess" = "关闭推送成";
+    "ClosePushFailure" = "关闭推送失败";
+    
+    "DeletePushMsgTipMsg" = "确定要删除已选择的推送消息吗？";
+
+}

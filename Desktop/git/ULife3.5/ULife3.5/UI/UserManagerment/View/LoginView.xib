@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LoginView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="516"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="sfr-pR-R9X">
+                    <rect key="frame" x="127.5" y="40" width="110" height="110"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="110" id="163-I1-ewE"/>
+                        <constraint firstAttribute="width" constant="110" id="Zor-wr-loR"/>
+                    </constraints>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Wkp-Ev-fr2" customClass="TPKeyboardAvoidingTableView">
+                    <rect key="frame" x="0.0" y="164" width="375" height="352"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="sfr-pR-R9X" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="AjU-k5-qWx"/>
+                <constraint firstAttribute="bottom" secondItem="Wkp-Ev-fr2" secondAttribute="bottom" id="BbA-mr-WVt"/>
+                <constraint firstItem="Wkp-Ev-fr2" firstAttribute="top" secondItem="sfr-pR-R9X" secondAttribute="bottom" constant="14" id="JQu-vR-9KG"/>
+                <constraint firstItem="sfr-pR-R9X" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="-5" id="PQe-eI-SKq"/>
+                <constraint firstAttribute="trailing" secondItem="Wkp-Ev-fr2" secondAttribute="trailing" id="ZDH-Yc-Pxk"/>
+                <constraint firstItem="Wkp-Ev-fr2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zeb-st-g01"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="myTableView" destination="Wkp-Ev-fr2" id="0Gp-C8-RmS"/>
+                <outlet property="topToSuperOfLogo" destination="AjU-k5-qWx" id="DYD-gm-aAD"/>
+            </connections>
+            <point key="canvasLocation" x="41.5" y="470"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Logo.png" width="154" height="152"/>
+    </resources>
+</document>

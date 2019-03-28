@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="4yR-AK-5qb" customClass="RegisterView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ADO-na-nM7" customClass="TPKeyboardAvoidingTableView">
+                    <rect key="frame" x="0.0" y="44" width="320" height="260"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="260" id="KLe-NY-O6H"/>
+                    </constraints>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Lv-Kh-UMt">
+                    <rect key="frame" x="30" y="339" width="260" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="6Kw-sX-gja"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="Button"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y50-LH-VI8">
+                    <rect key="frame" x="38.5" y="447" width="243" height="35"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q7n-Me-JXt">
+                    <rect key="frame" x="64" y="512" width="192" height="26"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ATA-Eu-qY7">
+                            <rect key="frame" x="0.0" y="6" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="20" id="o4M-aA-NZg"/>
+                                <constraint firstAttribute="height" constant="20" id="uhB-do-fUN"/>
+                            </constraints>
+                            <state key="normal" title="Button" image="addev_action_normal.png"/>
+                            <connections>
+                                <action selector="agreeUserProtocol:" destination="4yR-AK-5qb" eventType="touchUpInside" id="G9g-Ys-VXV"/>
+                            </connections>
+                        </button>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="我已阅读并同意用户协议" translatesAutoresizingMaskIntoConstraints="NO" id="zPL-a3-J16">
+                            <rect key="frame" x="22" y="0.0" width="170" height="26"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="zPL-a3-J16" secondAttribute="trailing" id="66Y-c1-0xh"/>
+                        <constraint firstAttribute="bottom" secondItem="ATA-Eu-qY7" secondAttribute="bottom" id="7tK-Rp-N1r"/>
+                        <constraint firstItem="zPL-a3-J16" firstAttribute="top" secondItem="q7n-Me-JXt" secondAttribute="top" id="Alk-oy-F7o"/>
+                        <constraint firstItem="ATA-Eu-qY7" firstAttribute="leading" secondItem="q7n-Me-JXt" secondAttribute="leading" id="Cdf-6P-jbo"/>
+                        <constraint firstAttribute="width" constant="192" id="GBE-4g-rfn"/>
+                        <constraint firstItem="zPL-a3-J16" firstAttribute="leading" secondItem="ATA-Eu-qY7" secondAttribute="trailing" constant="2" id="R4x-fa-zgk"/>
+                        <constraint firstAttribute="bottom" secondItem="zPL-a3-J16" secondAttribute="bottom" id="ZR9-Vs-XcH"/>
+                        <constraint firstAttribute="height" constant="26" id="amE-xB-19X"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z07-ck-nMA">
+                    <rect key="frame" x="0.0" y="379" width="320" height="53"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="q7n-Me-JXt" secondAttribute="bottom" constant="30" id="BN2-9n-QyV"/>
+                <constraint firstAttribute="trailing" secondItem="4Lv-Kh-UMt" secondAttribute="trailing" constant="30" id="EIp-eU-h86"/>
+                <constraint firstAttribute="trailing" secondItem="z07-ck-nMA" secondAttribute="trailing" id="M2v-OF-8fE"/>
+                <constraint firstItem="z07-ck-nMA" firstAttribute="top" secondItem="4Lv-Kh-UMt" secondAttribute="bottom" id="OGZ-q8-nOU"/>
+                <constraint firstItem="Y50-LH-VI8" firstAttribute="top" secondItem="z07-ck-nMA" secondAttribute="bottom" constant="15" id="OTH-fr-Sjh"/>
+                <constraint firstItem="q7n-Me-JXt" firstAttribute="top" relation="lessThanOrEqual" secondItem="Y50-LH-VI8" secondAttribute="bottom" constant="30" id="Qb5-Hg-hfA"/>
+                <constraint firstItem="Y50-LH-VI8" firstAttribute="leading" secondItem="4yR-AK-5qb" secondAttribute="leading" constant="38.5" id="QrN-zF-bUo"/>
+                <constraint firstItem="ADO-na-nM7" firstAttribute="top" secondItem="4yR-AK-5qb" secondAttribute="top" constant="44" id="SCq-Bs-S0E"/>
+                <constraint firstItem="ADO-na-nM7" firstAttribute="leading" secondItem="4yR-AK-5qb" secondAttribute="leading" id="VGv-nQ-6Sq"/>
+                <constraint firstItem="q7n-Me-JXt" firstAttribute="centerX" secondItem="4yR-AK-5qb" secondAttribute="centerX" id="XHi-ak-6a8"/>
+                <constraint firstItem="4Lv-Kh-UMt" firstAttribute="leading" secondItem="4yR-AK-5qb" secondAttribute="leading" constant="30" id="d1M-qg-c8Q"/>
+                <constraint firstItem="4Lv-Kh-UMt" firstAttribute="top" secondItem="ADO-na-nM7" secondAttribute="bottom" constant="35" id="lf3-U2-xHr"/>
+                <constraint firstItem="z07-ck-nMA" firstAttribute="leading" secondItem="4yR-AK-5qb" secondAttribute="leading" id="rs6-8M-gtX"/>
+                <constraint firstAttribute="trailing" secondItem="ADO-na-nM7" secondAttribute="trailing" id="wRb-Sg-psx"/>
+                <constraint firstAttribute="trailing" secondItem="Y50-LH-VI8" secondAttribute="trailing" constant="38.5" id="xSj-gz-QQn"/>
+                <constraint firstItem="z07-ck-nMA" firstAttribute="height" relation="lessThanOrEqual" secondItem="4yR-AK-5qb" secondAttribute="height" multiplier="35:375" id="yxZ-N1-v59"/>
+            </constraints>
+            <connections>
+                <outlet property="NextButon" destination="4Lv-Kh-UMt" id="YfF-ke-CB0"/>
+                <outlet property="UserProtocolsTextView" destination="zPL-a3-J16" id="beD-6P-dYw"/>
+                <outlet property="agreeBtn" destination="ATA-Eu-qY7" id="G5W-wA-K2a"/>
+                <outlet property="helpLabel" destination="Y50-LH-VI8" id="ooD-B3-TAd"/>
+                <outlet property="myRegisterTableView" destination="ADO-na-nM7" id="GQK-fi-r6T"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="114.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="addev_action_normal.png" width="30" height="30"/>
+    </resources>
+</document>

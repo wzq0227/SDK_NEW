@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NvrPlaybackListViewController">
+            <connections>
+                <outlet property="resultCountLabel" destination="Jkw-b9-sat" id="CL7-8w-4hl"/>
+                <outlet property="searchActivity" destination="45z-2U-vju" id="DWt-Wy-NSp"/>
+                <outlet property="searchListTableView" destination="Jxx-Nx-qhP" id="L2V-TE-gAD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="45z-2U-vju">
+                    <rect key="frame" x="8" y="84" width="20" height="20"/>
+                </activityIndicatorView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="搜索结果：11" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jkw-b9-sat">
+                    <rect key="frame" x="36" y="83" width="102" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Jxx-Nx-qhP">
+                    <rect key="frame" x="0.0" y="124" width="375" height="543"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="ZTf-e5-gDM"/>
+                        <outlet property="delegate" destination="-1" id="RCH-fK-tEw"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="45z-2U-vju" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="0w7-u7-lao"/>
+                <constraint firstAttribute="bottom" secondItem="Jxx-Nx-qhP" secondAttribute="bottom" id="6Bb-5P-5pa"/>
+                <constraint firstItem="Jkw-b9-sat" firstAttribute="leading" secondItem="45z-2U-vju" secondAttribute="trailing" constant="8" id="A6w-ul-Fo5"/>
+                <constraint firstItem="Jxx-Nx-qhP" firstAttribute="top" secondItem="Jkw-b9-sat" secondAttribute="bottom" constant="20" id="Bl1-Xa-OAK"/>
+                <constraint firstItem="Jxx-Nx-qhP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Im3-3c-mfE"/>
+                <constraint firstItem="Jkw-b9-sat" firstAttribute="centerY" secondItem="45z-2U-vju" secondAttribute="centerY" id="Rbr-PA-pRg"/>
+                <constraint firstItem="45z-2U-vju" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="84" id="ZuN-Bx-Jz2"/>
+                <constraint firstAttribute="trailing" secondItem="Jxx-Nx-qhP" secondAttribute="trailing" id="f5l-pB-Nqd"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

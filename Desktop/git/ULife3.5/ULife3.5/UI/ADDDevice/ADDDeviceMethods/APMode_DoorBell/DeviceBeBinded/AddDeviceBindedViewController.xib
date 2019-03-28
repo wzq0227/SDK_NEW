@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddDeviceBindedViewController">
+            <connections>
+                <outlet property="detailLabel" destination="X0N-23-G3m" id="1QI-Rp-Jeb"/>
+                <outlet property="nextButton" destination="1mg-ic-56i" id="UgV-AS-HLn"/>
+                <outlet property="subTopLabel" destination="skQ-S6-IGv" id="E2X-6G-4Tw"/>
+                <outlet property="tipImageView" destination="Fe2-ST-Kbt" id="MZY-I9-eFg"/>
+                <outlet property="topLabel" destination="XMm-Cx-ctf" id="59j-HT-B9U"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4zw-YE-hvl">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Znc-4Y-Kto">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="518.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="此设备已经被绑定" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XMm-Cx-ctf">
+                                    <rect key="frame" x="114" y="30" width="147" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="如需重新绑定请将设备从你的账户下删除，并按操作提示将设备恢复出厂设置" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="skQ-S6-IGv">
+                                    <rect key="frame" x="40" y="81" width="295" height="33.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GT4027" translatesAutoresizingMaskIntoConstraints="NO" id="Fe2-ST-Kbt">
+                                    <rect key="frame" x="47" y="144.5" width="281" height="211"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="Fe2-ST-Kbt" secondAttribute="height" multiplier="240:180" id="Tez-kE-sDD"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0N-23-G3m">
+                                    <rect key="frame" x="40" y="385.5" width="295" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1mg-ic-56i">
+                                    <rect key="frame" x="20" y="432.5" width="335" height="36"/>
+                                    <color key="backgroundColor" red="0.1215686275" green="0.73725490199999999" blue="0.82352941180000006" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="36" id="h7Z-fP-GRV"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <state key="normal" title="设备红蓝指示灯已快闪，下一步"/>
+                                    <connections>
+                                        <action selector="nextButtonDidClick:" destination="-1" eventType="touchUpInside" id="7kI-KB-Jqp"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="X0N-23-G3m" firstAttribute="leading" secondItem="skQ-S6-IGv" secondAttribute="leading" id="1hW-Z3-LT0"/>
+                                <constraint firstAttribute="trailing" secondItem="1mg-ic-56i" secondAttribute="trailing" constant="20" id="2cv-eb-XVd"/>
+                                <constraint firstItem="1mg-ic-56i" firstAttribute="leading" secondItem="Znc-4Y-Kto" secondAttribute="leading" constant="20" id="6xv-Mn-WbI"/>
+                                <constraint firstItem="XMm-Cx-ctf" firstAttribute="centerX" secondItem="Znc-4Y-Kto" secondAttribute="centerX" id="A2m-eJ-fV8"/>
+                                <constraint firstItem="skQ-S6-IGv" firstAttribute="leading" secondItem="Znc-4Y-Kto" secondAttribute="leading" constant="40" id="GYa-E5-7St"/>
+                                <constraint firstItem="X0N-23-G3m" firstAttribute="trailing" secondItem="skQ-S6-IGv" secondAttribute="trailing" id="OFN-qm-wHg"/>
+                                <constraint firstAttribute="bottom" secondItem="1mg-ic-56i" secondAttribute="bottom" constant="50" id="SBI-CR-ev5"/>
+                                <constraint firstItem="skQ-S6-IGv" firstAttribute="top" secondItem="XMm-Cx-ctf" secondAttribute="bottom" constant="30" id="XX4-ah-fHn"/>
+                                <constraint firstAttribute="trailing" secondItem="skQ-S6-IGv" secondAttribute="trailing" constant="40" id="ZgE-Or-2HS"/>
+                                <constraint firstItem="Fe2-ST-Kbt" firstAttribute="centerX" secondItem="Znc-4Y-Kto" secondAttribute="centerX" id="bFu-Ee-y3z"/>
+                                <constraint firstItem="Fe2-ST-Kbt" firstAttribute="width" secondItem="Znc-4Y-Kto" secondAttribute="width" multiplier="3/4" id="c1A-uz-wXJ"/>
+                                <constraint firstItem="Fe2-ST-Kbt" firstAttribute="top" secondItem="skQ-S6-IGv" secondAttribute="bottom" constant="30" id="exu-MG-Vg5"/>
+                                <constraint firstItem="skQ-S6-IGv" firstAttribute="centerX" secondItem="Znc-4Y-Kto" secondAttribute="centerX" id="hy9-bs-APp"/>
+                                <constraint firstItem="X0N-23-G3m" firstAttribute="top" secondItem="Fe2-ST-Kbt" secondAttribute="bottom" constant="30" id="mh4-KI-PU2"/>
+                                <constraint firstItem="1mg-ic-56i" firstAttribute="top" secondItem="X0N-23-G3m" secondAttribute="bottom" constant="30" id="t0m-mm-HQM"/>
+                                <constraint firstItem="XMm-Cx-ctf" firstAttribute="top" secondItem="Znc-4Y-Kto" secondAttribute="top" constant="30" id="vSy-Qc-iJp"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Znc-4Y-Kto" firstAttribute="leading" secondItem="4zw-YE-hvl" secondAttribute="leading" id="0LN-pk-b3N"/>
+                        <constraint firstItem="Znc-4Y-Kto" firstAttribute="width" secondItem="4zw-YE-hvl" secondAttribute="width" id="Jd9-vU-slM"/>
+                        <constraint firstAttribute="trailing" secondItem="Znc-4Y-Kto" secondAttribute="trailing" id="VSB-uJ-93T"/>
+                        <constraint firstAttribute="bottom" secondItem="Znc-4Y-Kto" secondAttribute="bottom" id="clW-40-JOV"/>
+                        <constraint firstItem="Znc-4Y-Kto" firstAttribute="top" secondItem="4zw-YE-hvl" secondAttribute="top" id="yAa-Z9-veR"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="4zw-YE-hvl" secondAttribute="bottom" id="UBP-oy-6C8"/>
+                <constraint firstItem="4zw-YE-hvl" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="XSX-w4-PBu"/>
+                <constraint firstAttribute="trailing" secondItem="4zw-YE-hvl" secondAttribute="trailing" id="iPC-ZF-dh7"/>
+                <constraint firstItem="4zw-YE-hvl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wjZ-rN-RLk"/>
+            </constraints>
+            <point key="canvasLocation" x="130.40000000000001" y="113.79310344827587"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="GT4027" width="240" height="180"/>
+    </resources>
+</document>

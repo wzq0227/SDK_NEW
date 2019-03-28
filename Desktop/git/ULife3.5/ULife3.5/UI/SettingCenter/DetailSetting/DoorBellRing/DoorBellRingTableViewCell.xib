@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="124" id="KGk-i7-Jjw" customClass="DoorBellRingTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="124"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="123.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="192" translatesAutoresizingMaskIntoConstraints="NO" id="dlO-Wg-0iP">
+                        <rect key="frame" x="18" y="47" width="284" height="31"/>
+                        <connections>
+                            <action selector="sliderValueDidChanged:" destination="KGk-i7-Jjw" eventType="valueChanged" id="wrG-IC-G1n"/>
+                        </connections>
+                    </slider>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vol-" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6q-Kz-O6g">
+                        <rect key="frame" x="20" y="77" width="27" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="k97-75-XYN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vol+" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eA6-P3-DqP">
+                        <rect key="frame" x="270.5" y="77" width="29.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="44b-Zp-dTO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="n6q-Kz-O6g" firstAttribute="top" secondItem="dlO-Wg-0iP" secondAttribute="bottom" id="2Jh-hs-IEk"/>
+                    <constraint firstItem="dlO-Wg-0iP" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="5sZ-cu-aO7"/>
+                    <constraint firstItem="eA6-P3-DqP" firstAttribute="trailing" secondItem="dlO-Wg-0iP" secondAttribute="trailing" id="OTN-ZP-BVV"/>
+                    <constraint firstItem="n6q-Kz-O6g" firstAttribute="leading" secondItem="dlO-Wg-0iP" secondAttribute="leading" id="OxH-84-ayP"/>
+                    <constraint firstItem="eA6-P3-DqP" firstAttribute="top" secondItem="dlO-Wg-0iP" secondAttribute="bottom" id="V87-FR-Yau"/>
+                    <constraint firstAttribute="trailing" secondItem="dlO-Wg-0iP" secondAttribute="trailing" constant="20" id="eDY-Da-4Pw"/>
+                    <constraint firstItem="dlO-Wg-0iP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="xMB-cY-qcI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="leftLabel" destination="n6q-Kz-O6g" id="Xxa-dB-zH1"/>
+                <outlet property="rightLabel" destination="eA6-P3-DqP" id="s0a-k9-r5d"/>
+                <outlet property="slider" destination="dlO-Wg-0iP" id="ofL-F6-w4G"/>
+            </connections>
+            <point key="canvasLocation" x="24" y="48"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="PingFang.ttc">
+            <string>PingFangSC-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DeviceUpdateTipsView">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="240"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTZ-We-Okj">
+                    <rect key="frame" x="0.0" y="196" width="139.5" height="33"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="立即更新">
+                        <color key="titleColor" red="0.070588235294117646" green="0.71764705882352942" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="固件更新" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kii-PR-EQW">
+                    <rect key="frame" x="0.0" y="14" width="280.5" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="update_line.png" translatesAutoresizingMaskIntoConstraints="NO" id="9I4-do-gbC">
+                    <rect key="frame" x="0.0" y="44" width="280" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="oOm-be-Eo5"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lWs-NR-5uE">
+                    <rect key="frame" x="17" y="55" width="255" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="update_line.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gfk-C7-U7P">
+                    <rect key="frame" x="0.0" y="181" width="280" height="1"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="57D-jy-NO2"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6r7-ax-SZE">
+                    <rect key="frame" x="140.5" y="196" width="139.5" height="33"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="下次再说">
+                        <color key="titleColor" red="0.070588235289999995" green="0.71764705880000002" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="update_buttonSeparator.png" translatesAutoresizingMaskIntoConstraints="NO" id="SJa-H3-b7G">
+                    <rect key="frame" x="139.5" y="196" width="1" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Qil-cV-G5l"/>
+                        <constraint firstAttribute="width" constant="1" id="Zux-Qc-gIS"/>
+                    </constraints>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="1.特效他 2. test 00000000000000000000000000" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCB-Pn-b0P">
+                    <rect key="frame" x="12" y="73" width="256" height="106"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vTZ-We-Okj" firstAttribute="bottom" secondItem="6r7-ax-SZE" secondAttribute="bottom" id="0hR-7t-BVN"/>
+                <constraint firstItem="vTZ-We-Okj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0qg-8X-vMB"/>
+                <constraint firstItem="9I4-do-gbC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5Z2-1T-gup"/>
+                <constraint firstItem="YCB-Pn-b0P" firstAttribute="top" secondItem="lWs-NR-5uE" secondAttribute="bottom" id="8qW-4n-7db"/>
+                <constraint firstAttribute="trailing" secondItem="Gfk-C7-U7P" secondAttribute="trailing" id="A0C-TS-snJ"/>
+                <constraint firstItem="SJa-H3-b7G" firstAttribute="leading" secondItem="vTZ-We-Okj" secondAttribute="trailing" id="AhL-gP-XRn"/>
+                <constraint firstAttribute="trailing" secondItem="6r7-ax-SZE" secondAttribute="trailing" id="Cht-7x-hSf"/>
+                <constraint firstItem="9I4-do-gbC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="44" id="Ha4-2W-8cD"/>
+                <constraint firstItem="Gfk-C7-U7P" firstAttribute="top" secondItem="YCB-Pn-b0P" secondAttribute="bottom" constant="2" id="KeX-jT-otN"/>
+                <constraint firstItem="lWs-NR-5uE" firstAttribute="top" secondItem="9I4-do-gbC" secondAttribute="bottom" constant="10" id="P8s-D4-Iir"/>
+                <constraint firstItem="kii-PR-EQW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="TUe-gE-IzS"/>
+                <constraint firstItem="kii-PR-EQW" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ViO-Mz-tgL"/>
+                <constraint firstItem="6r7-ax-SZE" firstAttribute="leading" secondItem="SJa-H3-b7G" secondAttribute="trailing" id="Vvz-a0-eJT"/>
+                <constraint firstAttribute="trailing" secondItem="lWs-NR-5uE" secondAttribute="trailing" constant="8" id="a8p-d1-nJ0"/>
+                <constraint firstAttribute="trailing" secondItem="YCB-Pn-b0P" secondAttribute="trailing" constant="12" id="hC4-l0-TeW"/>
+                <constraint firstItem="SJa-H3-b7G" firstAttribute="top" secondItem="Gfk-C7-U7P" secondAttribute="bottom" constant="14" id="hKE-Dm-wA1"/>
+                <constraint firstItem="vTZ-We-Okj" firstAttribute="top" secondItem="Gfk-C7-U7P" secondAttribute="bottom" constant="14" id="icd-h5-Jn2"/>
+                <constraint firstItem="kii-PR-EQW" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="14" id="jLt-LV-6WW"/>
+                <constraint firstAttribute="trailing" secondItem="9I4-do-gbC" secondAttribute="trailing" id="l5T-Hn-Hzy"/>
+                <constraint firstItem="lWs-NR-5uE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="17" id="mJk-aW-YPD"/>
+                <constraint firstItem="Gfk-C7-U7P" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mcs-th-KSI"/>
+                <constraint firstAttribute="bottom" secondItem="Gfk-C7-U7P" secondAttribute="bottom" constant="58" id="o4U-ma-hh4"/>
+                <constraint firstItem="YCB-Pn-b0P" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="pSE-NS-rnz"/>
+                <constraint firstItem="SJa-H3-b7G" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="zZ9-uk-QYN"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="updateContentTxt" destination="YCB-Pn-b0P" id="0J9-mZ-G8v"/>
+                <outlet property="updateNextTimeBtn" destination="6r7-ax-SZE" id="xBc-Hz-SoE"/>
+                <outlet property="updateNowBtn" destination="vTZ-We-Okj" id="FOi-9b-Mfa"/>
+                <outlet property="updateTipsTitle" destination="kii-PR-EQW" id="GFH-Qj-WST"/>
+                <outlet property="versionInfo" destination="lWs-NR-5uE" id="FG5-n9-m7X"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="update_buttonSeparator.png" width="3" height="90"/>
+        <image name="update_line.png" width="840" height="3"/>
+    </resources>
+</document>

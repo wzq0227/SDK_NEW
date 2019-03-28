@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RecordImgTableViewCell" rowHeight="68" id="KGk-i7-Jjw" customClass="RecordImgTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="356" height="68"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="356" height="67.666666666666671"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20170428" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKB-1j-MX7" userLabel="dateLabel">
+                        <rect key="frame" x="11" y="10" width="300" height="8"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="8" id="iHj-lW-Kv2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Record_ImageIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="WPd-e6-RgD" userLabel="typeImageView">
+                        <rect key="frame" x="8" y="23" width="39" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="WPd-e6-RgD" secondAttribute="height" id="ADT-hd-hfM"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20170428.jpg" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u92-GQ-6nL" userLabel="fileNameLabel">
+                        <rect key="frame" x="53" y="27" width="258" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="RnG-Ef-jQJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Record_DownloadIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="U2n-pz-sWp" userLabel="statusImageView">
+                        <rect key="frame" x="316" y="21.333333333333336" width="25" height="25.000000000000007"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="QVg-53-x4j"/>
+                            <constraint firstAttribute="width" secondItem="U2n-pz-sWp" secondAttribute="height" multiplier="1:1" id="dct-YR-RR9"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jNZ-CM-ehl" userLabel="lineView">
+                        <rect key="frame" x="0.0" y="67.666666666666686" width="356" height="0.3333333333333286"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="1sL-TQ-edU"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="512KB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fr-48-YbK" userLabel="fileSizeLabel">
+                        <rect key="frame" x="53" y="50" width="258" height="8"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="8" id="ukM-gT-F7o"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="3fr-48-YbK" firstAttribute="leading" secondItem="u92-GQ-6nL" secondAttribute="leading" id="GdN-eS-MAt"/>
+                    <constraint firstItem="3fr-48-YbK" firstAttribute="top" secondItem="u92-GQ-6nL" secondAttribute="bottom" constant="5" id="IZr-sd-ZXt"/>
+                    <constraint firstItem="u92-GQ-6nL" firstAttribute="leading" secondItem="WPd-e6-RgD" secondAttribute="trailing" constant="6" id="NSX-7t-Kns"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="WPd-e6-RgD" secondAttribute="leading" id="P4I-Fk-Bql"/>
+                    <constraint firstItem="WPd-e6-RgD" firstAttribute="top" secondItem="eKB-1j-MX7" secondAttribute="bottom" constant="5" id="VYJ-3d-nd6"/>
+                    <constraint firstItem="jNZ-CM-ehl" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="ane-D7-coa"/>
+                    <constraint firstItem="u92-GQ-6nL" firstAttribute="top" secondItem="eKB-1j-MX7" secondAttribute="bottom" constant="9" id="fma-oz-vEa"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="eKB-1j-MX7" secondAttribute="leading" constant="-3" id="jP2-w2-nhD"/>
+                    <constraint firstItem="3fr-48-YbK" firstAttribute="trailing" secondItem="u92-GQ-6nL" secondAttribute="trailing" id="pwX-WW-qUF"/>
+                    <constraint firstItem="u92-GQ-6nL" firstAttribute="trailing" secondItem="eKB-1j-MX7" secondAttribute="trailing" id="rfZ-Qk-ImM"/>
+                    <constraint firstItem="U2n-pz-sWp" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="wzr-QH-tFs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstItem="eKB-1j-MX7" firstAttribute="top" secondItem="KGk-i7-Jjw" secondAttribute="top" constant="10" id="Ed2-fJ-ku4"/>
+                <constraint firstItem="jNZ-CM-ehl" firstAttribute="width" secondItem="KGk-i7-Jjw" secondAttribute="width" id="Zc3-O5-5eh"/>
+                <constraint firstAttribute="trailing" secondItem="eKB-1j-MX7" secondAttribute="trailing" constant="45" id="aFB-pE-uFO"/>
+                <constraint firstAttribute="trailing" secondItem="U2n-pz-sWp" secondAttribute="trailing" constant="15" id="cyU-gH-g3t"/>
+                <constraint firstAttribute="bottom" secondItem="WPd-e6-RgD" secondAttribute="bottom" constant="6" id="oWU-Rl-O33"/>
+                <constraint firstAttribute="bottom" secondItem="jNZ-CM-ehl" secondAttribute="bottom" id="qJX-II-NUz"/>
+            </constraints>
+            <connections>
+                <outlet property="dateLabel" destination="eKB-1j-MX7" id="kaG-jO-NvB"/>
+                <outlet property="fileNameLabel" destination="u92-GQ-6nL" id="GfJ-wa-QwH"/>
+                <outlet property="fileSizeLabel" destination="3fr-48-YbK" id="1Wb-zx-CXa"/>
+                <outlet property="statusImageView" destination="U2n-pz-sWp" id="WRe-D3-teW"/>
+                <outlet property="typeImageView" destination="WPd-e6-RgD" id="TJj-sj-kaa"/>
+            </connections>
+            <point key="canvasLocation" x="52" y="77.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Record_DownloadIcon.png" width="50" height="50"/>
+        <image name="Record_ImageIcon.png" width="80" height="80"/>
+    </resources>
+</document>

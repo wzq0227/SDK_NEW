@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		761274CC2019CC6600D61833 /* GssChannel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 761274C92019CC6500D61833 /* GssChannel.cpp */; };
+		761274CD2019CC6600D61833 /* AVBufferCtrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 761274CB2019CC6600D61833 /* AVBufferCtrl.cpp */; };
+		761274DA2019CC6F00D61833 /* P2pChannel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 761274CE2019CC6E00D61833 /* P2pChannel.cpp */; };
+		761274DB2019CC6F00D61833 /* P2pCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 761274D12019CC6E00D61833 /* P2pCommon.cpp */; };
+		761274DC2019CC6F00D61833 /* P2pMainCtrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 761274D32019CC6E00D61833 /* P2pMainCtrl.cpp */; };
+		761274DD2019CC6F00D61833 /* P2pDownLoad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 761274D52019CC6E00D61833 /* P2pDownLoad.cpp */; };
+		761274DE2019CC6F00D61833 /* P2pTalkChannel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 761274D82019CC6F00D61833 /* P2pTalkChannel.cpp */; };
+		761274DF2019CC6F00D61833 /* p2pProtocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 761274D92019CC6F00D61833 /* p2pProtocol.cpp */; };
+		7621EC101FBC2C5F0050A246 /* libp2p.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7621EC0F1FBC2C5F0050A246 /* libp2p.a */; };
+		9601518C1ED6C1AE00E80C75 /* AVIOCTRLDEFs.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CF1457E61E4C466F001D2F2C /* AVIOCTRLDEFs.h */; };
+		CF1457BA1E4C4613001D2F2C /* NetPro.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF1457B91E4C4613001D2F2C /* NetPro.mm */; };
+		CF1457BB1E4C4613001D2F2C /* NetPro.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CF1457B81E4C4613001D2F2C /* NetPro.h */; };
+		CF14581C1E4C466F001D2F2C /* AVCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF1457C71E4C466F001D2F2C /* AVCommon.cpp */; };
+		CF14581D1E4C466F001D2F2C /* EventLock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF1457C91E4C466F001D2F2C /* EventLock.cpp */; };
+		CF14581E1E4C466F001D2F2C /* JLogWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF1457CC1E4C466F001D2F2C /* JLogWriter.cpp */; };
+		CF14581F1E4C466F001D2F2C /* JLThreadCtrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF1457CF1E4C466F001D2F2C /* JLThreadCtrl.cpp */; };
+		CF1458201E4C466F001D2F2C /* JTrunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF1457D11E4C466F001D2F2C /* JTrunk.cpp */; };
+		CF1458211E4C466F001D2F2C /* MutexLock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF1457D31E4C466F001D2F2C /* MutexLock.cpp */; };
+		CF1458231E4C466F001D2F2C /* NetProSDKAPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF1457D91E4C466F001D2F2C /* NetProSDKAPI.cpp */; };
+		CF1458351E4C466F001D2F2C /* protocolChannel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF1458181E4C466F001D2F2C /* protocolChannel.cpp */; };
+		CF1458361E4C466F001D2F2C /* TutkProtocol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF14581A1E4C466F001D2F2C /* TutkProtocol.cpp */; };
+		CF1458431E4C5A5A001D2F2C /* NetProCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF1458411E4C5A5A001D2F2C /* NetProCommon.cpp */; };
+		CF2D05321E768A64008C1772 /* TalkChannel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF2D05301E768A64008C1772 /* TalkChannel.cpp */; };
+		CFA9DE491EBAD8DA0090673A /* TuckMainCtrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFA9DE471EBAD8DA0090673A /* TuckMainCtrl.cpp */; };
+		CFCE5DE51F0F3AB200C2D3E2 /* libIOTCAPIs_ALL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE5DE41F0F3AB200C2D3E2 /* libIOTCAPIs_ALL.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF1457B31E4C4613001D2F2C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9601518C1ED6C1AE00E80C75 /* AVIOCTRLDEFs.h in CopyFiles */,
+				CF1457BB1E4C4613001D2F2C /* NetPro.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		761274C82019CC6500D61833 /* AVBufferCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVBufferCtrl.h; sourceTree = "<group>"; };
+		761274C92019CC6500D61833 /* GssChannel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GssChannel.cpp; sourceTree = "<group>"; };
+		761274CA2019CC6600D61833 /* GssChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GssChannel.h; sourceTree = "<group>"; };
+		761274CB2019CC6600D61833 /* AVBufferCtrl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AVBufferCtrl.cpp; sourceTree = "<group>"; };
+		761274CE2019CC6E00D61833 /* P2pChannel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = P2pChannel.cpp; sourceTree = "<group>"; };
+		761274CF2019CC6E00D61833 /* P2pDownLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P2pDownLoad.h; sourceTree = "<group>"; };
+		761274D02019CC6E00D61833 /* P2pProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P2pProtocol.h; sourceTree = "<group>"; };
+		761274D12019CC6E00D61833 /* P2pCommon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = P2pCommon.cpp; sourceTree = "<group>"; };
+		761274D22019CC6E00D61833 /* P2pCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P2pCommon.h; sourceTree = "<group>"; };
+		761274D32019CC6E00D61833 /* P2pMainCtrl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = P2pMainCtrl.cpp; sourceTree = "<group>"; };
+		761274D42019CC6E00D61833 /* P2pTalkChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P2pTalkChannel.h; sourceTree = "<group>"; };
+		761274D52019CC6E00D61833 /* P2pDownLoad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = P2pDownLoad.cpp; sourceTree = "<group>"; };
+		761274D62019CC6E00D61833 /* P2pMainCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P2pMainCtrl.h; sourceTree = "<group>"; };
+		761274D72019CC6E00D61833 /* P2pChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P2pChannel.h; sourceTree = "<group>"; };
+		761274D82019CC6F00D61833 /* P2pTalkChannel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = P2pTalkChannel.cpp; sourceTree = "<group>"; };
+		761274D92019CC6F00D61833 /* p2pProtocol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = p2pProtocol.cpp; sourceTree = "<group>"; };
+		7621EC0F1FBC2C5F0050A246 /* libp2p.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libp2p.a; sourceTree = "<group>"; };
+		768E329B1FAAF9DB00D50F1E /* gss_transport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gss_transport.h; sourceTree = "<group>"; };
+		768E329C1FAAF9DB00D50F1E /* p2p_dispatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = p2p_dispatch.h; sourceTree = "<group>"; };
+		768E329D1FAAF9DB00D50F1E /* p2p_transport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = p2p_transport.h; sourceTree = "<group>"; };
+		CF1457B51E4C4613001D2F2C /* libNetPro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNetPro.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1457B81E4C4613001D2F2C /* NetPro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetPro.h; sourceTree = "<group>"; };
+		CF1457B91E4C4613001D2F2C /* NetPro.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = NetPro.mm; sourceTree = "<group>"; };
+		CF1457C71E4C466F001D2F2C /* AVCommon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AVCommon.cpp; sourceTree = "<group>"; };
+		CF1457C81E4C466F001D2F2C /* AVCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCommon.h; sourceTree = "<group>"; };
+		CF1457C91E4C466F001D2F2C /* EventLock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EventLock.cpp; sourceTree = "<group>"; };
+		CF1457CA1E4C466F001D2F2C /* EventLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventLock.h; sourceTree = "<group>"; };
+		CF1457CB1E4C466F001D2F2C /* JBipBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBipBuffer.h; sourceTree = "<group>"; };
+		CF1457CC1E4C466F001D2F2C /* JLogWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JLogWriter.cpp; sourceTree = "<group>"; };
+		CF1457CD1E4C466F001D2F2C /* JLogWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLogWriter.h; sourceTree = "<group>"; };
+		CF1457CE1E4C466F001D2F2C /* JLSocketDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLSocketDef.h; sourceTree = "<group>"; };
+		CF1457CF1E4C466F001D2F2C /* JLThreadCtrl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JLThreadCtrl.cpp; sourceTree = "<group>"; };
+		CF1457D01E4C466F001D2F2C /* JLThreadCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLThreadCtrl.h; sourceTree = "<group>"; };
+		CF1457D11E4C466F001D2F2C /* JTrunk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JTrunk.cpp; sourceTree = "<group>"; };
+		CF1457D21E4C466F001D2F2C /* JTrunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTrunk.h; sourceTree = "<group>"; };
+		CF1457D31E4C466F001D2F2C /* MutexLock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MutexLock.cpp; sourceTree = "<group>"; };
+		CF1457D41E4C466F001D2F2C /* MutexLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutexLock.h; sourceTree = "<group>"; };
+		CF1457D71E4C466F001D2F2C /* NetProSDK.vcproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NetProSDK.vcproj; sourceTree = "<group>"; };
+		CF1457D81E4C466F001D2F2C /* NetProSDK.vcproj.WWEI.zj.user */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = NetProSDK.vcproj.WWEI.zj.user; sourceTree = "<group>"; };
+		CF1457D91E4C466F001D2F2C /* NetProSDKAPI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetProSDKAPI.cpp; sourceTree = "<group>"; };
+		CF1457DA1E4C466F001D2F2C /* NetProSDKAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetProSDKAPI.h; sourceTree = "<group>"; };
+		CF1457DB1E4C466F001D2F2C /* StdAfx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StdAfx.h; sourceTree = "<group>"; };
+		CF1457E01E4C466F001D2F2C /* AVAPIs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAPIs.h; sourceTree = "<group>"; };
+		CF1457E11E4C466F001D2F2C /* AVAPIs2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVAPIs2.h; sourceTree = "<group>"; };
+		CF1457E21E4C466F001D2F2C /* IOTCAPIs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOTCAPIs.h; sourceTree = "<group>"; };
+		CF1457E31E4C466F001D2F2C /* IOTCWakeUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOTCWakeUp.h; sourceTree = "<group>"; };
+		CF1457E51E4C466F001D2F2C /* AVFRAMEINFO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVFRAMEINFO.h; sourceTree = "<group>"; };
+		CF1457E61E4C466F001D2F2C /* AVIOCTRLDEFs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVIOCTRLDEFs.h; sourceTree = "<group>"; };
+		CF1457E71E4C466F001D2F2C /* P2PTunnelAPIs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = P2PTunnelAPIs.h; sourceTree = "<group>"; };
+		CF1457E81E4C466F001D2F2C /* RDTAPIs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDTAPIs.h; sourceTree = "<group>"; };
+		CF1458181E4C466F001D2F2C /* protocolChannel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = protocolChannel.cpp; sourceTree = "<group>"; };
+		CF1458191E4C466F001D2F2C /* ProtocolChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolChannel.h; sourceTree = "<group>"; };
+		CF14581A1E4C466F001D2F2C /* TutkProtocol.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TutkProtocol.cpp; sourceTree = "<group>"; };
+		CF14581B1E4C466F001D2F2C /* TutkProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutkProtocol.h; sourceTree = "<group>"; };
+		CF1458411E4C5A5A001D2F2C /* NetProCommon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetProCommon.cpp; sourceTree = "<group>"; };
+		CF1458421E4C5A5A001D2F2C /* NetProCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetProCommon.h; sourceTree = "<group>"; };
+		CF2D05301E768A64008C1772 /* TalkChannel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TalkChannel.cpp; sourceTree = "<group>"; };
+		CF2D05311E768A64008C1772 /* TalkChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkChannel.h; sourceTree = "<group>"; };
+		CF35EE411E5D8C2E002744C4 /* NetProSDKDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetProSDKDef.h; sourceTree = "<group>"; };
+		CFA9DE471EBAD8DA0090673A /* TuckMainCtrl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TuckMainCtrl.cpp; sourceTree = "<group>"; };
+		CFA9DE481EBAD8DA0090673A /* TuckMainCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuckMainCtrl.h; sourceTree = "<group>"; };
+		CFACF7F31ECEA52D003CF5B0 /* GosFrameHeadDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GosFrameHeadDef.h; sourceTree = "<group>"; };
+		CFCE5DE41F0F3AB200C2D3E2 /* libIOTCAPIs_ALL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libIOTCAPIs_ALL.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF1457B21E4C4613001D2F2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7621EC101FBC2C5F0050A246 /* libp2p.a in Frameworks */,
+				CFCE5DE51F0F3AB200C2D3E2 /* libIOTCAPIs_ALL.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		768E32691FAAF48000D50F1E /* p2psdk */ = {
+			isa = PBXGroup;
+			children = (
+				761274CE2019CC6E00D61833 /* P2pChannel.cpp */,
+				761274D72019CC6E00D61833 /* P2pChannel.h */,
+				761274D12019CC6E00D61833 /* P2pCommon.cpp */,
+				761274D22019CC6E00D61833 /* P2pCommon.h */,
+				761274D52019CC6E00D61833 /* P2pDownLoad.cpp */,
+				761274CF2019CC6E00D61833 /* P2pDownLoad.h */,
+				761274D32019CC6E00D61833 /* P2pMainCtrl.cpp */,
+				761274D62019CC6E00D61833 /* P2pMainCtrl.h */,
+				761274D92019CC6F00D61833 /* p2pProtocol.cpp */,
+				761274D02019CC6E00D61833 /* P2pProtocol.h */,
+				761274D82019CC6F00D61833 /* P2pTalkChannel.cpp */,
+				761274D42019CC6E00D61833 /* P2pTalkChannel.h */,
+				761274CB2019CC6600D61833 /* AVBufferCtrl.cpp */,
+				761274C82019CC6500D61833 /* AVBufferCtrl.h */,
+				761274C92019CC6500D61833 /* GssChannel.cpp */,
+				761274CA2019CC6600D61833 /* GssChannel.h */,
+				7621EC0F1FBC2C5F0050A246 /* libp2p.a */,
+				768E326E1FAAF48000D50F1E /* include */,
+			);
+			path = p2psdk;
+			sourceTree = "<group>";
+		};
+		768E326E1FAAF48000D50F1E /* include */ = {
+			isa = PBXGroup;
+			children = (
+				768E329B1FAAF9DB00D50F1E /* gss_transport.h */,
+				768E329C1FAAF9DB00D50F1E /* p2p_dispatch.h */,
+				768E329D1FAAF9DB00D50F1E /* p2p_transport.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		CF1457AC1E4C4613001D2F2C = {
+			isa = PBXGroup;
+			children = (
+				CF1457C11E4C466F001D2F2C /* NetProSDK */,
+				CF1457B71E4C4613001D2F2C /* NetPro */,
+				CF1457B61E4C4613001D2F2C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF1457B61E4C4613001D2F2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF1457B51E4C4613001D2F2C /* libNetPro.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1457B71E4C4613001D2F2C /* NetPro */ = {
+			isa = PBXGroup;
+			children = (
+				CF1457B81E4C4613001D2F2C /* NetPro.h */,
+				CF1457B91E4C4613001D2F2C /* NetPro.mm */,
+			);
+			path = NetPro;
+			sourceTree = "<group>";
+		};
+		CF1457C11E4C466F001D2F2C /* NetProSDK */ = {
+			isa = PBXGroup;
+			children = (
+				768E32691FAAF48000D50F1E /* p2psdk */,
+				CF35EE411E5D8C2E002744C4 /* NetProSDKDef.h */,
+				CF1458411E4C5A5A001D2F2C /* NetProCommon.cpp */,
+				CF1458421E4C5A5A001D2F2C /* NetProCommon.h */,
+				CF1457C41E4C466F001D2F2C /* common */,
+				CF1457D71E4C466F001D2F2C /* NetProSDK.vcproj */,
+				CF1457D81E4C466F001D2F2C /* NetProSDK.vcproj.WWEI.zj.user */,
+				CF1457D91E4C466F001D2F2C /* NetProSDKAPI.cpp */,
+				CF1457DA1E4C466F001D2F2C /* NetProSDKAPI.h */,
+				CF1457DB1E4C466F001D2F2C /* StdAfx.h */,
+				CF1457DC1E4C466F001D2F2C /* TUTK */,
+			);
+			path = NetProSDK;
+			sourceTree = "<group>";
+		};
+		CF1457C41E4C466F001D2F2C /* common */ = {
+			isa = PBXGroup;
+			children = (
+				CFACF7F31ECEA52D003CF5B0 /* GosFrameHeadDef.h */,
+				CF1457C71E4C466F001D2F2C /* AVCommon.cpp */,
+				CF1457C81E4C466F001D2F2C /* AVCommon.h */,
+				CF1457C91E4C466F001D2F2C /* EventLock.cpp */,
+				CF1457CA1E4C466F001D2F2C /* EventLock.h */,
+				CF1457CB1E4C466F001D2F2C /* JBipBuffer.h */,
+				CF1457CC1E4C466F001D2F2C /* JLogWriter.cpp */,
+				CF1457CD1E4C466F001D2F2C /* JLogWriter.h */,
+				CF1457CE1E4C466F001D2F2C /* JLSocketDef.h */,
+				CF1457CF1E4C466F001D2F2C /* JLThreadCtrl.cpp */,
+				CF1457D01E4C466F001D2F2C /* JLThreadCtrl.h */,
+				CF1457D11E4C466F001D2F2C /* JTrunk.cpp */,
+				CF1457D21E4C466F001D2F2C /* JTrunk.h */,
+				CF1457D31E4C466F001D2F2C /* MutexLock.cpp */,
+				CF1457D41E4C466F001D2F2C /* MutexLock.h */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		CF1457DC1E4C466F001D2F2C /* TUTK */ = {
+			isa = PBXGroup;
+			children = (
+				CFA9DE471EBAD8DA0090673A /* TuckMainCtrl.cpp */,
+				CFA9DE481EBAD8DA0090673A /* TuckMainCtrl.h */,
+				CF2D05301E768A64008C1772 /* TalkChannel.cpp */,
+				CF2D05311E768A64008C1772 /* TalkChannel.h */,
+				CF1457DF1E4C466F001D2F2C /* inc */,
+				CF1457E91E4C466F001D2F2C /* libs */,
+				CF1458181E4C466F001D2F2C /* protocolChannel.cpp */,
+				CF1458191E4C466F001D2F2C /* ProtocolChannel.h */,
+				CF14581A1E4C466F001D2F2C /* TutkProtocol.cpp */,
+				CF14581B1E4C466F001D2F2C /* TutkProtocol.h */,
+			);
+			path = TUTK;
+			sourceTree = "<group>";
+		};
+		CF1457DF1E4C466F001D2F2C /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				CF1457E01E4C466F001D2F2C /* AVAPIs.h */,
+				CF1457E11E4C466F001D2F2C /* AVAPIs2.h */,
+				CF1457E21E4C466F001D2F2C /* IOTCAPIs.h */,
+				CF1457E31E4C466F001D2F2C /* IOTCWakeUp.h */,
+				CF1457E41E4C466F001D2F2C /* P2PCam */,
+				CF1457E71E4C466F001D2F2C /* P2PTunnelAPIs.h */,
+				CF1457E81E4C466F001D2F2C /* RDTAPIs.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		CF1457E41E4C466F001D2F2C /* P2PCam */ = {
+			isa = PBXGroup;
+			children = (
+				CF1457E51E4C466F001D2F2C /* AVFRAMEINFO.h */,
+				CF1457E61E4C466F001D2F2C /* AVIOCTRLDEFs.h */,
+			);
+			path = P2PCam;
+			sourceTree = "<group>";
+		};
+		CF1457E91E4C466F001D2F2C /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				CF1458111E4C466F001D2F2C /* IOS */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		CF1458111E4C466F001D2F2C /* IOS */ = {
+			isa = PBXGroup;
+			children = (
+				CFCE5DE41F0F3AB200C2D3E2 /* libIOTCAPIs_ALL.a */,
+			);
+			path = IOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF1457B41E4C4613001D2F2C /* NetPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1457BE1E4C4613001D2F2C /* Build configuration list for PBXNativeTarget "NetPro" */;
+			buildPhases = (
+				CF1457B11E4C4613001D2F2C /* Sources */,
+				CF1457B21E4C4613001D2F2C /* Frameworks */,
+				CF1457B31E4C4613001D2F2C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetPro;
+			productName = NetPro;
+			productReference = CF1457B51E4C4613001D2F2C /* libNetPro.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF1457AD1E4C4613001D2F2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhuochuncai;
+				TargetAttributes = {
+					CF1457B41E4C4613001D2F2C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8CPF3QXK2D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CF1457B01E4C4613001D2F2C /* Build configuration list for PBXProject "NetPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1457AC1E4C4613001D2F2C;
+			productRefGroup = CF1457B61E4C4613001D2F2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF1457B41E4C4613001D2F2C /* NetPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF1457B11E4C4613001D2F2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF14581E1E4C466F001D2F2C /* JLogWriter.cpp in Sources */,
+				CF2D05321E768A64008C1772 /* TalkChannel.cpp in Sources */,
+				761274CD2019CC6600D61833 /* AVBufferCtrl.cpp in Sources */,
+				CF1458431E4C5A5A001D2F2C /* NetProCommon.cpp in Sources */,
+				761274CC2019CC6600D61833 /* GssChannel.cpp in Sources */,
+				CF1458361E4C466F001D2F2C /* TutkProtocol.cpp in Sources */,
+				CFA9DE491EBAD8DA0090673A /* TuckMainCtrl.cpp in Sources */,
+				CF1458201E4C466F001D2F2C /* JTrunk.cpp in Sources */,
+				CF1458351E4C466F001D2F2C /* protocolChannel.cpp in Sources */,
+				761274DD2019CC6F00D61833 /* P2pDownLoad.cpp in Sources */,
+				761274DE2019CC6F00D61833 /* P2pTalkChannel.cpp in Sources */,
+				761274DB2019CC6F00D61833 /* P2pCommon.cpp in Sources */,
+				CF1458211E4C466F001D2F2C /* MutexLock.cpp in Sources */,
+				761274DA2019CC6F00D61833 /* P2pChannel.cpp in Sources */,
+				CF1457BA1E4C4613001D2F2C /* NetPro.mm in Sources */,
+				761274DF2019CC6F00D61833 /* p2pProtocol.cpp in Sources */,
+				CF14581C1E4C466F001D2F2C /* AVCommon.cpp in Sources */,
+				CF14581D1E4C466F001D2F2C /* EventLock.cpp in Sources */,
+				CF1458231E4C466F001D2F2C /* NetProSDKAPI.cpp in Sources */,
+				761274DC2019CC6F00D61833 /* P2pMainCtrl.cpp in Sources */,
+				CF14581F1E4C466F001D2F2C /* JLThreadCtrl.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF1457BC1E4C4613001D2F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /Applications;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF1457BD1E4C4613001D2F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_PATH = /Applications;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF1457BF1E4C4613001D2F2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8CPF3QXK2D;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NetProSDK/TUTK/libs/IOS",
+					"$(PROJECT_DIR)/NetProSDK/TUTK/libs/windows",
+					"$(PROJECT_DIR)/NetProSDK/p2psdk",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CF1457C01E4C4613001D2F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8CPF3QXK2D;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/NetProSDK/TUTK/libs/IOS",
+					"$(PROJECT_DIR)/NetProSDK/TUTK/libs/windows",
+					"$(PROJECT_DIR)/NetProSDK/p2psdk",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF1457B01E4C4613001D2F2C /* Build configuration list for PBXProject "NetPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1457BC1E4C4613001D2F2C /* Debug */,
+				CF1457BD1E4C4613001D2F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF1457BE1E4C4613001D2F2C /* Build configuration list for PBXNativeTarget "NetPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1457BF1E4C4613001D2F2C /* Debug */,
+				CF1457C01E4C4613001D2F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF1457AD1E4C4613001D2F2C /* Project object */;
+}

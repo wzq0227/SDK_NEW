@@ -1,0 +1,71 @@
+cmake_minimum_required(VERSION 2.6)
+project(gossdklib)
+#add_subdirectory(usermanagement)
+#add_subdirectory(paramconfig)
+#add_subdirectory(devicesearch)
+#add_subdirectory(avmanagement)
+
+#set(CMAKE_CXX_COMPILER "arm-hisiv100nptl-linux-g++")
+set(CMAKE_CXX_COMPILER "g++")
+set(CMAKE_CXX_FLAGS_DEBUG "-g3 -Wall -fPIC")
+set(CMAKE_CXX_FLAGS_RELEASE "-O2 -Wall -fPIC")
+
+set(LIBRARY_OUTPUT_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../output/linux/lib")
+set(GOSSDK_SDK_DIR "${CMAKE_CURRENT_SOURCE_DIR}/userinterface")
+set(GOSSDK_COMMON_DIR "${CMAKE_CURRENT_SOURCE_DIR}/common")
+set(GOSSDK_AVMENT_DIR "${CMAKE_CURRENT_SOURCE_DIR}/avmanagement")
+set(GOSSDK_DSMENT_DIR "${CMAKE_CURRENT_SOURCE_DIR}/devicesearch")
+set(GOSSDK_UMMENT_DIR "${CMAKE_CURRENT_SOURCE_DIR}/usermanagement")
+set(GOSSDK_PROTOCOL_DIR "${CMAKE_CURRENT_SOURCE_DIR}/protocol")
+set(TINYXML_DIR "${CMAKE_CURRENT_SOURCE_DIR}/external/tinyxml")
+set(GOSSDK_PARAMCTRL_DIR "${CMAKE_CURRENT_SOURCE_DIR}/paramconfig")
+
+MESSAGE(STATUS "Project output Directory: ${LIBRARY_OUTPUT_PATH}")
+MESSAGE(STATUS "Project sdk Directory: ${GOSSDK_SDK_DIR}")
+MESSAGE(STATUS "Project GOSSDK_COMMON_DIR Directory: ${GOSSDK_COMMON_DIR}")
+MESSAGE(STATUS "Project GOSSDK_AVMENT_DIR Directory: ${GOSSDK_AVMENT_DIR}")
+MESSAGE(STATUS "Project GOSSDK_DSMENT_DIR Directory: ${GOSSDK_DSMENT_DIR}")
+MESSAGE(STATUS "Project GOSSDK_UMMENT_DIR Directory: ${GOSSDK_UMMENT_DIR}")
+MESSAGE(STATUS "Project GOSSDK_PROTOCOL_DIR Directory: ${GOSSDK_PROTOCOL_DIR}")
+MESSAGE(STATUS "Project TINYXML_DIR Directory: ${TINYXML_DIR}")
+MESSAGE(STATUS "Project GOSSDK_PARAMCTRL_DIR Directory: ${GOSSDK_PARAMCTRL_DIR}")
+
+#DIR
+aux_source_directory(${GOSSDK_SDK_DIR}/Src GOSSDK_SDK_DIR_SRC)
+aux_source_directory(${GOSSDK_COMMON_DIR}/Src GOSSDK_COMMON_DIR_SRC)
+aux_source_directory(${GOSSDK_AVMENT_DIR}/Src GOSSDK_AVMENT_DIR_SRC)
+aux_source_directory(${GOSSDK_DSMENT_DIR}/Src GOSSDK_DSMENT_DIR_SRC)
+aux_source_directory(${GOSSDK_UMMENT_DIR}/Src GOSSDK_UMMENT_DIR_SRC)
+aux_source_directory(${GOSSDK_PROTOCOL_DIR}/Src GOSSDK_PROTOCOL_DIR_SRC)
+aux_source_directory(${TINYXML_DIR} TINYXML_DIR_SRC)
+aux_source_directory(${GOSSDK_PARAMCTRL_DIR}/Src GOSSDK_PARAMCTRL_DIR_SRC)
+
+include_directories(${GOSSDK_SDK_DIR}/Include)
+include_directories(${GOSSDK_COMMON_DIR}/Include)
+include_directories(${TINYXML_DIR})
+include_directories(${GOSSDK_PROTOCOL_DIR}/Include)
+include_directories(${GOSSDK_AVMENT_DIR}/Include)
+include_directories(${GOSSDK_DSMENT_DIR}/Include)
+include_directories(${GOSSDK_UMMENT_DIR}/Include)
+include_directories(${GOSSDK_PARAMCTRL_DIR}/Include)
+
+list(APPEND GOSSDK_SDK_DIR_SRC ${TINYXML_DIR_SRC})
+list(APPEND GOSSDK_SDK_DIR_SRC ${GOSSDK_PROTOCOL_DIR_SRC})
+list(APPEND GOSSDK_SDK_DIR_SRC ${GOSSDK_COMMON_DIR_SRC})
+list(APPEND GOSSDK_SDK_DIR_SRC ${GOSSDK_AVMENT_DIR_SRC})
+list(APPEND GOSSDK_SDK_DIR_SRC ${GOSSDK_DSMENT_DIR_SRC})
+list(APPEND GOSSDK_SDK_DIR_SRC ${GOSSDK_UMMENT_DIR_SRC})
+list(APPEND GOSSDK_SDK_DIR_SRC ${GOSSDK_PARAMCTRL_DIR_SRC})
+
+
+#include_directories(include/)
+#link_directories(${LIBRARY_OUTPUT_PATH})
+#link_libraries(libUMment libAVment libDPTment libDSment)
+#link_libraries(libUMment.so libAVment.so libDPTment.so libDSment.so)
+
+
+ADD_LIBRARY(gossdk_s STATIC ${GOSSDK_SDK_DIR_SRC})
+
+SET_TARGET_PROPERTIES(gossdk_s PROPERTIES OUTPUT_NAME "gossdk")
+
+SET_TARGET_PROPERTIES(gossdk_s PROPERTIES ARCHIVE_OUTPUT_DIRECTORY  "${LIBRARY_OUTPUT_PATH}")
